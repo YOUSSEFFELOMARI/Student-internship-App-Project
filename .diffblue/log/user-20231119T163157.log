@@ -1,0 +1,750 @@
+16:31:57.881 [INFO]  [Preparing] Diffblue Cover 2023.11.01-fe2f45b-licensed
+16:31:57.881 [INFO]  [Preparing] Running: dcover refactor
+16:31:57.882 [INFO]  [Preparing] 
+16:31:57.883 [INFO]  [Preparing] Command: refactor
+16:31:57.884 [INFO]  [Preparing] Apply refactorings.
+16:31:57.885 [INFO]  [Preparing] 
+16:31:58.158 [INFO]  [Checking] Detected Java version 17.0.8
+16:31:58.191 [INFO]  [Checking] Maven Using ${maven.home} of: C:\Users\eloma\IdeaProjects\ObservatoireUIZ.
+16:31:58.195 [INFO]  [Checking] Maven Executing: cmd.exe /X /C "C:\Users\eloma\IdeaProjects\ObservatoireUIZ\mvnw.cmd -B -version"
+16:31:58.246 [INFO]  [Checking] Standard output of build tool (Maven)
+16:31:58.246 [INFO]  [Checking] > 
+16:31:58.246 [INFO]  [Checking] > 
+16:31:58.246 [INFO]  [Checking] Standard error of build tool (Maven)
+16:31:58.247 [INFO]  [Checking] > Error: JAVA_HOME not found in your environment. 
+16:31:58.247 [INFO]  [Checking] > Please set the JAVA_HOME variable in your environment to match the 
+16:31:58.247 [INFO]  [Checking] > location of your Java installation. 
+16:31:58.247 [INFO]  [Checking] Maven command Using ${maven.home} of: 'C:\Users\eloma\IdeaProjects\ObservatoireUIZ'.
+16:31:58.247 [INFO]  [Checking] Maven command Executing: cmd.exe /X /C "C:\Users\eloma\IdeaProjects\ObservatoireUIZ\mvnw.cmd -B -version"
+16:31:58.289 [INFO]  [Checking] Maven Using ${maven.home} of: C:\Users\eloma\IdeaProjects\ObservatoireUIZ.
+16:31:58.290 [INFO]  [Checking] Maven Executing: cmd.exe /X /C "C:\Users\eloma\IdeaProjects\ObservatoireUIZ\mvnw.cmd -B -N -D output=diffblue.effective-pom.output.xml -D "maven.ext.class.path=C:\Program Files\Diffblue\cover-buildsystem-maven-spy-jar-with-dependencies.jar" org.apache.maven.plugins:maven-help-plugin:3.2.0:effective-pom"
+16:32:00.284 [INFO]  [Checking] Standard output of build tool (Maven)
+16:32:00.285 [INFO]  [Checking] > [INFO] Scanning for projects...
+16:32:00.285 [INFO]  [Checking] > [INFO] 
+16:32:00.285 [INFO]  [Checking] > [INFO] -----------------------< ma.uiz:ObservatoireUIZ >-----------------------
+16:32:00.285 [INFO]  [Checking] > [INFO] Building ObservatoireUIZ 0.0.1-SNAPSHOT
+16:32:00.285 [INFO]  [Checking] > [INFO] --------------------------------[ jar ]---------------------------------
+16:32:00.285 [INFO]  [Checking] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='effective-pom', cause=, state=STARTED}
+16:32:00.285 [INFO]  [Checking] > [INFO] 
+16:32:00.285 [INFO]  [Checking] > [INFO] --- maven-help-plugin:3.2.0:effective-pom (default-cli) @ ObservatoireUIZ ---
+16:32:00.285 [INFO]  [Checking] > [INFO] Effective-POM written to: C:\Users\eloma\IdeaProjects\ObservatoireUIZ\diffblue.effective-pom.output.xml
+16:32:00.285 [INFO]  [Checking] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='effective-pom', cause=, state=SUCCESS}
+16:32:00.285 [INFO]  [Checking] > [INFO] ------------------------------------------------------------------------
+16:32:00.285 [INFO]  [Checking] > [INFO] BUILD SUCCESS
+16:32:00.286 [INFO]  [Checking] > [INFO] ------------------------------------------------------------------------
+16:32:00.286 [INFO]  [Checking] > [INFO] Total time:  0.994 s
+16:32:00.286 [INFO]  [Checking] > [INFO] Finished at: 2023-11-19T16:32:00+01:00
+16:32:00.286 [INFO]  [Checking] > [INFO] ------------------------------------------------------------------------
+16:32:00.472 [INFO]  [Checking] Detected build system: Maven
+16:32:00.517 [INFO]  [Checking] Operating System: Windows 11 amd64 10.0
+16:32:00.517 [INFO]  [Checking] Default charset: windows-1252
+16:32:00.517 [INFO]  [Checking] Default locale: en_US
+16:32:00.520 [INFO]  [Checking] Default time zone: Africa/Casablanca
+16:32:00.524 [INFO]  [Checking] Selected build system: Maven
+16:32:00.527 [INFO]  [Checking] Maven Using ${maven.home} of: C:\Users\eloma\IdeaProjects\ObservatoireUIZ.
+16:32:00.528 [INFO]  [Checking] Maven Executing: cmd.exe /X /C "C:\Users\eloma\IdeaProjects\ObservatoireUIZ\mvnw.cmd -B -D output=C:\Users\eloma\AppData\Local\Temp\build.classpath1448907175419576925.tmp -D expression=build.classpath -D mdep.pathSeparator=#SEP# -D includeScope=test -D mdep.outputProperty=build.classpath -D "maven.ext.class.path=C:\Program Files\Diffblue\cover-buildsystem-maven-spy-jar-with-dependencies.jar" org.apache.maven.plugins:maven-dependency-plugin:3.3.0:build-classpath org.apache.maven.plugins:maven-help-plugin:3.2.0:evaluate"
+16:32:03.505 [INFO]  [Checking] Standard output of build tool (Maven)
+16:32:03.506 [INFO]  [Checking] > [INFO] Scanning for projects...
+16:32:03.506 [INFO]  [Checking] > [INFO] 
+16:32:03.506 [INFO]  [Checking] > [INFO] -----------------------< ma.uiz:ObservatoireUIZ >-----------------------
+16:32:03.506 [INFO]  [Checking] > [INFO] Building ObservatoireUIZ 0.0.1-SNAPSHOT
+16:32:03.506 [INFO]  [Checking] > [INFO] --------------------------------[ jar ]---------------------------------
+16:32:03.506 [INFO]  [Checking] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='build-classpath', cause=, state=STARTED}
+16:32:03.506 [INFO]  [Checking] > [INFO] 
+16:32:03.506 [INFO]  [Checking] > [INFO] --- maven-dependency-plugin:3.3.0:build-classpath (default-cli) @ ObservatoireUIZ ---
+16:32:03.506 [INFO]  [Checking] > [INFO] Dependencies classpath:
+16:32:03.506 [INFO]  [Checking] > C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter\3.0.3\spring-boot-starter-3.0.3.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot\3.0.3\spring-boot-3.0.3.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.0.3\spring-boot-autoconfigure-3.0.3.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.0.3\spring-boot-starter-logging-3.0.3.jar#SEP#C:\Users\eloma\.m2\repository\ch\qos\logback\logback-classic\1.4.5\logback-classic-1.4.5.jar#SEP#C:\Users\eloma\.m2\repository\ch\qos\logback\logback-core\1.4.5\logback-core-1.4.5.jar#SEP#C:\Users\eloma\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.19.0\log4j-to-slf4j-2.19.0.jar#SEP#C:\Users\eloma\.m2\repository\org\apache\logging\log4j\log4j-api\2.19.0\log4j-api-2.19.0.jar#SEP#C:\Users\eloma\.m2\repository\org\slf4j\jul-to-slf4j\2.0.6\jul-to-slf4j-2.0.6.jar#SEP#C:\Users\eloma\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\spring-core\6.0.5\spring-core-6.0.5.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\spring-jcl\6.0.5\spring-jcl-6.0.5.jar#SEP#C:\Users\eloma\.m2\repository\org\yaml\snakeyaml\1.33\snakeyaml-1.33.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.0.3\spring-boot-starter-web-3.0.3.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.0.3\spring-boot-starter-json-3.0.3.jar#SEP#C:\Users\eloma\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.14.2\jackson-datatype-jdk8-2.14.2.jar#SEP#C:\Users\eloma\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.14.2\jackson-datatype-jsr310-2.14.2.jar#SEP#C:\Users\eloma\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.14.2\jackson-module-parameter-names-2.14.2.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.0.3\spring-boot-starter-tomcat-3.0.3.jar#SEP#C:\Users\eloma\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.5\tomcat-embed-core-10.1.5.jar#SEP#C:\Users\eloma\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.5\tomcat-embed-websocket-10.1.5.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\spring-web\6.0.5\spring-web-6.0.5.jar#SEP#C:\Users\eloma\.m2\repository\io\micrometer\micrometer-observation\1.10.4\micrometer-observation-1.10.4.jar#SEP#C:\Users\eloma\.m2\repository\io\micrometer\micrometer-commons\1.10.4\micrometer-commons-1.10.4.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\spring-webmvc\6.0.5\spring-webmvc-6.0.5.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\spring-expression\6.0.5\spring-expression-6.0.5.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter-thymeleaf\3.0.3\spring-boot-starter-thymeleaf-3.0.3.jar#SEP#C:\Users\eloma\.m2\repository\org\thymeleaf\thymeleaf-spring6\3.1.1.RELEASE\thymeleaf-spring6-3.1.1.RELEASE.jar#SEP#C:\Users\eloma\.m2\repository\org\thymeleaf\thymeleaf\3.1.1.RELEASE\thymeleaf-3.1.1.RELEASE.jar#SEP#C:\Users\eloma\.m2\repository\org\attoparser\attoparser\2.0.6.RELEASE\attoparser-2.0.6.RELEASE.jar#SEP#C:\Users\eloma\.m2\repository\org\unbescape\unbescape\1.1.6.RELEASE\unbescape-1.1.6.RELEASE.jar#SEP#C:\Users\eloma\.m2\repository\org\thymeleaf\extras\thymeleaf-extras-springsecurity6\3.1.1.RELEASE\thymeleaf-extras-springsecurity6-3.1.1.RELEASE.jar#SEP#C:\Users\eloma\.m2\repository\org\slf4j\slf4j-api\2.0.6\slf4j-api-2.0.6.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-devtools\3.0.3\spring-boot-devtools-3.0.3.jar#SEP#C:\Users\eloma\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter-validation\3.0.3\spring-boot-starter-validation-3.0.3.jar#SEP#C:\Users\eloma\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.5\tomcat-embed-el-10.1.5.jar#SEP#C:\Users\eloma\.m2\repository\org\hibernate\validator\hibernate-validator\8.0.0.Final\hibernate-validator-8.0.0.Final.jar#SEP#C:\Users\eloma\.m2\repository\jakarta\validation\jakarta.validation-api\3.0.2\jakarta.validation-api-3.0.2.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter-security\3.0.3\spring-boot-starter-security-3.0.3.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\spring-aop\6.0.5\spring-aop-6.0.5.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\security\spring-security-config\6.0.2\spring-security-config-6.0.2.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\security\spring-security-core\6.0.2\spring-security-core-6.0.2.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\security\spring-security-crypto\6.0.2\spring-security-crypto-6.0.2.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\security\spring-security-web\6.0.2\spring-security-web-6.0.2.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter-aop\3.0.3\spring-boot-starter-aop-3.0.3.jar#SEP#C:\Users\eloma\.m2\repository\org\aspectj\aspectjweaver\1.9.19\aspectjweaver-1.9.19.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\3.0.3\spring-boot-starter-jdbc-3.0.3.jar#SEP#C:\Users\eloma\.m2\repository\com\zaxxer\HikariCP\5.0.1\HikariCP-5.0.1.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\spring-jdbc\6.0.5\spring-jdbc-6.0.5.jar#SEP#C:\Users\eloma\.m2\repository\org\hibernate\orm\hibernate-core\6.2.1.Final\hibernate-core-6.2.1.Final.jar#SEP#C:\Users\eloma\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar#SEP#C:\Users\eloma\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar#SEP#C:\Users\eloma\.m2\repository\org\jboss\logging\jboss-logging\3.5.0.Final\jboss-logging-3.5.0.Final.jar#SEP#C:\Users\eloma\.m2\repository\org\hibernate\common\hibernate-commons-annotations\6.0.6.Final\hibernate-commons-annotations-6.0.6.Final.jar#SEP#C:\Users\eloma\.m2\repository\io\smallrye\jandex\3.0.5\jandex-3.0.5.jar#SEP#C:\Users\eloma\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar#SEP#C:\Users\eloma\.m2\repository\net\bytebuddy\byte-buddy\1.12.23\byte-buddy-1.12.23.jar#SEP#C:\Users\eloma\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.0\jakarta.xml.bind-api-4.0.0.jar#SEP#C:\Users\eloma\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.1\jakarta.activation-api-2.1.1.jar#SEP#C:\Users\eloma\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.2\jaxb-runtime-4.0.2.jar#SEP#C:\Users\eloma\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.2\jaxb-core-4.0.2.jar#SEP#C:\Users\eloma\.m2\repository\org\eclipse\angus\angus-activation\2.0.0\angus-activation-2.0.0.jar#SEP#C:\Users\eloma\.m2\repository\org\glassfish\jaxb\txw2\4.0.2\txw2-4.0.2.jar#SEP#C:\Users\eloma\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.1\istack-commons-runtime-4.1.1.jar#SEP#C:\Users\eloma\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar#SEP#C:\Users\eloma\.m2\repository\org\antlr\antlr4-runtime\4.10.1\antlr4-runtime-4.10.1.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\data\spring-data-jpa\3.0.2\spring-data-jpa-3.0.2.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\data\spring-data-commons\3.0.2\spring-data-commons-3.0.2.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\spring-orm\6.0.5\spring-orm-6.0.5.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\spring-context\6.0.5\spring-context-6.0.5.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\spring-tx\6.0.5\spring-tx-6.0.5.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\spring-beans\6.0.5\spring-beans-6.0.5.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\spring-aspects\6.0.5\spring-aspects-6.0.5.jar#SEP#C:\Users\eloma\.m2\repository\com\mysql\mysql-connector-j\8.0.32\mysql-connector-j-8.0.32.jar#SEP#C:\Users\eloma\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-xml\2.14.2\jackson-dataformat-xml-2.14.2.jar#SEP#C:\Users\eloma\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.2\jackson-core-2.14.2.jar#SEP#C:\Users\eloma\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.2\jackson-annotations-2.14.2.jar#SEP#C:\Users\eloma\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.2\jackson-databind-2.14.2.jar#SEP#C:\Users\eloma\.m2\repository\org\codehaus\woodstox\stax2-api\4.2.1\stax2-api-4.2.1.jar#SEP#C:\Users\eloma\.m2\repository\com\fasterxml\woodstox\woodstox-core\6.5.0\woodstox-core-6.5.0.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter-test\3.0.3\spring-boot-starter-test-3.0.3.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-test\3.0.3\spring-boot-test-3.0.3.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\3.0.3\spring-boot-test-autoconfigure-3.0.3.jar#SEP#C:\Users\eloma\.m2\repository\com\jayway\jsonpath\json-path\2.7.0\json-path-2.7.0.jar#SEP#C:\Users\eloma\.m2\repository\net\minidev\json-smart\2.4.8\json-smart-2.4.8.jar#SEP#C:\Users\eloma\.m2\repository\net\minidev\accessors-smart\2.4.8\accessors-smart-2.4.8.jar#SEP#C:\Users\eloma\.m2\repository\org\ow2\asm\asm\9.1\asm-9.1.jar#SEP#C:\Users\eloma\.m2\repository\org\assertj\assertj-core\3.23.1\assertj-core-3.23.1.jar#SEP#C:\Users\eloma\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar#SEP#C:\Users\eloma\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar#SEP#C:\Users\eloma\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar#SEP#C:\Users\eloma\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar#SEP#C:\Users\eloma\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar#SEP#C:\Users\eloma\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar#SEP#C:\Users\eloma\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar#SEP#C:\Users\eloma\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar#SEP#C:\Users\eloma\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar#SEP#C:\Users\eloma\.m2\repository\org\mockito\mockito-core\4.8.1\mockito-core-4.8.1.jar#SEP#C:\Users\eloma\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.23\byte-buddy-agent-1.12.23.jar#SEP#C:\Users\eloma\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar#SEP#C:\Users\eloma\.m2\repository\org\mockito\mockito-junit-jupiter\4.8.1\mockito-junit-jupiter-4.8.1.jar#SEP#C:\Users\eloma\.m2\repository\org\skyscreamer\jsonassert\1.5.1\jsonassert-1.5.1.jar#SEP#C:\Users\eloma\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\spring-test\6.0.5\spring-test-6.0.5.jar#SEP#C:\Users\eloma\.m2\repository\org\xmlunit\xmlunit-core\2.9.1\xmlunit-core-2.9.1.jar#SEP#C:\Users\eloma\.m2\repository\io\jsonwebtoken\jjwt-api\0.11.5\jjwt-api-0.11.5.jar#SEP#C:\Users\eloma\.m2\repository\io\jsonwebtoken\jjwt-impl\0.11.5\jjwt-impl-0.11.5.jar#SEP#C:\Users\eloma\.m2\repository\io\jsonwebtoken\jjwt-jackson\0.11.5\jjwt-jackson-0.11.5.jar#SEP#C:\Users\eloma\.m2\repository\org\mapstruct\mapstruct\1.5.3.Final\mapstruct-1.5.3.Final.jar#SEP#C:\Users\eloma\.m2\repository\org\projectlombok\lombok-mapstruct-binding\0.2.0\lombok-mapstruct-binding-0.2.0.jar#SEP#C:\Users\eloma\.m2\repository\org\json\json\20230227\json-20230227.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\spring-websocket\6.0.8\spring-websocket-6.0.8.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\spring-messaging\6.0.8\spring-messaging-6.0.8.jar#SEP#C:\Users\eloma\.m2\repository\org\springdoc\springdoc-openapi-starter-webmvc-ui\2.1.0\springdoc-openapi-starter-webmvc-ui-2.1.0.jar#SEP#C:\Users\eloma\.m2\repository\org\springdoc\springdoc-openapi-starter-webmvc-api\2.1.0\springdoc-openapi-starter-webmvc-api-2.1.0.jar#SEP#C:\Users\eloma\.m2\repository\org\springdoc\springdoc-openapi-starter-common\2.1.0\springdoc-openapi-starter-common-2.1.0.jar#SEP#C:\Users\eloma\.m2\repository\io\swagger\core\v3\swagger-core-jakarta\2.2.9\swagger-core-jakarta-2.2.9.jar#SEP#C:\Users\eloma\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar#SEP#C:\Users\eloma\.m2\repository\io\swagger\core\v3\swagger-annotations-jakarta\2.2.9\swagger-annotations-jakarta-2.2.9.jar#SEP#C:\Users\eloma\.m2\repository\io\swagger\core\v3\swagger-models-jakarta\2.2.9\swagger-models-jakarta-2.2.9.jar#SEP#C:\Users\eloma\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.14.2\jackson-dataformat-yaml-2.14.2.jar#SEP#C:\Users\eloma\.m2\repository\org\webjars\swagger-ui\4.18.2\swagger-ui-4.18.2.jar
+16:32:03.506 [INFO]  [Checking] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='build-classpath', cause=, state=SUCCESS}
+16:32:03.506 [INFO]  [Checking] > [INFO] 
+16:32:03.506 [INFO]  [Checking] > [INFO] -----------------------< ma.uiz:ObservatoireUIZ >-----------------------
+16:32:03.506 [INFO]  [Checking] > [INFO] Building ObservatoireUIZ 0.0.1-SNAPSHOT
+16:32:03.506 [INFO]  [Checking] > [INFO] --------------------------------[ jar ]---------------------------------
+16:32:03.506 [INFO]  [Checking] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='evaluate', cause=, state=STARTED}
+16:32:03.507 [INFO]  [Checking] > [INFO] 
+16:32:03.507 [INFO]  [Checking] > [INFO] --- maven-help-plugin:3.2.0:evaluate (default-cli) @ ObservatoireUIZ ---
+16:32:03.507 [INFO]  [Checking] > [INFO] No artifact parameter specified, using 'ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT' as project.
+16:32:03.507 [INFO]  [Checking] > [INFO] Result of evaluation written to: C:\Users\eloma\AppData\Local\Temp\build.classpath1448907175419576925.tmp
+16:32:03.507 [INFO]  [Checking] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='evaluate', cause=, state=SUCCESS}
+16:32:03.507 [INFO]  [Checking] > [INFO] ------------------------------------------------------------------------
+16:32:03.507 [INFO]  [Checking] > [INFO] BUILD SUCCESS
+16:32:03.507 [INFO]  [Checking] > [INFO] ------------------------------------------------------------------------
+16:32:03.507 [INFO]  [Checking] > [INFO] Total time:  1.967 s
+16:32:03.507 [INFO]  [Checking] > [INFO] Finished at: 2023-11-19T16:32:03+01:00
+16:32:03.507 [INFO]  [Checking] > [INFO] ------------------------------------------------------------------------
+16:32:03.513 [INFO]  [Checking] Selected classpath from build system Maven
+16:32:03.515 [INFO]  [Checking] Expanded classpath: 
+C:\Users\eloma\IdeaProjects\ObservatoireUIZ\target\test-classes
+C:\Users\eloma\IdeaProjects\ObservatoireUIZ\target\classes (code under test)
+C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter\3.0.3\spring-boot-starter-3.0.3.jar
+C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot\3.0.3\spring-boot-3.0.3.jar
+C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.0.3\spring-boot-autoconfigure-3.0.3.jar
+C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.0.3\spring-boot-starter-logging-3.0.3.jar
+C:\Users\eloma\.m2\repository\ch\qos\logback\logback-classic\1.4.5\logback-classic-1.4.5.jar
+C:\Users\eloma\.m2\repository\ch\qos\logback\logback-core\1.4.5\logback-core-1.4.5.jar
+C:\Users\eloma\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.19.0\log4j-to-slf4j-2.19.0.jar
+C:\Users\eloma\.m2\repository\org\apache\logging\log4j\log4j-api\2.19.0\log4j-api-2.19.0.jar
+C:\Users\eloma\.m2\repository\org\slf4j\jul-to-slf4j\2.0.6\jul-to-slf4j-2.0.6.jar
+C:\Users\eloma\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar
+C:\Users\eloma\.m2\repository\org\springframework\spring-core\6.0.5\spring-core-6.0.5.jar
+C:\Users\eloma\.m2\repository\org\springframework\spring-jcl\6.0.5\spring-jcl-6.0.5.jar
+C:\Users\eloma\.m2\repository\org\yaml\snakeyaml\1.33\snakeyaml-1.33.jar
+C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.0.3\spring-boot-starter-web-3.0.3.jar
+C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.0.3\spring-boot-starter-json-3.0.3.jar
+C:\Users\eloma\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.14.2\jackson-datatype-jdk8-2.14.2.jar
+C:\Users\eloma\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.14.2\jackson-datatype-jsr310-2.14.2.jar
+C:\Users\eloma\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.14.2\jackson-module-parameter-names-2.14.2.jar
+C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.0.3\spring-boot-starter-tomcat-3.0.3.jar
+C:\Users\eloma\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.5\tomcat-embed-core-10.1.5.jar
+C:\Users\eloma\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.5\tomcat-embed-websocket-10.1.5.jar
+C:\Users\eloma\.m2\repository\org\springframework\spring-web\6.0.5\spring-web-6.0.5.jar
+C:\Users\eloma\.m2\repository\io\micrometer\micrometer-observation\1.10.4\micrometer-observation-1.10.4.jar
+C:\Users\eloma\.m2\repository\io\micrometer\micrometer-commons\1.10.4\micrometer-commons-1.10.4.jar
+C:\Users\eloma\.m2\repository\org\springframework\spring-webmvc\6.0.5\spring-webmvc-6.0.5.jar
+C:\Users\eloma\.m2\repository\org\springframework\spring-expression\6.0.5\spring-expression-6.0.5.jar
+C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter-thymeleaf\3.0.3\spring-boot-starter-thymeleaf-3.0.3.jar
+C:\Users\eloma\.m2\repository\org\thymeleaf\thymeleaf-spring6\3.1.1.RELEASE\thymeleaf-spring6-3.1.1.RELEASE.jar
+C:\Users\eloma\.m2\repository\org\thymeleaf\thymeleaf\3.1.1.RELEASE\thymeleaf-3.1.1.RELEASE.jar
+C:\Users\eloma\.m2\repository\org\attoparser\attoparser\2.0.6.RELEASE\attoparser-2.0.6.RELEASE.jar
+C:\Users\eloma\.m2\repository\org\unbescape\unbescape\1.1.6.RELEASE\unbescape-1.1.6.RELEASE.jar
+C:\Users\eloma\.m2\repository\org\thymeleaf\extras\thymeleaf-extras-springsecurity6\3.1.1.RELEASE\thymeleaf-extras-springsecurity6-3.1.1.RELEASE.jar
+C:\Users\eloma\.m2\repository\org\slf4j\slf4j-api\2.0.6\slf4j-api-2.0.6.jar
+C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-devtools\3.0.3\spring-boot-devtools-3.0.3.jar
+C:\Users\eloma\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar
+C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter-validation\3.0.3\spring-boot-starter-validation-3.0.3.jar
+C:\Users\eloma\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.5\tomcat-embed-el-10.1.5.jar
+C:\Users\eloma\.m2\repository\org\hibernate\validator\hibernate-validator\8.0.0.Final\hibernate-validator-8.0.0.Final.jar
+C:\Users\eloma\.m2\repository\jakarta\validation\jakarta.validation-api\3.0.2\jakarta.validation-api-3.0.2.jar
+C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter-security\3.0.3\spring-boot-starter-security-3.0.3.jar
+C:\Users\eloma\.m2\repository\org\springframework\spring-aop\6.0.5\spring-aop-6.0.5.jar
+C:\Users\eloma\.m2\repository\org\springframework\security\spring-security-config\6.0.2\spring-security-config-6.0.2.jar
+C:\Users\eloma\.m2\repository\org\springframework\security\spring-security-core\6.0.2\spring-security-core-6.0.2.jar
+C:\Users\eloma\.m2\repository\org\springframework\security\spring-security-crypto\6.0.2\spring-security-crypto-6.0.2.jar
+C:\Users\eloma\.m2\repository\org\springframework\security\spring-security-web\6.0.2\spring-security-web-6.0.2.jar
+C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter-aop\3.0.3\spring-boot-starter-aop-3.0.3.jar
+C:\Users\eloma\.m2\repository\org\aspectj\aspectjweaver\1.9.19\aspectjweaver-1.9.19.jar
+C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\3.0.3\spring-boot-starter-jdbc-3.0.3.jar
+C:\Users\eloma\.m2\repository\com\zaxxer\HikariCP\5.0.1\HikariCP-5.0.1.jar
+C:\Users\eloma\.m2\repository\org\springframework\spring-jdbc\6.0.5\spring-jdbc-6.0.5.jar
+C:\Users\eloma\.m2\repository\org\hibernate\orm\hibernate-core\6.2.1.Final\hibernate-core-6.2.1.Final.jar
+C:\Users\eloma\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar
+C:\Users\eloma\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar
+C:\Users\eloma\.m2\repository\org\jboss\logging\jboss-logging\3.5.0.Final\jboss-logging-3.5.0.Final.jar
+C:\Users\eloma\.m2\repository\org\hibernate\common\hibernate-commons-annotations\6.0.6.Final\hibernate-commons-annotations-6.0.6.Final.jar
+C:\Users\eloma\.m2\repository\io\smallrye\jandex\3.0.5\jandex-3.0.5.jar
+C:\Users\eloma\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar
+C:\Users\eloma\.m2\repository\net\bytebuddy\byte-buddy\1.12.23\byte-buddy-1.12.23.jar
+C:\Users\eloma\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.0\jakarta.xml.bind-api-4.0.0.jar
+C:\Users\eloma\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.1\jakarta.activation-api-2.1.1.jar
+C:\Users\eloma\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.2\jaxb-runtime-4.0.2.jar
+C:\Users\eloma\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.2\jaxb-core-4.0.2.jar
+C:\Users\eloma\.m2\repository\org\eclipse\angus\angus-activation\2.0.0\angus-activation-2.0.0.jar
+C:\Users\eloma\.m2\repository\org\glassfish\jaxb\txw2\4.0.2\txw2-4.0.2.jar
+C:\Users\eloma\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.1\istack-commons-runtime-4.1.1.jar
+C:\Users\eloma\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar
+C:\Users\eloma\.m2\repository\org\antlr\antlr4-runtime\4.10.1\antlr4-runtime-4.10.1.jar
+C:\Users\eloma\.m2\repository\org\springframework\data\spring-data-jpa\3.0.2\spring-data-jpa-3.0.2.jar
+C:\Users\eloma\.m2\repository\org\springframework\data\spring-data-commons\3.0.2\spring-data-commons-3.0.2.jar
+C:\Users\eloma\.m2\repository\org\springframework\spring-orm\6.0.5\spring-orm-6.0.5.jar
+C:\Users\eloma\.m2\repository\org\springframework\spring-context\6.0.5\spring-context-6.0.5.jar
+C:\Users\eloma\.m2\repository\org\springframework\spring-tx\6.0.5\spring-tx-6.0.5.jar
+C:\Users\eloma\.m2\repository\org\springframework\spring-beans\6.0.5\spring-beans-6.0.5.jar
+C:\Users\eloma\.m2\repository\org\springframework\spring-aspects\6.0.5\spring-aspects-6.0.5.jar
+C:\Users\eloma\.m2\repository\com\mysql\mysql-connector-j\8.0.32\mysql-connector-j-8.0.32.jar
+C:\Users\eloma\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-xml\2.14.2\jackson-dataformat-xml-2.14.2.jar
+C:\Users\eloma\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.2\jackson-core-2.14.2.jar
+C:\Users\eloma\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.2\jackson-annotations-2.14.2.jar
+C:\Users\eloma\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.2\jackson-databind-2.14.2.jar
+C:\Users\eloma\.m2\repository\org\codehaus\woodstox\stax2-api\4.2.1\stax2-api-4.2.1.jar
+C:\Users\eloma\.m2\repository\com\fasterxml\woodstox\woodstox-core\6.5.0\woodstox-core-6.5.0.jar
+C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter-test\3.0.3\spring-boot-starter-test-3.0.3.jar
+C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-test\3.0.3\spring-boot-test-3.0.3.jar
+C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\3.0.3\spring-boot-test-autoconfigure-3.0.3.jar
+C:\Users\eloma\.m2\repository\com\jayway\jsonpath\json-path\2.7.0\json-path-2.7.0.jar
+C:\Users\eloma\.m2\repository\net\minidev\json-smart\2.4.8\json-smart-2.4.8.jar
+C:\Users\eloma\.m2\repository\net\minidev\accessors-smart\2.4.8\accessors-smart-2.4.8.jar
+C:\Users\eloma\.m2\repository\org\ow2\asm\asm\9.1\asm-9.1.jar
+C:\Users\eloma\.m2\repository\org\assertj\assertj-core\3.23.1\assertj-core-3.23.1.jar
+C:\Users\eloma\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar
+C:\Users\eloma\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar
+C:\Users\eloma\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar
+C:\Users\eloma\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar
+C:\Users\eloma\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar
+C:\Users\eloma\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar
+C:\Users\eloma\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar
+C:\Users\eloma\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar
+C:\Users\eloma\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar
+C:\Users\eloma\.m2\repository\org\mockito\mockito-core\4.8.1\mockito-core-4.8.1.jar
+C:\Users\eloma\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.23\byte-buddy-agent-1.12.23.jar
+C:\Users\eloma\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar
+C:\Users\eloma\.m2\repository\org\mockito\mockito-junit-jupiter\4.8.1\mockito-junit-jupiter-4.8.1.jar
+C:\Users\eloma\.m2\repository\org\skyscreamer\jsonassert\1.5.1\jsonassert-1.5.1.jar
+C:\Users\eloma\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar
+C:\Users\eloma\.m2\repository\org\springframework\spring-test\6.0.5\spring-test-6.0.5.jar
+C:\Users\eloma\.m2\repository\org\xmlunit\xmlunit-core\2.9.1\xmlunit-core-2.9.1.jar
+C:\Users\eloma\.m2\repository\io\jsonwebtoken\jjwt-api\0.11.5\jjwt-api-0.11.5.jar
+C:\Users\eloma\.m2\repository\io\jsonwebtoken\jjwt-impl\0.11.5\jjwt-impl-0.11.5.jar
+C:\Users\eloma\.m2\repository\io\jsonwebtoken\jjwt-jackson\0.11.5\jjwt-jackson-0.11.5.jar
+C:\Users\eloma\.m2\repository\org\mapstruct\mapstruct\1.5.3.Final\mapstruct-1.5.3.Final.jar
+C:\Users\eloma\.m2\repository\org\projectlombok\lombok-mapstruct-binding\0.2.0\lombok-mapstruct-binding-0.2.0.jar
+C:\Users\eloma\.m2\repository\org\json\json\20230227\json-20230227.jar
+C:\Users\eloma\.m2\repository\org\springframework\spring-websocket\6.0.8\spring-websocket-6.0.8.jar
+C:\Users\eloma\.m2\repository\org\springframework\spring-messaging\6.0.8\spring-messaging-6.0.8.jar
+C:\Users\eloma\.m2\repository\org\springdoc\springdoc-openapi-starter-webmvc-ui\2.1.0\springdoc-openapi-starter-webmvc-ui-2.1.0.jar
+C:\Users\eloma\.m2\repository\org\springdoc\springdoc-openapi-starter-webmvc-api\2.1.0\springdoc-openapi-starter-webmvc-api-2.1.0.jar
+C:\Users\eloma\.m2\repository\org\springdoc\springdoc-openapi-starter-common\2.1.0\springdoc-openapi-starter-common-2.1.0.jar
+C:\Users\eloma\.m2\repository\io\swagger\core\v3\swagger-core-jakarta\2.2.9\swagger-core-jakarta-2.2.9.jar
+C:\Users\eloma\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar
+C:\Users\eloma\.m2\repository\io\swagger\core\v3\swagger-annotations-jakarta\2.2.9\swagger-annotations-jakarta-2.2.9.jar
+C:\Users\eloma\.m2\repository\io\swagger\core\v3\swagger-models-jakarta\2.2.9\swagger-models-jakarta-2.2.9.jar
+C:\Users\eloma\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.14.2\jackson-dataformat-yaml-2.14.2.jar
+C:\Users\eloma\.m2\repository\org\webjars\swagger-ui\4.18.2\swagger-ui-4.18.2.jar
+16:32:03.585 [INFO]  [Checking] Detected JVM architecture: 64-Bit
+16:32:03.588 [INFO]  [Checking] Selected Java language compliance level: 17
+16:32:03.600 [INFO]  [Checking] 
+16:32:03.600 [INFO]  [Checking] Environment summary:
+16:32:03.600 [INFO]  [Checking] --------------------
+16:32:03.603 [INFO]  [Checking] Java version                  17.0.8                        SUCCESS        
+16:32:03.603 [INFO]  [Checking] Build system                  Maven                         SUCCESS        
+16:32:03.603 [INFO]  [Checking] 
+16:32:03.604 [INFO]  [Checking] Environment check status: SUCCESS
+16:32:03.606 [INFO]  [Refactoring] Applying refactorings from configuration file C:\Users\eloma\IdeaProjects\ObservatoireUIZ\.diffblue\refactorings.yml
+16:32:03.806 [INFO]  [Refactoring] Maven Using ${maven.home} of: C:\Users\eloma\IdeaProjects\ObservatoireUIZ.
+16:32:03.806 [INFO]  [Refactoring] Maven Executing: cmd.exe /X /C "C:\Users\eloma\IdeaProjects\ObservatoireUIZ\mvnw.cmd -B -D file=C:\Users\eloma\AppData\Local\Temp\cover-refactoring-recipes-1000.0.0.jar -D groupId=com.diffblue.cover -D artifactId=cover-refactoring-recipes -D packaging=jar -D version=1000.0.0 -D "maven.ext.class.path=C:\Program Files\Diffblue\cover-buildsystem-maven-spy-jar-with-dependencies.jar" install:install-file"
+16:32:05.811 [INFO]  [Refactoring] Standard output of build tool (Maven)
+16:32:05.811 [INFO]  [Refactoring] > [INFO] Scanning for projects...
+16:32:05.811 [INFO]  [Refactoring] > [INFO] 
+16:32:05.811 [INFO]  [Refactoring] > [INFO] -----------------------< ma.uiz:ObservatoireUIZ >-----------------------
+16:32:05.811 [INFO]  [Refactoring] > [INFO] Building ObservatoireUIZ 0.0.1-SNAPSHOT
+16:32:05.811 [INFO]  [Refactoring] > [INFO] --------------------------------[ jar ]---------------------------------
+16:32:05.811 [INFO]  [Refactoring] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='install-file', cause=, state=STARTED}
+16:32:05.811 [INFO]  [Refactoring] > [INFO] 
+16:32:05.811 [INFO]  [Refactoring] > [INFO] --- maven-install-plugin:3.0.1:install-file (default-cli) @ ObservatoireUIZ ---
+16:32:05.811 [INFO]  [Refactoring] > [INFO] pom.xml not found in cover-refactoring-recipes-1000.0.0.jar
+16:32:05.811 [INFO]  [Refactoring] > [INFO] Installing C:\Users\eloma\AppData\Local\Temp\cover-refactoring-recipes-1000.0.0.jar to C:\Users\eloma\.m2\repository\com\diffblue\cover\cover-refactoring-recipes\1000.0.0\cover-refactoring-recipes-1000.0.0.jar
+16:32:05.811 [INFO]  [Refactoring] > [INFO] Installing C:\Users\eloma\AppData\Local\Temp\mvninstall4925767869661362025.pom to C:\Users\eloma\.m2\repository\com\diffblue\cover\cover-refactoring-recipes\1000.0.0\cover-refactoring-recipes-1000.0.0.pom
+16:32:05.811 [INFO]  [Refactoring] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='install-file', cause=, state=SUCCESS}
+16:32:05.811 [INFO]  [Refactoring] > [INFO] ------------------------------------------------------------------------
+16:32:05.811 [INFO]  [Refactoring] > [INFO] BUILD SUCCESS
+16:32:05.811 [INFO]  [Refactoring] > [INFO] ------------------------------------------------------------------------
+16:32:05.811 [INFO]  [Refactoring] > [INFO] Total time:  0.471 s
+16:32:05.811 [INFO]  [Refactoring] > [INFO] Finished at: 2023-11-19T16:32:05+01:00
+16:32:05.811 [INFO]  [Refactoring] > [INFO] ------------------------------------------------------------------------
+16:32:05.814 [INFO]  [Refactoring] Maven Using ${maven.home} of: C:\Users\eloma\IdeaProjects\ObservatoireUIZ.
+16:32:05.815 [INFO]  [Refactoring] Maven Executing: cmd.exe /X /C "C:\Users\eloma\IdeaProjects\ObservatoireUIZ\mvnw.cmd -B -D file=C:\Users\eloma\AppData\Local\Temp\rewrite-maven-plugin-4.42.0.jar -D groupId=org.openrewrite.maven -D artifactId=rewrite-maven-plugin -D packaging=jar -D version=4.42.0 -D "maven.ext.class.path=C:\Program Files\Diffblue\cover-buildsystem-maven-spy-jar-with-dependencies.jar" install:install-file"
+16:32:07.822 [INFO]  [Refactoring] Standard output of build tool (Maven)
+16:32:07.822 [INFO]  [Refactoring] > [INFO] Scanning for projects...
+16:32:07.822 [INFO]  [Refactoring] > [INFO] 
+16:32:07.822 [INFO]  [Refactoring] > [INFO] -----------------------< ma.uiz:ObservatoireUIZ >-----------------------
+16:32:07.822 [INFO]  [Refactoring] > [INFO] Building ObservatoireUIZ 0.0.1-SNAPSHOT
+16:32:07.822 [INFO]  [Refactoring] > [INFO] --------------------------------[ jar ]---------------------------------
+16:32:07.822 [INFO]  [Refactoring] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='install-file', cause=, state=STARTED}
+16:32:07.822 [INFO]  [Refactoring] > [INFO] 
+16:32:07.822 [INFO]  [Refactoring] > [INFO] --- maven-install-plugin:3.0.1:install-file (default-cli) @ ObservatoireUIZ ---
+16:32:07.823 [INFO]  [Refactoring] > [INFO] Installing C:\Users\eloma\AppData\Local\Temp\rewrite-maven-plugin-4.42.0.jar to C:\Users\eloma\.m2\repository\org\openrewrite\maven\rewrite-maven-plugin\4.42.0\rewrite-maven-plugin-4.42.0.jar
+16:32:07.823 [INFO]  [Refactoring] > [INFO] Installing C:\Users\eloma\AppData\Local\Temp\rewrite-maven-plugin-4.42.03138265011803237025.pom to C:\Users\eloma\.m2\repository\org\openrewrite\maven\rewrite-maven-plugin\4.42.0\rewrite-maven-plugin-4.42.0.pom
+16:32:07.823 [INFO]  [Refactoring] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='install-file', cause=, state=SUCCESS}
+16:32:07.823 [INFO]  [Refactoring] > [INFO] ------------------------------------------------------------------------
+16:32:07.823 [INFO]  [Refactoring] > [INFO] BUILD SUCCESS
+16:32:07.823 [INFO]  [Refactoring] > [INFO] ------------------------------------------------------------------------
+16:32:07.823 [INFO]  [Refactoring] > [INFO] Total time:  0.431 s
+16:32:07.823 [INFO]  [Refactoring] > [INFO] Finished at: 2023-11-19T16:32:07+01:00
+16:32:07.823 [INFO]  [Refactoring] > [INFO] ------------------------------------------------------------------------
+16:32:07.828 [INFO]  [Refactoring] Maven Using ${maven.home} of: C:\Users\eloma\IdeaProjects\ObservatoireUIZ.
+16:32:07.829 [INFO]  [Refactoring] Maven Executing: cmd.exe /X /C "C:\Users\eloma\IdeaProjects\ObservatoireUIZ\mvnw.cmd -B -D file=C:\Users\eloma\AppData\Local\Temp\rewrite-maven-plugin-4.42.0.pom -D groupId=org.openrewrite.maven -D artifactId=rewrite-maven-plugin -D packaging=pom -D version=4.42.0 -D "maven.ext.class.path=C:\Program Files\Diffblue\cover-buildsystem-maven-spy-jar-with-dependencies.jar" install:install-file"
+16:32:09.834 [INFO]  [Refactoring] Standard output of build tool (Maven)
+16:32:09.834 [INFO]  [Refactoring] > [INFO] Scanning for projects...
+16:32:09.834 [INFO]  [Refactoring] > [INFO] 
+16:32:09.834 [INFO]  [Refactoring] > [INFO] -----------------------< ma.uiz:ObservatoireUIZ >-----------------------
+16:32:09.834 [INFO]  [Refactoring] > [INFO] Building ObservatoireUIZ 0.0.1-SNAPSHOT
+16:32:09.834 [INFO]  [Refactoring] > [INFO] --------------------------------[ jar ]---------------------------------
+16:32:09.834 [INFO]  [Refactoring] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='install-file', cause=, state=STARTED}
+16:32:09.834 [INFO]  [Refactoring] > [INFO] 
+16:32:09.834 [INFO]  [Refactoring] > [INFO] --- maven-install-plugin:3.0.1:install-file (default-cli) @ ObservatoireUIZ ---
+16:32:09.834 [INFO]  [Refactoring] > [INFO] Installing C:\Users\eloma\AppData\Local\Temp\rewrite-maven-plugin-4.42.0.pom to C:\Users\eloma\.m2\repository\org\openrewrite\maven\rewrite-maven-plugin\4.42.0\rewrite-maven-plugin-4.42.0.pom
+16:32:09.834 [INFO]  [Refactoring] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='install-file', cause=, state=SUCCESS}
+16:32:09.834 [INFO]  [Refactoring] > [INFO] ------------------------------------------------------------------------
+16:32:09.834 [INFO]  [Refactoring] > [INFO] BUILD SUCCESS
+16:32:09.834 [INFO]  [Refactoring] > [INFO] ------------------------------------------------------------------------
+16:32:09.834 [INFO]  [Refactoring] > [INFO] Total time:  0.364 s
+16:32:09.834 [INFO]  [Refactoring] > [INFO] Finished at: 2023-11-19T16:32:09+01:00
+16:32:09.834 [INFO]  [Refactoring] > [INFO] ------------------------------------------------------------------------
+16:32:09.835 [INFO]  [Refactoring] Maven Using ${maven.home} of: C:\Users\eloma\IdeaProjects\ObservatoireUIZ.
+16:32:09.835 [INFO]  [Refactoring] Maven Executing: cmd.exe /X /C "C:\Users\eloma\IdeaProjects\ObservatoireUIZ\mvnw.cmd -B -D rewrite.activeRecipes=com.diffblue.cover.refactoring.Recipe -D rewrite.activeStyles=org.openrewrite.java.Autodetect -D rewrite.configLocation=C:\Users\eloma\IdeaProjects\ObservatoireUIZ\.diffblue\refactorings.yml -D "maven.ext.class.path=C:\Program Files\Diffblue\cover-buildsystem-maven-spy-jar-with-dependencies.jar" org.openrewrite.maven:rewrite-maven-plugin:4.42.0:run"
+16:33:03.184 [INFO]  [Refactoring] Standard output of build tool (Maven)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Scanning for projects...
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.13.4.20221013/jackson-bom-2.13.4.20221013.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.13.4.20221013/jackson-bom-2.13.4.20221013.pom (17 kB at 44 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.10.0/junit-bom-5.10.0.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/junit/junit-bom/5.10.0/junit-bom-5.10.0.pom (5.6 kB at 59 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] 
+16:33:03.184 [INFO]  [Refactoring] > [INFO] -----------------------< ma.uiz:ObservatoireUIZ >-----------------------
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Building ObservatoireUIZ 0.0.1-SNAPSHOT
+16:33:03.184 [INFO]  [Refactoring] > [INFO] --------------------------------[ jar ]---------------------------------
+16:33:03.184 [INFO]  [Refactoring] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='run', cause=, state=STARTED}
+16:33:03.184 [INFO]  [Refactoring] > [INFO] 
+16:33:03.184 [INFO]  [Refactoring] > [INFO] >>> rewrite-maven-plugin:4.42.0:run (default-cli) > compile @ ObservatoireUIZ >>>
+16:33:03.184 [INFO]  [Refactoring] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='run', cause=, state=STARTED}
+16:33:03.184 [INFO]  [Refactoring] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='resources', cause=, state=STARTED}
+16:33:03.184 [INFO]  [Refactoring] > [INFO] 
+16:33:03.184 [INFO]  [Refactoring] > [INFO] --- maven-resources-plugin:3.3.0:resources (default-resources) @ ObservatoireUIZ ---
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Copying 1 resource
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Copying 5 resources
+16:33:03.184 [INFO]  [Refactoring] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='resources', cause=, state=SUCCESS}
+16:33:03.184 [INFO]  [Refactoring] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='compile', cause=, state=STARTED}
+16:33:03.184 [INFO]  [Refactoring] > [INFO] 
+16:33:03.184 [INFO]  [Refactoring] > [INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ ObservatoireUIZ ---
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Nothing to compile - all classes are up to date
+16:33:03.184 [INFO]  [Refactoring] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='compile', cause=, state=SUCCESS}
+16:33:03.184 [INFO]  [Refactoring] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='run', cause=, state=SUCCESS}
+16:33:03.184 [INFO]  [Refactoring] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='run', cause=, state=SUCCESS}
+16:33:03.184 [INFO]  [Refactoring] > [INFO] 
+16:33:03.184 [INFO]  [Refactoring] > [INFO] <<< rewrite-maven-plugin:4.42.0:run (default-cli) < compile @ ObservatoireUIZ <<<
+16:33:03.184 [INFO]  [Refactoring] > [INFO] 
+16:33:03.184 [INFO]  [Refactoring] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='run', cause=, state=STARTED}
+16:33:03.184 [INFO]  [Refactoring] > [INFO] 
+16:33:03.184 [INFO]  [Refactoring] > [INFO] --- rewrite-maven-plugin:4.42.0:run (default-cli) @ ObservatoireUIZ ---
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/openrewrite/rewrite-java/7.38.0/rewrite-java-7.38.0.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/openrewrite/rewrite-java/7.38.0/rewrite-java-7.38.0.pom (7.3 kB at 39 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/openrewrite/rewrite-core/7.38.0/rewrite-core-7.38.0.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/openrewrite/rewrite-core/7.38.0/rewrite-core-7.38.0.pom (7.3 kB at 40 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.13.4.2/jackson-databind-2.13.4.2.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.13.4.2/jackson-databind-2.13.4.2.pom (17 kB at 165 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-base/2.13.4/jackson-base-2.13.4.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-base/2.13.4/jackson-base-2.13.4.pom (9.9 kB at 92 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.13.4/jackson-bom-2.13.4.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jackson-bom/2.13.4/jackson-bom-2.13.4.pom (17 kB at 179 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.13.4/jackson-annotations-2.13.4.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.13.4/jackson-annotations-2.13.4.pom (6.1 kB at 63 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.13.4/jackson-core-2.13.4.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.13.4/jackson-core-2.13.4.pom (5.5 kB at 59 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-smile/2.13.4/jackson-dataformat-smile-2.13.4.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-smile/2.13.4/jackson-dataformat-smile-2.13.4.pom (3.2 kB at 34 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformats-binary/2.13.4/jackson-dataformats-binary-2.13.4.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformats-binary/2.13.4/jackson-dataformats-binary-2.13.4.pom (3.4 kB at 37 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.13.4/jackson-module-parameter-names-2.13.4.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.13.4/jackson-module-parameter-names-2.13.4.pom (4.4 kB at 47 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-modules-java8/2.13.4/jackson-modules-java8-2.13.4.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-modules-java8/2.13.4/jackson-modules-java8-2.13.4.pom (3.2 kB at 33 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/annotations/24.0.1/annotations-24.0.1.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/annotations/24.0.1/annotations-24.0.1.pom (1.3 kB at 14 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/openrewrite/tools/java-object-diff/1.0.1/java-object-diff-1.0.1.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/openrewrite/tools/java-object-diff/1.0.1/java-object-diff-1.0.1.pom (3.5 kB at 38 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/annotations/24.0.0/annotations-24.0.0.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/annotations/24.0.0/annotations-24.0.0.pom (1.3 kB at 14 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant/1.10.13/ant-1.10.13.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant/1.10.13/ant-1.10.13.pom (17 kB at 160 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-parent/1.10.13/ant-parent-1.10.13.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-parent/1.10.13/ant-parent-1.10.13.pom (6.6 kB at 68 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-launcher/1.10.13/ant-launcher-1.10.13.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-launcher/1.10.13/ant-launcher-1.10.13.pom (3.2 kB at 32 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/quarkus/gizmo/gizmo/1.0.11.Final/gizmo-1.0.11.Final.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/quarkus/gizmo/gizmo/1.0.11.Final/gizmo-1.0.11.Final.pom (10 kB at 97 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/9.3/asm-util-9.3.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/9.3/asm-util-9.3.pom (2.9 kB at 28 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/9.3/asm-tree-9.3.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/9.3/asm-tree-9.3.pom (2.6 kB at 28 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/9.3/asm-analysis-9.3.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/9.3/asm-analysis-9.3.pom (2.6 kB at 28 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0.pom (2.3 kB at 21 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.13.0/jna-5.13.0.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.13.0/jna-5.13.0.pom (2.0 kB at 14 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-core/1.9.9/micrometer-core-1.9.9.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-core/1.9.9/micrometer-core-1.9.9.pom (8.6 kB at 87 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/4.8.157/classgraph-4.8.157.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/4.8.157/classgraph-4.8.157.pom (30 kB at 221 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/2.0/snakeyaml-2.0.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/2.0/snakeyaml-2.0.pom (21 kB at 206 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4/4.11.1/antlr4-4.11.1.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4/4.11.1/antlr4-4.11.1.pom (6.3 kB at 54 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4-master/4.11.1/antlr4-master-4.11.1.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4-master/4.11.1/antlr4-master-4.11.1.pom (4.4 kB at 41 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4-runtime/4.11.1/antlr4-runtime-4.11.1.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4-runtime/4.11.1/antlr4-runtime-4.11.1.pom (3.6 kB at 39 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/antlr-runtime/3.5.3/antlr-runtime-3.5.3.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/antlr-runtime/3.5.3/antlr-runtime-3.5.3.pom (2.9 kB at 31 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/antlr-master/3.5.3/antlr-master-3.5.3.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/antlr-master/3.5.3/antlr-master-3.5.3.pom (11 kB at 117 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/ST4/4.3.4/ST4-4.3.4.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/ST4/4.3.4/ST4-4.3.4.pom (4.6 kB at 51 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/abego/treelayout/org.abego.treelayout.core/1.0.3/org.abego.treelayout.core-1.0.3.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/abego/treelayout/org.abego.treelayout.core/1.0.3/org.abego.treelayout.core-1.0.3.pom (5.2 kB at 48 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/javax.json/1.1.4/javax.json-1.1.4.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/javax.json/1.1.4/javax.json-1.1.4.pom (12 kB at 128 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/json/1.1.4/json-1.1.4.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/json/1.1.4/json-1.1.4.pom (18 kB at 196 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/71.1/icu4j-71.1.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/71.1/icu4j-71.1.pom (4.9 kB at 54 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-text/1.10.0/commons-text-1.10.0.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-text/1.10.0/commons-text-1.10.0.pom (21 kB at 217 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/xerial/snappy/snappy-java/1.1.8.4/snappy-java-1.1.8.4.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/xerial/snappy/snappy-java/1.1.8.4/snappy-java-1.1.8.4.pom (3.5 kB at 38 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/github/fastfilter/fastfilter/1.0.2/fastfilter-1.0.2.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/github/fastfilter/fastfilter/1.0.2/fastfilter-1.0.2.pom (2.5 kB at 27 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/github/fastfilter/fastfilter_java/1.0.2/fastfilter_java-1.0.2.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/github/fastfilter/fastfilter_java/1.0.2/fastfilter_java-1.0.2.pom (5.0 kB at 54 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/9.4/asm-util-9.4.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/9.4/asm-util-9.4.pom (2.9 kB at 32 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/9.4/asm-tree-9.4.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/9.4/asm-tree-9.4.pom (2.6 kB at 29 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/9.4/asm-analysis-9.4.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/9.4/asm-analysis-9.4.pom (2.6 kB at 28 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/openrewrite/rewrite-java-8/7.38.0/rewrite-java-8-7.38.0.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/openrewrite/rewrite-java-8/7.38.0/rewrite-java-8-7.38.0.pom (4.5 kB at 24 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/openrewrite/rewrite-java-11/7.38.0/rewrite-java-11-7.38.0.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/openrewrite/rewrite-java-11/7.38.0/rewrite-java-11-7.38.0.pom (5.2 kB at 26 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/openrewrite/rewrite-java-17/7.38.0/rewrite-java-17-7.38.0.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/openrewrite/rewrite-java-17/7.38.0/rewrite-java-17-7.38.0.pom (5.2 kB at 26 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/openrewrite/rewrite-xml/7.38.0/rewrite-xml-7.38.0.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/openrewrite/rewrite-xml/7.38.0/rewrite-xml-7.38.0.pom (4.8 kB at 25 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/openrewrite/rewrite-maven/7.38.0/rewrite-maven-7.38.0.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/openrewrite/rewrite-maven/7.38.0/rewrite-maven-7.38.0.pom (7.8 kB at 26 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/2.9.3/caffeine-2.9.3.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/2.9.3/caffeine-2.9.3.pom (2.1 kB at 22 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.19.0/checker-qual-3.19.0.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.19.0/checker-qual-3.19.0.pom (2.1 kB at 23 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-retry/1.7.0/resilience4j-retry-1.7.0.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-retry/1.7.0/resilience4j-retry-1.7.0.pom (2.1 kB at 24 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/vavr/vavr/0.10.2/vavr-0.10.2.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/vavr/vavr/0.10.2/vavr-0.10.2.pom (2.9 kB at 26 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/vavr/vavr-parent/0.10.2/vavr-parent-0.10.2.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/vavr/vavr-parent/0.10.2/vavr-parent-0.10.2.pom (24 kB at 249 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/vavr/vavr-match/0.10.2/vavr-match-0.10.2.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/vavr/vavr-match/0.10.2/vavr-match-0.10.2.pom (1.4 kB at 16 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-core/1.7.0/resilience4j-core-1.7.0.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-core/1.7.0/resilience4j-core-1.7.0.pom (1.9 kB at 21 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.13.4/jackson-dataformat-xml-2.13.4.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.13.4/jackson-dataformat-xml-2.13.4.pom (7.2 kB at 78 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/6.3.1/woodstox-core-6.3.1.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/6.3.1/woodstox-core-6.3.1.pom (9.0 kB at 99 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/45/oss-parent-45.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/oss-parent/45/oss-parent-45.pom (24 kB at 247 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.13.4/jackson-module-jaxb-annotations-2.13.4.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.13.4/jackson-module-jaxb-annotations-2.13.4.pom (3.7 kB at 41 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-modules-base/2.13.4/jackson-modules-base-2.13.4.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-modules-base/2.13.4/jackson-modules-base-2.13.4.pom (3.4 kB at 37 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.13.4/jackson-datatype-jdk8-2.13.4.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.13.4/jackson-datatype-jdk8-2.13.4.pom (2.6 kB at 28 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/openrewrite/rewrite-hcl/7.38.0/rewrite-hcl-7.38.0.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/openrewrite/rewrite-hcl/7.38.0/rewrite-hcl-7.38.0.pom (4.8 kB at 25 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/openrewrite/rewrite-json/7.38.0/rewrite-json-7.38.0.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/openrewrite/rewrite-json/7.38.0/rewrite-json-7.38.0.pom (4.8 kB at 16 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/openrewrite/rewrite-properties/7.38.0/rewrite-properties-7.38.0.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/openrewrite/rewrite-properties/7.38.0/rewrite-properties-7.38.0.pom (4.5 kB at 21 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/openrewrite/rewrite-protobuf/7.38.0/rewrite-protobuf-7.38.0.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/openrewrite/rewrite-protobuf/7.38.0/rewrite-protobuf-7.38.0.pom (4.8 kB at 17 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/openrewrite/rewrite-yaml/7.38.0/rewrite-yaml-7.38.0.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/openrewrite/rewrite-yaml/7.38.0/rewrite-yaml-7.38.0.pom (5.2 kB at 17 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/puppycrawl/tools/checkstyle/9.3/checkstyle-9.3.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/puppycrawl/tools/checkstyle/9.3/checkstyle-9.3.pom (142 kB at 931 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/info/picocli/picocli/4.6.2/picocli-4.6.2.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/info/picocli/picocli/4.6.2/picocli-4.6.2.pom (1.4 kB at 15 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.pom (11 kB at 122 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/31.0.1-jre/guava-parent-31.0.1-jre.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava-parent/31.0.1-jre/guava-parent-31.0.1-jre.pom (14 kB at 154 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.pom (2.1 kB at 24 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.7.1/error_prone_parent-2.7.1.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_parent/2.7.1/error_prone_parent-2.7.1.pom (7.0 kB at 73 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/reflections/reflections/0.10.2/reflections-0.10.2.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/reflections/reflections/0.10.2/reflections-0.10.2.pom (9.3 kB at 100 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/javassist/javassist/3.28.0-GA/javassist-3.28.0-GA.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/javassist/javassist/3.28.0-GA/javassist-3.28.0-GA.pom (11 kB at 120 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/sf/saxon/Saxon-HE/10.6/Saxon-HE-10.6.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/sf/saxon/Saxon-HE/10.6/Saxon-HE-10.6.pom (2.6 kB at 27 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-kotlin/2.13.4/jackson-module-kotlin-2.13.4.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-kotlin/2.13.4/jackson-module-kotlin-2.13.4.pom (9.4 kB at 101 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-reflect/1.5.30/kotlin-reflect-1.5.30.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-reflect/1.5.30/kotlin-reflect-1.5.30.pom (1.4 kB at 15 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.5.30/kotlin-stdlib-1.5.30.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.5.30/kotlin-stdlib-1.5.30.pom (1.6 kB at 17 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/annotations/13.0/annotations-13.0.pom (4.9 kB at 54 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.5.30/kotlin-stdlib-common-1.5.30.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.5.30/kotlin-stdlib-common-1.5.30.pom (1.2 kB at 6.4 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/micrometer/prometheus/prometheus-rsocket-client/1.5.0/prometheus-rsocket-client-1.5.0.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/micrometer/prometheus/prometheus-rsocket-client/1.5.0/prometheus-rsocket-client-1.5.0.pom (3.5 kB at 38 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/rsocket/rsocket-core/1.1.2/rsocket-core-1.1.2.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/rsocket/rsocket-core/1.1.2/rsocket-core-1.1.2.pom (2.1 kB at 20 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.89.Final/netty-buffer-4.1.89.Final.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.89.Final/netty-buffer-4.1.89.Final.pom (1.6 kB at 16 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-parent/4.1.89.Final/netty-parent-4.1.89.Final.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-parent/4.1.89.Final/netty-parent-4.1.89.Final.pom (81 kB at 727 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.89.Final/netty-common-4.1.89.Final.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.89.Final/netty-common-4.1.89.Final.pom (12 kB at 125 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/projectreactor/reactor-core/3.4.16/reactor-core-3.4.16.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/projectreactor/reactor-core/3.4.16/reactor-core-3.4.16.pom (2.1 kB at 23 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.pom (1.2 kB at 13 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-registry-prometheus/1.9.2/micrometer-registry-prometheus-1.9.2.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-registry-prometheus/1.9.2/micrometer-registry-prometheus-1.9.2.pom (3.5 kB at 39 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-core/1.9.2/micrometer-core-1.9.2.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-core/1.9.2/micrometer-core-1.9.2.pom (8.6 kB at 94 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/prometheus/simpleclient_common/0.15.0/simpleclient_common-0.15.0.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/prometheus/simpleclient_common/0.15.0/simpleclient_common-0.15.0.pom (1.6 kB at 17 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/prometheus/parent/0.15.0/parent-0.15.0.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/prometheus/parent/0.15.0/parent-0.15.0.pom (12 kB at 119 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/prometheus/simpleclient/0.15.0/simpleclient-0.15.0.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/prometheus/simpleclient/0.15.0/simpleclient-0.15.0.pom (2.2 kB at 23 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/prometheus/simpleclient_tracer_otel/0.15.0/simpleclient_tracer_otel-0.15.0.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/prometheus/simpleclient_tracer_otel/0.15.0/simpleclient_tracer_otel-0.15.0.pom (1.5 kB at 16 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/prometheus/simpleclient_tracer/0.15.0/simpleclient_tracer-0.15.0.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/prometheus/simpleclient_tracer/0.15.0/simpleclient_tracer-0.15.0.pom (1.2 kB at 13 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/prometheus/simpleclient_tracer_common/0.15.0/simpleclient_tracer_common-0.15.0.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/prometheus/simpleclient_tracer_common/0.15.0/simpleclient_tracer_common-0.15.0.pom (839 B at 9.0 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/prometheus/simpleclient_tracer_otel_agent/0.15.0/simpleclient_tracer_otel_agent-0.15.0.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/prometheus/simpleclient_tracer_otel_agent/0.15.0/simpleclient_tracer_otel_agent-0.15.0.pom (2.3 kB at 24 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-core/1.10.4/micrometer-core-1.10.4.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-core/1.10.4/micrometer-core-1.10.4.pom (10 kB at 112 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/rsocket/rsocket-transport-netty/1.1.3/rsocket-transport-netty-1.1.3.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/rsocket/rsocket-transport-netty/1.1.3/rsocket-transport-netty-1.1.3.pom (2.4 kB at 26 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/rsocket/rsocket-core/1.1.3/rsocket-core-1.1.3.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/rsocket/rsocket-core/1.1.3/rsocket-core-1.1.3.pom (2.1 kB at 23 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/projectreactor/reactor-core/3.4.23/reactor-core-3.4.23.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/projectreactor/reactor-core/3.4.23/reactor-core-3.4.23.pom (2.1 kB at 24 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/projectreactor/netty/reactor-netty-core/1.0.23/reactor-netty-core-1.0.23.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/projectreactor/netty/reactor-netty-core/1.0.23/reactor-netty-core-1.0.23.pom (3.9 kB at 44 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.89.Final/netty-handler-4.1.89.Final.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.89.Final/netty-handler-4.1.89.Final.pom (4.6 kB at 51 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.89.Final/netty-resolver-4.1.89.Final.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.89.Final/netty-resolver-4.1.89.Final.pom (1.6 kB at 18 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.89.Final/netty-transport-4.1.89.Final.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.89.Final/netty-transport-4.1.89.Final.pom (2.2 kB at 23 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-unix-common/4.1.89.Final/netty-transport-native-unix-common-4.1.89.Final.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-unix-common/4.1.89.Final/netty-transport-native-unix-common-4.1.89.Final.pom (29 kB at 313 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.89.Final/netty-codec-4.1.89.Final.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.89.Final/netty-codec-4.1.89.Final.pom (5.3 kB at 58 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-handler-proxy/4.1.89.Final/netty-handler-proxy-4.1.89.Final.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-handler-proxy/4.1.89.Final/netty-handler-proxy-4.1.89.Final.pom (3.3 kB at 35 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-socks/4.1.89.Final/netty-codec-socks-4.1.89.Final.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-socks/4.1.89.Final/netty-codec-socks-4.1.89.Final.pom (2.5 kB at 27 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-http/4.1.89.Final/netty-codec-http-4.1.89.Final.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-http/4.1.89.Final/netty-codec-http-4.1.89.Final.pom (4.2 kB at 44 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns/4.1.89.Final/netty-resolver-dns-4.1.89.Final.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns/4.1.89.Final/netty-resolver-dns-4.1.89.Final.pom (3.7 kB at 32 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-dns/4.1.89.Final/netty-codec-dns-4.1.89.Final.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-dns/4.1.89.Final/netty-codec-dns-4.1.89.Final.pom (2.7 kB at 22 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns-native-macos/4.1.89.Final/netty-resolver-dns-native-macos-4.1.89.Final.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns-native-macos/4.1.89.Final/netty-resolver-dns-native-macos-4.1.89.Final.pom (18 kB at 194 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns-classes-macos/4.1.89.Final/netty-resolver-dns-classes-macos-4.1.89.Final.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns-classes-macos/4.1.89.Final/netty-resolver-dns-classes-macos-4.1.89.Final.pom (2.0 kB at 22 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-epoll/4.1.89.Final/netty-transport-native-epoll-4.1.89.Final.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-epoll/4.1.89.Final/netty-transport-native-epoll-4.1.89.Final.pom (19 kB at 202 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-classes-epoll/4.1.89.Final/netty-transport-classes-epoll-4.1.89.Final.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-classes-epoll/4.1.89.Final/netty-transport-classes-epoll-4.1.89.Final.pom (2.1 kB at 20 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/projectreactor/netty/reactor-netty-http/1.0.23/reactor-netty-http-1.0.23.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/projectreactor/netty/reactor-netty-http/1.0.23/reactor-netty-http-1.0.23.pom (4.3 kB at 47 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-http2/4.1.89.Final/netty-codec-http2-4.1.89.Final.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-http2/4.1.89.Final/netty-codec-http2-4.1.89.Final.pom (5.0 kB at 55 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/rocksdb/rocksdbjni/7.8.3/rocksdbjni-7.8.3.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/rocksdb/rocksdbjni/7.8.3/rocksdbjni-7.8.3.pom (7.4 kB at 38 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity-api/1.1/plexus-interactivity-api-1.1.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity-api/1.1/plexus-interactivity-api-1.1.pom (823 B at 9.0 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity/1.1/plexus-interactivity-1.1.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity/1.1/plexus-interactivity-1.1.pom (1.7 kB at 19 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/6.5/plexus-components-6.5.pom
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/6.5/plexus-components-6.5.pom (2.7 kB at 30 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/openrewrite/rewrite-java/7.38.0/rewrite-java-7.38.0.jar
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/openrewrite/rewrite-core/7.38.0/rewrite-core-7.38.0.jar
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.13.4/jackson-module-parameter-names-2.13.4.jar
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/openrewrite/tools/java-object-diff/1.0.1/java-object-diff-1.0.1.jar
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant/1.10.13/ant-1.10.13.jar
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-parameter-names/2.13.4/jackson-module-parameter-names-2.13.4.jar (9.5 kB at 53 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-launcher/1.10.13/ant-launcher-1.10.13.jar
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/openrewrite/tools/java-object-diff/1.0.1/java-object-diff-1.0.1.jar (164 kB at 615 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/quarkus/gizmo/gizmo/1.0.11.Final/gizmo-1.0.11.Final.jar
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant-launcher/1.10.13/ant-launcher-1.10.13.jar (21 kB at 74 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0.jar
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/quarkus/gizmo/gizmo/1.0.11.Final/gizmo-1.0.11.Final.jar (101 kB at 272 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/ant/ant/1.10.13/ant-1.10.13.jar (2.3 MB at 5.0 MB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/annotations/24.0.1/annotations-24.0.1.jar
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/annotations/24.0.1/annotations-24.0.1.jar (31 kB at 54 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.13.4/jackson-annotations-2.13.4.jar
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/openrewrite/rewrite-java/7.38.0/rewrite-java-7.38.0.jar (2.3 MB at 3.9 MB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4/4.11.1/antlr4-4.11.1.jar
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar (1.9 MB at 3.0 MB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4-runtime/4.11.1/antlr4-runtime-4.11.1.jar
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/2.13.4/jackson-annotations-2.13.4.jar (76 kB at 112 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/antlr-runtime/3.5.3/antlr-runtime-3.5.3.jar
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/openrewrite/rewrite-core/7.38.0/rewrite-core-7.38.0.jar (3.2 MB at 4.4 MB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/antlr/ST4/4.3.4/ST4-4.3.4.jar
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4/4.11.1/antlr4-4.11.1.jar (2.6 MB at 3.5 MB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/abego/treelayout/org.abego.treelayout.core/1.0.3/org.abego.treelayout.core-1.0.3.jar
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/antlr4-runtime/4.11.1/antlr4-runtime-4.11.1.jar (324 kB at 427 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/glassfish/javax.json/1.1.4/javax.json-1.1.4.jar
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/antlr-runtime/3.5.3/antlr-runtime-3.5.3.jar (173 kB at 214 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/71.1/icu4j-71.1.jar
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/antlr/ST4/4.3.4/ST4-4.3.4.jar (251 kB at 298 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/4.8.157/classgraph-4.8.157.jar
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/abego/treelayout/org.abego.treelayout.core/1.0.3/org.abego.treelayout.core-1.0.3.jar (27 kB at 31 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/xerial/snappy/snappy-java/1.1.8.4/snappy-java-1.1.8.4.jar
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/glassfish/javax.json/1.1.4/javax.json-1.1.4.jar (129 kB at 151 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/github/fastfilter/fastfilter/1.0.2/fastfilter-1.0.2.jar
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/java/dev/jna/jna-platform/5.13.0/jna-platform-5.13.0.jar (1.4 MB at 1.3 MB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/9.4/asm-util-9.4.jar
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/xerial/snappy/snappy-java/1.1.8.4/snappy-java-1.1.8.4.jar (2.0 MB at 1.5 MB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/9.4/asm-tree-9.4.jar
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-util/9.4/asm-util-9.4.jar (92 kB at 66 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/9.4/asm-analysis-9.4.jar
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-tree/9.4/asm-tree-9.4.jar (53 kB at 36 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/openrewrite/rewrite-java-8/7.38.0/rewrite-java-8-7.38.0.jar
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/ow2/asm/asm-analysis/9.4/asm-analysis-9.4.jar (34 kB at 23 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/openrewrite/rewrite-java-11/7.38.0/rewrite-java-11-7.38.0.jar
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/github/fastfilter/fastfilter/1.0.2/fastfilter-1.0.2.jar (85 kB at 51 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/openrewrite/rewrite-java-17/7.38.0/rewrite-java-17-7.38.0.jar
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/ibm/icu/icu4j/71.1/icu4j-71.1.jar (14 MB at 8.1 MB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/openrewrite/rewrite-xml/7.38.0/rewrite-xml-7.38.0.jar
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/github/classgraph/classgraph/4.8.157/classgraph-4.8.157.jar (564 kB at 326 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/openrewrite/rewrite-maven/7.38.0/rewrite-maven-7.38.0.jar
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/openrewrite/rewrite-java-11/7.38.0/rewrite-java-11-7.38.0.jar (104 kB at 60 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/2.9.3/caffeine-2.9.3.jar
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/openrewrite/rewrite-java-8/7.38.0/rewrite-java-8-7.38.0.jar (102 kB at 58 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.19.0/checker-qual-3.19.0.jar
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/openrewrite/rewrite-java-17/7.38.0/rewrite-java-17-7.38.0.jar (108 kB at 58 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-retry/1.7.0/resilience4j-retry-1.7.0.jar
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/checkerframework/checker-qual/3.19.0/checker-qual-3.19.0.jar (222 kB at 119 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/vavr/vavr/0.10.2/vavr-0.10.2.jar
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-retry/1.7.0/resilience4j-retry-1.7.0.jar (49 kB at 25 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/vavr/vavr-match/0.10.2/vavr-match-0.10.2.jar
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/vavr/vavr/0.10.2/vavr-0.10.2.jar (898 kB at 453 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-core/1.7.0/resilience4j-core-1.7.0.jar
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/openrewrite/rewrite-xml/7.38.0/rewrite-xml-7.38.0.jar (202 kB at 102 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.13.4/jackson-dataformat-xml-2.13.4.jar
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/vavr/vavr-match/0.10.2/vavr-match-0.10.2.jar (3.0 kB at 1.5 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.13.4/jackson-core-2.13.4.jar
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/github/resilience4j/resilience4j-core/1.7.0/resilience4j-core-1.7.0.jar (66 kB at 32 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/6.3.1/woodstox-core-6.3.1.jar
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-xml/2.13.4/jackson-dataformat-xml-2.13.4.jar (122 kB at 59 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-smile/2.13.4/jackson-dataformat-smile-2.13.4.jar
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/openrewrite/rewrite-maven/7.38.0/rewrite-maven-7.38.0.jar (530 kB at 243 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.13.4/jackson-module-jaxb-annotations-2.13.4.jar
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-smile/2.13.4/jackson-dataformat-smile-2.13.4.jar (96 kB at 44 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/2.13.4/jackson-core-2.13.4.jar (375 kB at 171 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.13.4/jackson-datatype-jdk8-2.13.4.jar
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/woodstox/woodstox-core/6.3.1/woodstox-core-6.3.1.jar (1.6 MB at 712 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/openrewrite/rewrite-hcl/7.38.0/rewrite-hcl-7.38.0.jar
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/github/ben-manes/caffeine/caffeine/2.9.3/caffeine-2.9.3.jar (912 kB at 408 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/openrewrite/rewrite-json/7.38.0/rewrite-json-7.38.0.jar
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-jaxb-annotations/2.13.4/jackson-module-jaxb-annotations-2.13.4.jar (36 kB at 16 kB/s)
+16:33:03.184 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.13.4/jackson-datatype-jdk8-2.13.4.jar (35 kB at 15 kB/s)
+16:33:03.192 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/openrewrite/rewrite-properties/7.38.0/rewrite-properties-7.38.0.jar
+16:33:03.192 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/openrewrite/rewrite-protobuf/7.38.0/rewrite-protobuf-7.38.0.jar
+16:33:03.192 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/jakarta/xml/bind/jakarta.xml.bind-api/2.3.3/jakarta.xml.bind-api-2.3.3.jar (116 kB at 51 kB/s)
+16:33:03.192 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/openrewrite/rewrite-yaml/7.38.0/rewrite-yaml-7.38.0.jar
+16:33:03.192 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/openrewrite/rewrite-json/7.38.0/rewrite-json-7.38.0.jar (156 kB at 64 kB/s)
+16:33:03.192 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/2.0/snakeyaml-2.0.jar
+16:33:03.192 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/openrewrite/rewrite-properties/7.38.0/rewrite-properties-7.38.0.jar (51 kB at 21 kB/s)
+16:33:03.192 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/puppycrawl/tools/checkstyle/9.3/checkstyle-9.3.jar
+16:33:03.192 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/openrewrite/rewrite-yaml/7.38.0/rewrite-yaml-7.38.0.jar (211 kB at 85 kB/s)
+16:33:03.192 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/info/picocli/picocli/4.6.2/picocli-4.6.2.jar
+16:33:03.192 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/openrewrite/rewrite-hcl/7.38.0/rewrite-hcl-7.38.0.jar (400 kB at 158 kB/s)
+16:33:03.192 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar
+16:33:03.192 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/yaml/snakeyaml/2.0/snakeyaml-2.0.jar (335 kB at 132 kB/s)
+16:33:03.192 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar
+16:33:03.192 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/openrewrite/rewrite-protobuf/7.38.0/rewrite-protobuf-7.38.0.jar (227 kB at 88 kB/s)
+16:33:03.192 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/reflections/reflections/0.10.2/reflections-0.10.2.jar
+16:33:03.193 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/info/picocli/picocli/4.6.2/picocli-4.6.2.jar (403 kB at 154 kB/s)
+16:33:03.193 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/javassist/javassist/3.28.0-GA/javassist-3.28.0-GA.jar
+16:33:03.193 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/puppycrawl/tools/checkstyle/9.3/checkstyle-9.3.jar (2.0 MB at 761 kB/s)
+16:33:03.193 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/net/sf/saxon/Saxon-HE/10.6/Saxon-HE-10.6.jar
+16:33:03.193 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/errorprone/error_prone_annotations/2.7.1/error_prone_annotations-2.7.1.jar (15 kB at 5.6 kB/s)
+16:33:03.193 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-kotlin/2.13.4/jackson-module-kotlin-2.13.4.jar
+16:33:03.193 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/reflections/reflections/0.10.2/reflections-0.10.2.jar (130 kB at 48 kB/s)
+16:33:03.193 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.13.4.2/jackson-databind-2.13.4.2.jar
+16:33:03.193 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/module/jackson-module-kotlin/2.13.4/jackson-module-kotlin-2.13.4.jar (147 kB at 53 kB/s)
+16:33:03.193 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-reflect/1.5.30/kotlin-reflect-1.5.30.jar
+16:33:03.193 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/google/guava/guava/31.0.1-jre/guava-31.0.1-jre.jar (3.0 MB at 1.1 MB/s)
+16:33:03.193 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/javassist/javassist/3.28.0-GA/javassist-3.28.0-GA.jar (852 kB at 306 kB/s)
+16:33:03.193 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.5.30/kotlin-stdlib-1.5.30.jar
+16:33:03.193 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.5.30/kotlin-stdlib-common-1.5.30.jar
+16:33:03.193 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib-common/1.5.30/kotlin-stdlib-common-1.5.30.jar (198 kB at 66 kB/s)
+16:33:03.193 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/micrometer/prometheus/prometheus-rsocket-client/1.5.0/prometheus-rsocket-client-1.5.0.jar
+16:33:03.193 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/micrometer/prometheus/prometheus-rsocket-client/1.5.0/prometheus-rsocket-client-1.5.0.jar (18 kB at 6.0 kB/s)
+16:33:03.193 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-registry-prometheus/1.9.2/micrometer-registry-prometheus-1.9.2.jar
+16:33:03.193 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-registry-prometheus/1.9.2/micrometer-registry-prometheus-1.9.2.jar (41 kB at 13 kB/s)
+16:33:03.193 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/prometheus/simpleclient_common/0.15.0/simpleclient_common-0.15.0.jar
+16:33:03.193 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-stdlib/1.5.30/kotlin-stdlib-1.5.30.jar (1.5 MB at 471 kB/s)
+16:33:03.193 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/prometheus/simpleclient/0.15.0/simpleclient-0.15.0.jar
+16:33:03.193 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/net/sf/saxon/Saxon-HE/10.6/Saxon-HE-10.6.jar (5.8 MB at 1.8 MB/s)
+16:33:03.193 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/prometheus/simpleclient_tracer_otel/0.15.0/simpleclient_tracer_otel-0.15.0.jar
+16:33:03.193 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/prometheus/simpleclient_common/0.15.0/simpleclient_common-0.15.0.jar (8.0 kB at 2.4 kB/s)
+16:33:03.193 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/prometheus/simpleclient_tracer_common/0.15.0/simpleclient_tracer_common-0.15.0.jar
+16:33:03.193 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/prometheus/simpleclient_tracer_otel/0.15.0/simpleclient_tracer_otel-0.15.0.jar (4.3 kB at 1.3 kB/s)
+16:33:03.193 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/prometheus/simpleclient_tracer_otel_agent/0.15.0/simpleclient_tracer_otel_agent-0.15.0.jar
+16:33:03.193 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/prometheus/simpleclient/0.15.0/simpleclient-0.15.0.jar (89 kB at 27 kB/s)
+16:33:03.193 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-core/1.10.4/micrometer-core-1.10.4.jar
+16:33:03.193 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/prometheus/simpleclient_tracer_common/0.15.0/simpleclient_tracer_common-0.15.0.jar (3.4 kB at 995 B/s)
+16:33:03.193 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/rsocket/rsocket-transport-netty/1.1.3/rsocket-transport-netty-1.1.3.jar
+16:33:03.193 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/prometheus/simpleclient_tracer_otel_agent/0.15.0/simpleclient_tracer_otel_agent-0.15.0.jar (4.5 kB at 1.3 kB/s)
+16:33:03.193 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/projectreactor/netty/reactor-netty-core/1.0.23/reactor-netty-core-1.0.23.jar
+16:33:03.193 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/micrometer/micrometer-core/1.10.4/micrometer-core-1.10.4.jar (777 kB at 225 kB/s)
+16:33:03.193 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.89.Final/netty-handler-4.1.89.Final.jar
+16:33:03.193 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/projectreactor/netty/reactor-netty-core/1.0.23/reactor-netty-core-1.0.23.jar (402 kB at 115 kB/s)
+16:33:03.193 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.89.Final/netty-resolver-4.1.89.Final.jar
+16:33:03.193 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/rsocket/rsocket-transport-netty/1.1.3/rsocket-transport-netty-1.1.3.jar (23 kB at 6.6 kB/s)
+16:33:03.193 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.89.Final/netty-transport-4.1.89.Final.jar
+16:33:03.193 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/jetbrains/kotlin/kotlin-reflect/1.5.30/kotlin-reflect-1.5.30.jar (3.0 MB at 840 kB/s)
+16:33:03.193 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-handler/4.1.89.Final/netty-handler-4.1.89.Final.jar (546 kB at 151 kB/s)
+16:33:03.193 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-unix-common/4.1.89.Final/netty-transport-native-unix-common-4.1.89.Final.jar
+16:33:03.193 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.89.Final/netty-codec-4.1.89.Final.jar
+16:33:03.193 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver/4.1.89.Final/netty-resolver-4.1.89.Final.jar (38 kB at 10 kB/s)
+16:33:03.193 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-handler-proxy/4.1.89.Final/netty-handler-proxy-4.1.89.Final.jar
+16:33:03.193 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport/4.1.89.Final/netty-transport-4.1.89.Final.jar (488 kB at 134 kB/s)
+16:33:03.193 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-socks/4.1.89.Final/netty-codec-socks-4.1.89.Final.jar
+16:33:03.193 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-handler-proxy/4.1.89.Final/netty-handler-proxy-4.1.89.Final.jar (25 kB at 6.8 kB/s)
+16:33:03.193 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns/4.1.89.Final/netty-resolver-dns-4.1.89.Final.jar
+16:33:03.193 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-unix-common/4.1.89.Final/netty-transport-native-unix-common-4.1.89.Final.jar (44 kB at 12 kB/s)
+16:33:03.193 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-dns/4.1.89.Final/netty-codec-dns-4.1.89.Final.jar
+16:33:03.194 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec/4.1.89.Final/netty-codec-4.1.89.Final.jar (346 kB at 93 kB/s)
+16:33:03.194 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns-native-macos/4.1.89.Final/netty-resolver-dns-native-macos-4.1.89.Final-osx-x86_64.jar
+16:33:03.194 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-socks/4.1.89.Final/netty-codec-socks-4.1.89.Final.jar (121 kB at 32 kB/s)
+16:33:03.194 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns-classes-macos/4.1.89.Final/netty-resolver-dns-classes-macos-4.1.89.Final.jar
+16:33:03.194 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-dns/4.1.89.Final/netty-codec-dns-4.1.89.Final.jar (67 kB at 17 kB/s)
+16:33:03.194 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-epoll/4.1.89.Final/netty-transport-native-epoll-4.1.89.Final-linux-x86_64.jar
+16:33:03.194 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns-native-macos/4.1.89.Final/netty-resolver-dns-native-macos-4.1.89.Final-osx-x86_64.jar (19 kB at 5.1 kB/s)
+16:33:03.194 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-classes-epoll/4.1.89.Final/netty-transport-classes-epoll-4.1.89.Final.jar
+16:33:03.194 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns/4.1.89.Final/netty-resolver-dns-4.1.89.Final.jar (166 kB at 43 kB/s)
+16:33:03.194 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/projectreactor/netty/reactor-netty-http/1.0.23/reactor-netty-http-1.0.23.jar
+16:33:03.194 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-resolver-dns-classes-macos/4.1.89.Final/netty-resolver-dns-classes-macos-4.1.89.Final.jar (9.1 kB at 2.4 kB/s)
+16:33:03.194 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-http/4.1.89.Final/netty-codec-http-4.1.89.Final.jar
+16:33:03.194 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.13.4.2/jackson-databind-2.13.4.2.jar (1.5 MB at 395 kB/s)
+16:33:03.194 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-http2/4.1.89.Final/netty-codec-http2-4.1.89.Final.jar
+16:33:03.194 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-native-epoll/4.1.89.Final/netty-transport-native-epoll-4.1.89.Final-linux-x86_64.jar (38 kB at 9.6 kB/s)
+16:33:03.194 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/rsocket/rsocket-core/1.1.3/rsocket-core-1.1.3.jar
+16:33:03.194 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-transport-classes-epoll/4.1.89.Final/netty-transport-classes-epoll-4.1.89.Final.jar (145 kB at 37 kB/s)
+16:33:03.194 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.89.Final/netty-buffer-4.1.89.Final.jar
+16:33:03.194 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/projectreactor/netty/reactor-netty-http/1.0.23/reactor-netty-http-1.0.23.jar (339 kB at 85 kB/s)
+16:33:03.194 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.89.Final/netty-common-4.1.89.Final.jar
+16:33:03.194 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-http/4.1.89.Final/netty-codec-http-4.1.89.Final.jar (655 kB at 164 kB/s)
+16:33:03.194 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/io/projectreactor/reactor-core/3.4.23/reactor-core-3.4.23.jar
+16:33:03.194 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-buffer/4.1.89.Final/netty-buffer-4.1.89.Final.jar (305 kB at 75 kB/s)
+16:33:03.194 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-text/1.10.0/commons-text-1.10.0.jar
+16:33:03.194 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/rsocket/rsocket-core/1.1.3/rsocket-core-1.1.3.jar (431 kB at 106 kB/s)
+16:33:03.194 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/rocksdb/rocksdbjni/7.8.3/rocksdbjni-7.8.3.jar
+16:33:03.194 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-common/4.1.89.Final/netty-common-4.1.89.Final.jar (658 kB at 160 kB/s)
+16:33:03.194 [INFO]  [Refactoring] > [INFO] Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity-api/1.1/plexus-interactivity-api-1.1.jar
+16:33:03.194 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/commons/commons-text/1.10.0/commons-text-1.10.0.jar (238 kB at 57 kB/s)
+16:33:03.194 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/projectreactor/reactor-core/3.4.23/reactor-core-3.4.23.jar (1.7 MB at 416 kB/s)
+16:33:03.194 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interactivity-api/1.1/plexus-interactivity-api-1.1.jar (9.4 kB at 2.2 kB/s)
+16:33:03.194 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/io/netty/netty-codec-http2/4.1.89.Final/netty-codec-http2-4.1.89.Final.jar (480 kB at 113 kB/s)
+16:33:03.194 [INFO]  [Refactoring] > [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/org/rocksdb/rocksdbjni/7.8.3/rocksdbjni-7.8.3.jar (58 MB at 5.5 MB/s)
+16:33:03.194 [INFO]  [Refactoring] > [INFO] Using active recipe(s) [com.diffblue.cover.refactoring.Recipe]
+16:33:03.194 [INFO]  [Refactoring] > [INFO] Using active styles(s) [org.openrewrite.java.Autodetect]
+16:33:03.194 [INFO]  [Refactoring] > [INFO] Validating active recipes...
+16:33:03.194 [INFO]  [Refactoring] > [INFO] Project [ObservatoireUIZ] Resolving Poms...
+16:33:03.194 [INFO]  [Refactoring] > [INFO] Project [ObservatoireUIZ] Parsing source files
+16:33:03.194 [INFO]  [Refactoring] > [INFO] Running recipe(s)...
+16:33:03.194 [INFO]  [Refactoring] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='run', cause=, state=SUCCESS}
+16:33:03.194 [INFO]  [Refactoring] > [INFO] ------------------------------------------------------------------------
+16:33:03.194 [INFO]  [Refactoring] > [INFO] BUILD SUCCESS
+16:33:03.194 [INFO]  [Refactoring] > [INFO] ------------------------------------------------------------------------
+16:33:03.194 [INFO]  [Refactoring] > [INFO] Total time:  51.176 s
+16:33:03.194 [INFO]  [Refactoring] > [INFO] Finished at: 2023-11-19T16:33:01+01:00
+16:33:03.194 [INFO]  [Refactoring] > [INFO] ------------------------------------------------------------------------
+16:33:03.199 [INFO]  [Refactoring] Refactorings completed. No files were modified.
+16:33:03.199 [INFO]  [Reporting] 
+16:33:03.203 [INFO]  [Reporting] Log file: C:\Users\eloma\IdeaProjects\ObservatoireUIZ\.diffblue\log\user-20231119T163157.log
+16:33:03.203 [INFO]  [Reporting] Finished in 1m 7s

@@ -1,0 +1,31 @@
+name: com.diffblue.cover.refactoring.Recipe
+recipeList:
+- com.diffblue.cover.refactoring.recipes.AddGetter: {className: ma.uiz.observatoire.config.RmeSessionChannelInterceptor,
+    fieldName: jwtService}
+- com.diffblue.cover.refactoring.recipes.AddGetter: {className: ma.uiz.observatoire.config.RmeSessionChannelInterceptor,
+    fieldName: tokenRepository}
+- com.diffblue.cover.refactoring.recipes.AddGetter: {className: ma.uiz.observatoire.config.RmeSessionChannelInterceptor,
+    fieldName: userDetailsService}
+- com.diffblue.cover.refactoring.recipes.AddGetter: {className: org.springframework.messaging.simp.config.MessageBrokerRegistry,
+    fieldName: applicationDestinationPrefixes}
+- com.diffblue.cover.refactoring.recipes.AddGetter: {className: org.springframework.messaging.simp.config.MessageBrokerRegistry,
+    fieldName: brokerChannelRegistration}
+- com.diffblue.cover.refactoring.recipes.AddGetter: {className: org.springframework.messaging.simp.config.MessageBrokerRegistry,
+    fieldName: brokerRelayRegistration}
+- com.diffblue.cover.refactoring.recipes.AddGetter: {className: org.springframework.messaging.simp.config.MessageBrokerRegistry,
+    fieldName: cacheLimit}
+- com.diffblue.cover.refactoring.recipes.AddGetter: {className: org.springframework.messaging.simp.config.MessageBrokerRegistry,
+    fieldName: clientInboundChannel}
+- com.diffblue.cover.refactoring.recipes.AddGetter: {className: org.springframework.messaging.simp.config.MessageBrokerRegistry,
+    fieldName: clientOutboundChannel}
+- com.diffblue.cover.refactoring.recipes.AddGetter: {className: org.springframework.messaging.simp.config.MessageBrokerRegistry,
+    fieldName: pathMatcher}
+- com.diffblue.cover.refactoring.recipes.AddGetter: {className: org.springframework.messaging.simp.config.MessageBrokerRegistry,
+    fieldName: preservePublishOrder}
+- com.diffblue.cover.refactoring.recipes.AddGetter: {className: org.springframework.messaging.simp.config.MessageBrokerRegistry,
+    fieldName: simpleBrokerRegistration}
+- com.diffblue.cover.refactoring.recipes.AddGetter: {className: org.springframework.messaging.simp.config.MessageBrokerRegistry,
+    fieldName: userDestinationPrefix}
+- com.diffblue.cover.refactoring.recipes.AddGetter: {className: org.springframework.messaging.simp.config.MessageBrokerRegistry,
+    fieldName: userRegistryOrder}
+type: specs.openrewrite.org/v1beta/recipe

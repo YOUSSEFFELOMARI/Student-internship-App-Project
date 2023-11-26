@@ -1,0 +1,784 @@
+15:29:19.125 [INFO]  [Preparing] Diffblue Cover 2023.11.01-fe2f45b-licensed
+15:29:19.126 [INFO]  [Preparing] Running: dcover create ma.uiz.observatoire.controller.AccountController
+15:29:19.126 [INFO]  [Preparing] 
+15:29:19.127 [INFO]  [Preparing] Command: create
+15:29:19.129 [INFO]  [Preparing] Create tests for the specified package/class/method prefix.
+15:29:19.129 [INFO]  [Preparing] 
+15:29:24.854 [INFO]  [Checking] Detecting environment:
+15:29:24.855 [INFO]  [Checking] ----------------------
+15:29:24.929 [INFO]  [Checking] Detected Java version 17.0.8
+15:29:24.971 [INFO]  [Checking] Maven Using ${maven.home} of: C:\Users\eloma\IdeaProjects\ObservatoireUIZ.
+15:29:25.027 [INFO]  [Checking] Maven Executing: cmd.exe /X /C "C:\Users\eloma\IdeaProjects\ObservatoireUIZ\mvnw.cmd -B -version"
+15:29:25.092 [INFO]  [Checking] Standard output of build tool (Maven)
+15:29:25.092 [INFO]  [Checking] > 
+15:29:25.092 [INFO]  [Checking] > 
+15:29:25.092 [INFO]  [Checking] Standard error of build tool (Maven)
+15:29:25.093 [INFO]  [Checking] > Error: JAVA_HOME not found in your environment. 
+15:29:25.093 [INFO]  [Checking] > Please set the JAVA_HOME variable in your environment to match the 
+15:29:25.093 [INFO]  [Checking] > location of your Java installation. 
+15:29:25.093 [INFO]  [Checking] Maven command Using ${maven.home} of: 'C:\Users\eloma\IdeaProjects\ObservatoireUIZ'.
+15:29:25.093 [INFO]  [Checking] Maven command Executing: cmd.exe /X /C "C:\Users\eloma\IdeaProjects\ObservatoireUIZ\mvnw.cmd -B -version"
+15:29:25.129 [INFO]  [Checking] Maven Using ${maven.home} of: C:\Users\eloma\IdeaProjects\ObservatoireUIZ.
+15:29:25.129 [INFO]  [Checking] Maven Executing: cmd.exe /X /C "C:\Users\eloma\IdeaProjects\ObservatoireUIZ\mvnw.cmd -B -N -D output=diffblue.effective-pom.output.xml -D "maven.ext.class.path=C:\Program Files\Diffblue\cover-buildsystem-maven-spy-jar-with-dependencies.jar" org.apache.maven.plugins:maven-help-plugin:3.2.0:effective-pom"
+15:29:27.119 [INFO]  [Checking] Standard output of build tool (Maven)
+15:29:27.119 [INFO]  [Checking] > [INFO] Scanning for projects...
+15:29:27.119 [INFO]  [Checking] > [INFO] 
+15:29:27.119 [INFO]  [Checking] > [INFO] -----------------------< ma.uiz:ObservatoireUIZ >-----------------------
+15:29:27.119 [INFO]  [Checking] > [INFO] Building ObservatoireUIZ 0.0.1-SNAPSHOT
+15:29:27.119 [INFO]  [Checking] > [INFO] --------------------------------[ jar ]---------------------------------
+15:29:27.119 [INFO]  [Checking] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='effective-pom', cause=, state=STARTED}
+15:29:27.119 [INFO]  [Checking] > [INFO] 
+15:29:27.119 [INFO]  [Checking] > [INFO] --- maven-help-plugin:3.2.0:effective-pom (default-cli) @ ObservatoireUIZ ---
+15:29:27.119 [INFO]  [Checking] > [INFO] Effective-POM written to: C:\Users\eloma\IdeaProjects\ObservatoireUIZ\diffblue.effective-pom.output.xml
+15:29:27.119 [INFO]  [Checking] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='effective-pom', cause=, state=SUCCESS}
+15:29:27.119 [INFO]  [Checking] > [INFO] ------------------------------------------------------------------------
+15:29:27.119 [INFO]  [Checking] > [INFO] BUILD SUCCESS
+15:29:27.119 [INFO]  [Checking] > [INFO] ------------------------------------------------------------------------
+15:29:27.119 [INFO]  [Checking] > [INFO] Total time:  0.935 s
+15:29:27.119 [INFO]  [Checking] > [INFO] Finished at: 2023-11-19T15:29:27+01:00
+15:29:27.119 [INFO]  [Checking] > [INFO] ------------------------------------------------------------------------
+15:29:27.305 [INFO]  [Checking] Detected build system: Maven
+15:29:27.313 [INFO]  [Checking] Operating System: Windows 11 amd64 10.0
+15:29:27.313 [INFO]  [Checking] Default charset: windows-1252
+15:29:27.313 [INFO]  [Checking] Default locale: en_US
+15:29:27.314 [INFO]  [Checking] Default time zone: Africa/Casablanca
+15:29:27.317 [INFO]  [Checking] Selected build system: Maven
+15:29:27.319 [INFO]  [Checking] Maven Using ${maven.home} of: C:\Users\eloma\IdeaProjects\ObservatoireUIZ.
+15:29:27.320 [INFO]  [Checking] Maven Executing: cmd.exe /X /C "C:\Users\eloma\IdeaProjects\ObservatoireUIZ\mvnw.cmd -B -D output=C:\Users\eloma\AppData\Local\Temp\build.classpath11435262640211350491.tmp -D expression=build.classpath -D mdep.pathSeparator=#SEP# -D includeScope=test -D mdep.outputProperty=build.classpath -D "maven.ext.class.path=C:\Program Files\Diffblue\cover-buildsystem-maven-spy-jar-with-dependencies.jar" org.apache.maven.plugins:maven-dependency-plugin:3.3.0:build-classpath org.apache.maven.plugins:maven-help-plugin:3.2.0:evaluate"
+15:29:31.356 [INFO]  [Checking] Standard output of build tool (Maven)
+15:29:31.357 [INFO]  [Checking] > [INFO] Scanning for projects...
+15:29:31.357 [INFO]  [Checking] > [INFO] 
+15:29:31.357 [INFO]  [Checking] > [INFO] -----------------------< ma.uiz:ObservatoireUIZ >-----------------------
+15:29:31.357 [INFO]  [Checking] > [INFO] Building ObservatoireUIZ 0.0.1-SNAPSHOT
+15:29:31.357 [INFO]  [Checking] > [INFO] --------------------------------[ jar ]---------------------------------
+15:29:31.357 [INFO]  [Checking] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='build-classpath', cause=, state=STARTED}
+15:29:31.357 [INFO]  [Checking] > [INFO] 
+15:29:31.357 [INFO]  [Checking] > [INFO] --- maven-dependency-plugin:3.3.0:build-classpath (default-cli) @ ObservatoireUIZ ---
+15:29:31.357 [INFO]  [Checking] > [INFO] Dependencies classpath:
+15:29:31.357 [INFO]  [Checking] > C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter\3.0.3\spring-boot-starter-3.0.3.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot\3.0.3\spring-boot-3.0.3.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.0.3\spring-boot-autoconfigure-3.0.3.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.0.3\spring-boot-starter-logging-3.0.3.jar#SEP#C:\Users\eloma\.m2\repository\ch\qos\logback\logback-classic\1.4.5\logback-classic-1.4.5.jar#SEP#C:\Users\eloma\.m2\repository\ch\qos\logback\logback-core\1.4.5\logback-core-1.4.5.jar#SEP#C:\Users\eloma\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.19.0\log4j-to-slf4j-2.19.0.jar#SEP#C:\Users\eloma\.m2\repository\org\apache\logging\log4j\log4j-api\2.19.0\log4j-api-2.19.0.jar#SEP#C:\Users\eloma\.m2\repository\org\slf4j\jul-to-slf4j\2.0.6\jul-to-slf4j-2.0.6.jar#SEP#C:\Users\eloma\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\spring-core\6.0.5\spring-core-6.0.5.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\spring-jcl\6.0.5\spring-jcl-6.0.5.jar#SEP#C:\Users\eloma\.m2\repository\org\yaml\snakeyaml\1.33\snakeyaml-1.33.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.0.3\spring-boot-starter-web-3.0.3.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.0.3\spring-boot-starter-json-3.0.3.jar#SEP#C:\Users\eloma\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.14.2\jackson-datatype-jdk8-2.14.2.jar#SEP#C:\Users\eloma\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.14.2\jackson-datatype-jsr310-2.14.2.jar#SEP#C:\Users\eloma\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.14.2\jackson-module-parameter-names-2.14.2.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.0.3\spring-boot-starter-tomcat-3.0.3.jar#SEP#C:\Users\eloma\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.5\tomcat-embed-core-10.1.5.jar#SEP#C:\Users\eloma\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.5\tomcat-embed-websocket-10.1.5.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\spring-web\6.0.5\spring-web-6.0.5.jar#SEP#C:\Users\eloma\.m2\repository\io\micrometer\micrometer-observation\1.10.4\micrometer-observation-1.10.4.jar#SEP#C:\Users\eloma\.m2\repository\io\micrometer\micrometer-commons\1.10.4\micrometer-commons-1.10.4.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\spring-webmvc\6.0.5\spring-webmvc-6.0.5.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\spring-expression\6.0.5\spring-expression-6.0.5.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter-thymeleaf\3.0.3\spring-boot-starter-thymeleaf-3.0.3.jar#SEP#C:\Users\eloma\.m2\repository\org\thymeleaf\thymeleaf-spring6\3.1.1.RELEASE\thymeleaf-spring6-3.1.1.RELEASE.jar#SEP#C:\Users\eloma\.m2\repository\org\thymeleaf\thymeleaf\3.1.1.RELEASE\thymeleaf-3.1.1.RELEASE.jar#SEP#C:\Users\eloma\.m2\repository\org\attoparser\attoparser\2.0.6.RELEASE\attoparser-2.0.6.RELEASE.jar#SEP#C:\Users\eloma\.m2\repository\org\unbescape\unbescape\1.1.6.RELEASE\unbescape-1.1.6.RELEASE.jar#SEP#C:\Users\eloma\.m2\repository\org\thymeleaf\extras\thymeleaf-extras-springsecurity6\3.1.1.RELEASE\thymeleaf-extras-springsecurity6-3.1.1.RELEASE.jar#SEP#C:\Users\eloma\.m2\repository\org\slf4j\slf4j-api\2.0.6\slf4j-api-2.0.6.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-devtools\3.0.3\spring-boot-devtools-3.0.3.jar#SEP#C:\Users\eloma\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter-validation\3.0.3\spring-boot-starter-validation-3.0.3.jar#SEP#C:\Users\eloma\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.5\tomcat-embed-el-10.1.5.jar#SEP#C:\Users\eloma\.m2\repository\org\hibernate\validator\hibernate-validator\8.0.0.Final\hibernate-validator-8.0.0.Final.jar#SEP#C:\Users\eloma\.m2\repository\jakarta\validation\jakarta.validation-api\3.0.2\jakarta.validation-api-3.0.2.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter-security\3.0.3\spring-boot-starter-security-3.0.3.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\spring-aop\6.0.5\spring-aop-6.0.5.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\security\spring-security-config\6.0.2\spring-security-config-6.0.2.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\security\spring-security-core\6.0.2\spring-security-core-6.0.2.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\security\spring-security-crypto\6.0.2\spring-security-crypto-6.0.2.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\security\spring-security-web\6.0.2\spring-security-web-6.0.2.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter-aop\3.0.3\spring-boot-starter-aop-3.0.3.jar#SEP#C:\Users\eloma\.m2\repository\org\aspectj\aspectjweaver\1.9.19\aspectjweaver-1.9.19.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\3.0.3\spring-boot-starter-jdbc-3.0.3.jar#SEP#C:\Users\eloma\.m2\repository\com\zaxxer\HikariCP\5.0.1\HikariCP-5.0.1.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\spring-jdbc\6.0.5\spring-jdbc-6.0.5.jar#SEP#C:\Users\eloma\.m2\repository\org\hibernate\orm\hibernate-core\6.2.1.Final\hibernate-core-6.2.1.Final.jar#SEP#C:\Users\eloma\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar#SEP#C:\Users\eloma\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar#SEP#C:\Users\eloma\.m2\repository\org\jboss\logging\jboss-logging\3.5.0.Final\jboss-logging-3.5.0.Final.jar#SEP#C:\Users\eloma\.m2\repository\org\hibernate\common\hibernate-commons-annotations\6.0.6.Final\hibernate-commons-annotations-6.0.6.Final.jar#SEP#C:\Users\eloma\.m2\repository\io\smallrye\jandex\3.0.5\jandex-3.0.5.jar#SEP#C:\Users\eloma\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar#SEP#C:\Users\eloma\.m2\repository\net\bytebuddy\byte-buddy\1.12.23\byte-buddy-1.12.23.jar#SEP#C:\Users\eloma\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.0\jakarta.xml.bind-api-4.0.0.jar#SEP#C:\Users\eloma\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.1\jakarta.activation-api-2.1.1.jar#SEP#C:\Users\eloma\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.2\jaxb-runtime-4.0.2.jar#SEP#C:\Users\eloma\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.2\jaxb-core-4.0.2.jar#SEP#C:\Users\eloma\.m2\repository\org\eclipse\angus\angus-activation\2.0.0\angus-activation-2.0.0.jar#SEP#C:\Users\eloma\.m2\repository\org\glassfish\jaxb\txw2\4.0.2\txw2-4.0.2.jar#SEP#C:\Users\eloma\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.1\istack-commons-runtime-4.1.1.jar#SEP#C:\Users\eloma\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar#SEP#C:\Users\eloma\.m2\repository\org\antlr\antlr4-runtime\4.10.1\antlr4-runtime-4.10.1.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\data\spring-data-jpa\3.0.2\spring-data-jpa-3.0.2.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\data\spring-data-commons\3.0.2\spring-data-commons-3.0.2.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\spring-orm\6.0.5\spring-orm-6.0.5.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\spring-context\6.0.5\spring-context-6.0.5.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\spring-tx\6.0.5\spring-tx-6.0.5.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\spring-beans\6.0.5\spring-beans-6.0.5.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\spring-aspects\6.0.5\spring-aspects-6.0.5.jar#SEP#C:\Users\eloma\.m2\repository\com\mysql\mysql-connector-j\8.0.32\mysql-connector-j-8.0.32.jar#SEP#C:\Users\eloma\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-xml\2.14.2\jackson-dataformat-xml-2.14.2.jar#SEP#C:\Users\eloma\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.2\jackson-core-2.14.2.jar#SEP#C:\Users\eloma\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.2\jackson-annotations-2.14.2.jar#SEP#C:\Users\eloma\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.2\jackson-databind-2.14.2.jar#SEP#C:\Users\eloma\.m2\repository\org\codehaus\woodstox\stax2-api\4.2.1\stax2-api-4.2.1.jar#SEP#C:\Users\eloma\.m2\repository\com\fasterxml\woodstox\woodstox-core\6.5.0\woodstox-core-6.5.0.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter-test\3.0.3\spring-boot-starter-test-3.0.3.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-test\3.0.3\spring-boot-test-3.0.3.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\3.0.3\spring-boot-test-autoconfigure-3.0.3.jar#SEP#C:\Users\eloma\.m2\repository\com\jayway\jsonpath\json-path\2.7.0\json-path-2.7.0.jar#SEP#C:\Users\eloma\.m2\repository\net\minidev\json-smart\2.4.8\json-smart-2.4.8.jar#SEP#C:\Users\eloma\.m2\repository\net\minidev\accessors-smart\2.4.8\accessors-smart-2.4.8.jar#SEP#C:\Users\eloma\.m2\repository\org\ow2\asm\asm\9.1\asm-9.1.jar#SEP#C:\Users\eloma\.m2\repository\org\assertj\assertj-core\3.23.1\assertj-core-3.23.1.jar#SEP#C:\Users\eloma\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar#SEP#C:\Users\eloma\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar#SEP#C:\Users\eloma\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar#SEP#C:\Users\eloma\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar#SEP#C:\Users\eloma\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar#SEP#C:\Users\eloma\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar#SEP#C:\Users\eloma\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar#SEP#C:\Users\eloma\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar#SEP#C:\Users\eloma\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar#SEP#C:\Users\eloma\.m2\repository\org\mockito\mockito-core\4.8.1\mockito-core-4.8.1.jar#SEP#C:\Users\eloma\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.23\byte-buddy-agent-1.12.23.jar#SEP#C:\Users\eloma\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar#SEP#C:\Users\eloma\.m2\repository\org\mockito\mockito-junit-jupiter\4.8.1\mockito-junit-jupiter-4.8.1.jar#SEP#C:\Users\eloma\.m2\repository\org\skyscreamer\jsonassert\1.5.1\jsonassert-1.5.1.jar#SEP#C:\Users\eloma\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\spring-test\6.0.5\spring-test-6.0.5.jar#SEP#C:\Users\eloma\.m2\repository\org\xmlunit\xmlunit-core\2.9.1\xmlunit-core-2.9.1.jar#SEP#C:\Users\eloma\.m2\repository\io\jsonwebtoken\jjwt-api\0.11.5\jjwt-api-0.11.5.jar#SEP#C:\Users\eloma\.m2\repository\io\jsonwebtoken\jjwt-impl\0.11.5\jjwt-impl-0.11.5.jar#SEP#C:\Users\eloma\.m2\repository\io\jsonwebtoken\jjwt-jackson\0.11.5\jjwt-jackson-0.11.5.jar#SEP#C:\Users\eloma\.m2\repository\org\mapstruct\mapstruct\1.5.3.Final\mapstruct-1.5.3.Final.jar#SEP#C:\Users\eloma\.m2\repository\org\projectlombok\lombok-mapstruct-binding\0.2.0\lombok-mapstruct-binding-0.2.0.jar#SEP#C:\Users\eloma\.m2\repository\org\json\json\20230227\json-20230227.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\spring-websocket\6.0.8\spring-websocket-6.0.8.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\spring-messaging\6.0.8\spring-messaging-6.0.8.jar#SEP#C:\Users\eloma\.m2\repository\org\springdoc\springdoc-openapi-starter-webmvc-ui\2.1.0\springdoc-openapi-starter-webmvc-ui-2.1.0.jar#SEP#C:\Users\eloma\.m2\repository\org\springdoc\springdoc-openapi-starter-webmvc-api\2.1.0\springdoc-openapi-starter-webmvc-api-2.1.0.jar#SEP#C:\Users\eloma\.m2\repository\org\springdoc\springdoc-openapi-starter-common\2.1.0\springdoc-openapi-starter-common-2.1.0.jar#SEP#C:\Users\eloma\.m2\repository\io\swagger\core\v3\swagger-core-jakarta\2.2.9\swagger-core-jakarta-2.2.9.jar#SEP#C:\Users\eloma\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar#SEP#C:\Users\eloma\.m2\repository\io\swagger\core\v3\swagger-annotations-jakarta\2.2.9\swagger-annotations-jakarta-2.2.9.jar#SEP#C:\Users\eloma\.m2\repository\io\swagger\core\v3\swagger-models-jakarta\2.2.9\swagger-models-jakarta-2.2.9.jar#SEP#C:\Users\eloma\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.14.2\jackson-dataformat-yaml-2.14.2.jar#SEP#C:\Users\eloma\.m2\repository\org\webjars\swagger-ui\4.18.2\swagger-ui-4.18.2.jar
+15:29:31.357 [INFO]  [Checking] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='build-classpath', cause=, state=SUCCESS}
+15:29:31.358 [INFO]  [Checking] > [INFO] 
+15:29:31.358 [INFO]  [Checking] > [INFO] -----------------------< ma.uiz:ObservatoireUIZ >-----------------------
+15:29:31.358 [INFO]  [Checking] > [INFO] Building ObservatoireUIZ 0.0.1-SNAPSHOT
+15:29:31.358 [INFO]  [Checking] > [INFO] --------------------------------[ jar ]---------------------------------
+15:29:31.358 [INFO]  [Checking] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='evaluate', cause=, state=STARTED}
+15:29:31.358 [INFO]  [Checking] > [INFO] 
+15:29:31.358 [INFO]  [Checking] > [INFO] --- maven-help-plugin:3.2.0:evaluate (default-cli) @ ObservatoireUIZ ---
+15:29:31.358 [INFO]  [Checking] > [INFO] No artifact parameter specified, using 'ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT' as project.
+15:29:31.358 [INFO]  [Checking] > [INFO] Result of evaluation written to: C:\Users\eloma\AppData\Local\Temp\build.classpath11435262640211350491.tmp
+15:29:31.358 [INFO]  [Checking] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='evaluate', cause=, state=SUCCESS}
+15:29:31.358 [INFO]  [Checking] > [INFO] ------------------------------------------------------------------------
+15:29:31.358 [INFO]  [Checking] > [INFO] BUILD SUCCESS
+15:29:31.358 [INFO]  [Checking] > [INFO] ------------------------------------------------------------------------
+15:29:31.358 [INFO]  [Checking] > [INFO] Total time:  2.566 s
+15:29:31.358 [INFO]  [Checking] > [INFO] Finished at: 2023-11-19T15:29:31+01:00
+15:29:31.358 [INFO]  [Checking] > [INFO] ------------------------------------------------------------------------
+15:29:31.363 [INFO]  [Checking] Selected classpath from build system Maven
+15:29:31.364 [INFO]  [Checking] Expanded classpath: 
+C:\Users\eloma\IdeaProjects\ObservatoireUIZ\target\test-classes
+C:\Users\eloma\IdeaProjects\ObservatoireUIZ\target\classes (code under test)
+C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter\3.0.3\spring-boot-starter-3.0.3.jar
+C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot\3.0.3\spring-boot-3.0.3.jar
+C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.0.3\spring-boot-autoconfigure-3.0.3.jar
+C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.0.3\spring-boot-starter-logging-3.0.3.jar
+C:\Users\eloma\.m2\repository\ch\qos\logback\logback-classic\1.4.5\logback-classic-1.4.5.jar
+C:\Users\eloma\.m2\repository\ch\qos\logback\logback-core\1.4.5\logback-core-1.4.5.jar
+C:\Users\eloma\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.19.0\log4j-to-slf4j-2.19.0.jar
+C:\Users\eloma\.m2\repository\org\apache\logging\log4j\log4j-api\2.19.0\log4j-api-2.19.0.jar
+C:\Users\eloma\.m2\repository\org\slf4j\jul-to-slf4j\2.0.6\jul-to-slf4j-2.0.6.jar
+C:\Users\eloma\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar
+C:\Users\eloma\.m2\repository\org\springframework\spring-core\6.0.5\spring-core-6.0.5.jar
+C:\Users\eloma\.m2\repository\org\springframework\spring-jcl\6.0.5\spring-jcl-6.0.5.jar
+C:\Users\eloma\.m2\repository\org\yaml\snakeyaml\1.33\snakeyaml-1.33.jar
+C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.0.3\spring-boot-starter-web-3.0.3.jar
+C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.0.3\spring-boot-starter-json-3.0.3.jar
+C:\Users\eloma\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.14.2\jackson-datatype-jdk8-2.14.2.jar
+C:\Users\eloma\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.14.2\jackson-datatype-jsr310-2.14.2.jar
+C:\Users\eloma\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.14.2\jackson-module-parameter-names-2.14.2.jar
+C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.0.3\spring-boot-starter-tomcat-3.0.3.jar
+C:\Users\eloma\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.5\tomcat-embed-core-10.1.5.jar
+C:\Users\eloma\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.5\tomcat-embed-websocket-10.1.5.jar
+C:\Users\eloma\.m2\repository\org\springframework\spring-web\6.0.5\spring-web-6.0.5.jar
+C:\Users\eloma\.m2\repository\io\micrometer\micrometer-observation\1.10.4\micrometer-observation-1.10.4.jar
+C:\Users\eloma\.m2\repository\io\micrometer\micrometer-commons\1.10.4\micrometer-commons-1.10.4.jar
+C:\Users\eloma\.m2\repository\org\springframework\spring-webmvc\6.0.5\spring-webmvc-6.0.5.jar
+C:\Users\eloma\.m2\repository\org\springframework\spring-expression\6.0.5\spring-expression-6.0.5.jar
+C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter-thymeleaf\3.0.3\spring-boot-starter-thymeleaf-3.0.3.jar
+C:\Users\eloma\.m2\repository\org\thymeleaf\thymeleaf-spring6\3.1.1.RELEASE\thymeleaf-spring6-3.1.1.RELEASE.jar
+C:\Users\eloma\.m2\repository\org\thymeleaf\thymeleaf\3.1.1.RELEASE\thymeleaf-3.1.1.RELEASE.jar
+C:\Users\eloma\.m2\repository\org\attoparser\attoparser\2.0.6.RELEASE\attoparser-2.0.6.RELEASE.jar
+C:\Users\eloma\.m2\repository\org\unbescape\unbescape\1.1.6.RELEASE\unbescape-1.1.6.RELEASE.jar
+C:\Users\eloma\.m2\repository\org\thymeleaf\extras\thymeleaf-extras-springsecurity6\3.1.1.RELEASE\thymeleaf-extras-springsecurity6-3.1.1.RELEASE.jar
+C:\Users\eloma\.m2\repository\org\slf4j\slf4j-api\2.0.6\slf4j-api-2.0.6.jar
+C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-devtools\3.0.3\spring-boot-devtools-3.0.3.jar
+C:\Users\eloma\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar
+C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter-validation\3.0.3\spring-boot-starter-validation-3.0.3.jar
+C:\Users\eloma\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.5\tomcat-embed-el-10.1.5.jar
+C:\Users\eloma\.m2\repository\org\hibernate\validator\hibernate-validator\8.0.0.Final\hibernate-validator-8.0.0.Final.jar
+C:\Users\eloma\.m2\repository\jakarta\validation\jakarta.validation-api\3.0.2\jakarta.validation-api-3.0.2.jar
+C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter-security\3.0.3\spring-boot-starter-security-3.0.3.jar
+C:\Users\eloma\.m2\repository\org\springframework\spring-aop\6.0.5\spring-aop-6.0.5.jar
+C:\Users\eloma\.m2\repository\org\springframework\security\spring-security-config\6.0.2\spring-security-config-6.0.2.jar
+C:\Users\eloma\.m2\repository\org\springframework\security\spring-security-core\6.0.2\spring-security-core-6.0.2.jar
+C:\Users\eloma\.m2\repository\org\springframework\security\spring-security-crypto\6.0.2\spring-security-crypto-6.0.2.jar
+C:\Users\eloma\.m2\repository\org\springframework\security\spring-security-web\6.0.2\spring-security-web-6.0.2.jar
+C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter-aop\3.0.3\spring-boot-starter-aop-3.0.3.jar
+C:\Users\eloma\.m2\repository\org\aspectj\aspectjweaver\1.9.19\aspectjweaver-1.9.19.jar
+C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\3.0.3\spring-boot-starter-jdbc-3.0.3.jar
+C:\Users\eloma\.m2\repository\com\zaxxer\HikariCP\5.0.1\HikariCP-5.0.1.jar
+C:\Users\eloma\.m2\repository\org\springframework\spring-jdbc\6.0.5\spring-jdbc-6.0.5.jar
+C:\Users\eloma\.m2\repository\org\hibernate\orm\hibernate-core\6.2.1.Final\hibernate-core-6.2.1.Final.jar
+C:\Users\eloma\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar
+C:\Users\eloma\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar
+C:\Users\eloma\.m2\repository\org\jboss\logging\jboss-logging\3.5.0.Final\jboss-logging-3.5.0.Final.jar
+C:\Users\eloma\.m2\repository\org\hibernate\common\hibernate-commons-annotations\6.0.6.Final\hibernate-commons-annotations-6.0.6.Final.jar
+C:\Users\eloma\.m2\repository\io\smallrye\jandex\3.0.5\jandex-3.0.5.jar
+C:\Users\eloma\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar
+C:\Users\eloma\.m2\repository\net\bytebuddy\byte-buddy\1.12.23\byte-buddy-1.12.23.jar
+C:\Users\eloma\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.0\jakarta.xml.bind-api-4.0.0.jar
+C:\Users\eloma\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.1\jakarta.activation-api-2.1.1.jar
+C:\Users\eloma\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.2\jaxb-runtime-4.0.2.jar
+C:\Users\eloma\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.2\jaxb-core-4.0.2.jar
+C:\Users\eloma\.m2\repository\org\eclipse\angus\angus-activation\2.0.0\angus-activation-2.0.0.jar
+C:\Users\eloma\.m2\repository\org\glassfish\jaxb\txw2\4.0.2\txw2-4.0.2.jar
+C:\Users\eloma\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.1\istack-commons-runtime-4.1.1.jar
+C:\Users\eloma\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar
+C:\Users\eloma\.m2\repository\org\antlr\antlr4-runtime\4.10.1\antlr4-runtime-4.10.1.jar
+C:\Users\eloma\.m2\repository\org\springframework\data\spring-data-jpa\3.0.2\spring-data-jpa-3.0.2.jar
+C:\Users\eloma\.m2\repository\org\springframework\data\spring-data-commons\3.0.2\spring-data-commons-3.0.2.jar
+C:\Users\eloma\.m2\repository\org\springframework\spring-orm\6.0.5\spring-orm-6.0.5.jar
+C:\Users\eloma\.m2\repository\org\springframework\spring-context\6.0.5\spring-context-6.0.5.jar
+C:\Users\eloma\.m2\repository\org\springframework\spring-tx\6.0.5\spring-tx-6.0.5.jar
+C:\Users\eloma\.m2\repository\org\springframework\spring-beans\6.0.5\spring-beans-6.0.5.jar
+C:\Users\eloma\.m2\repository\org\springframework\spring-aspects\6.0.5\spring-aspects-6.0.5.jar
+C:\Users\eloma\.m2\repository\com\mysql\mysql-connector-j\8.0.32\mysql-connector-j-8.0.32.jar
+C:\Users\eloma\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-xml\2.14.2\jackson-dataformat-xml-2.14.2.jar
+C:\Users\eloma\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.2\jackson-core-2.14.2.jar
+C:\Users\eloma\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.2\jackson-annotations-2.14.2.jar
+C:\Users\eloma\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.2\jackson-databind-2.14.2.jar
+C:\Users\eloma\.m2\repository\org\codehaus\woodstox\stax2-api\4.2.1\stax2-api-4.2.1.jar
+C:\Users\eloma\.m2\repository\com\fasterxml\woodstox\woodstox-core\6.5.0\woodstox-core-6.5.0.jar
+C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter-test\3.0.3\spring-boot-starter-test-3.0.3.jar
+C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-test\3.0.3\spring-boot-test-3.0.3.jar
+C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\3.0.3\spring-boot-test-autoconfigure-3.0.3.jar
+C:\Users\eloma\.m2\repository\com\jayway\jsonpath\json-path\2.7.0\json-path-2.7.0.jar
+C:\Users\eloma\.m2\repository\net\minidev\json-smart\2.4.8\json-smart-2.4.8.jar
+C:\Users\eloma\.m2\repository\net\minidev\accessors-smart\2.4.8\accessors-smart-2.4.8.jar
+C:\Users\eloma\.m2\repository\org\ow2\asm\asm\9.1\asm-9.1.jar
+C:\Users\eloma\.m2\repository\org\assertj\assertj-core\3.23.1\assertj-core-3.23.1.jar
+C:\Users\eloma\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar
+C:\Users\eloma\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar
+C:\Users\eloma\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar
+C:\Users\eloma\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar
+C:\Users\eloma\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar
+C:\Users\eloma\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar
+C:\Users\eloma\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar
+C:\Users\eloma\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar
+C:\Users\eloma\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar
+C:\Users\eloma\.m2\repository\org\mockito\mockito-core\4.8.1\mockito-core-4.8.1.jar
+C:\Users\eloma\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.23\byte-buddy-agent-1.12.23.jar
+C:\Users\eloma\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar
+C:\Users\eloma\.m2\repository\org\mockito\mockito-junit-jupiter\4.8.1\mockito-junit-jupiter-4.8.1.jar
+C:\Users\eloma\.m2\repository\org\skyscreamer\jsonassert\1.5.1\jsonassert-1.5.1.jar
+C:\Users\eloma\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar
+C:\Users\eloma\.m2\repository\org\springframework\spring-test\6.0.5\spring-test-6.0.5.jar
+C:\Users\eloma\.m2\repository\org\xmlunit\xmlunit-core\2.9.1\xmlunit-core-2.9.1.jar
+C:\Users\eloma\.m2\repository\io\jsonwebtoken\jjwt-api\0.11.5\jjwt-api-0.11.5.jar
+C:\Users\eloma\.m2\repository\io\jsonwebtoken\jjwt-impl\0.11.5\jjwt-impl-0.11.5.jar
+C:\Users\eloma\.m2\repository\io\jsonwebtoken\jjwt-jackson\0.11.5\jjwt-jackson-0.11.5.jar
+C:\Users\eloma\.m2\repository\org\mapstruct\mapstruct\1.5.3.Final\mapstruct-1.5.3.Final.jar
+C:\Users\eloma\.m2\repository\org\projectlombok\lombok-mapstruct-binding\0.2.0\lombok-mapstruct-binding-0.2.0.jar
+C:\Users\eloma\.m2\repository\org\json\json\20230227\json-20230227.jar
+C:\Users\eloma\.m2\repository\org\springframework\spring-websocket\6.0.8\spring-websocket-6.0.8.jar
+C:\Users\eloma\.m2\repository\org\springframework\spring-messaging\6.0.8\spring-messaging-6.0.8.jar
+C:\Users\eloma\.m2\repository\org\springdoc\springdoc-openapi-starter-webmvc-ui\2.1.0\springdoc-openapi-starter-webmvc-ui-2.1.0.jar
+C:\Users\eloma\.m2\repository\org\springdoc\springdoc-openapi-starter-webmvc-api\2.1.0\springdoc-openapi-starter-webmvc-api-2.1.0.jar
+C:\Users\eloma\.m2\repository\org\springdoc\springdoc-openapi-starter-common\2.1.0\springdoc-openapi-starter-common-2.1.0.jar
+C:\Users\eloma\.m2\repository\io\swagger\core\v3\swagger-core-jakarta\2.2.9\swagger-core-jakarta-2.2.9.jar
+C:\Users\eloma\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar
+C:\Users\eloma\.m2\repository\io\swagger\core\v3\swagger-annotations-jakarta\2.2.9\swagger-annotations-jakarta-2.2.9.jar
+C:\Users\eloma\.m2\repository\io\swagger\core\v3\swagger-models-jakarta\2.2.9\swagger-models-jakarta-2.2.9.jar
+C:\Users\eloma\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.14.2\jackson-dataformat-yaml-2.14.2.jar
+C:\Users\eloma\.m2\repository\org\webjars\swagger-ui\4.18.2\swagger-ui-4.18.2.jar
+15:29:31.559 [INFO]  [Checking] Detected Spring Core version 6.0.5
+15:29:31.560 [INFO]  [Checking] Detected Spring Web version 6.0.5
+15:29:31.561 [INFO]  [Checking] Detected Spring Test version 6.0.5
+15:29:31.561 [INFO]  [Checking] Detected Spring Security Web version 6.0.2
+15:29:31.562 [INFO]  [Checking] Detected Spring Boot version 3.0.3
+15:29:31.562 [INFO]  [Checking] Detected Spring Boot Test version 3.0.3
+15:29:31.659 [INFO]  [Checking] Detected test framework: JUnit Jupiter 5.9.2
+15:29:31.696 [INFO]  [Checking] Detected JUnit Jupiter version 5.9.2
+15:29:31.733 [INFO]  [Checking] Detected JUnit Jupiter Params version 5.9.2
+15:29:31.851 [INFO]  [Checking] Detected Mockito version 4.8.1
+15:29:32.375 [INFO]  [Checking] Indexing...
+15:29:32.794 [INFO]  [Checking] Selected test output directory: C:\Users\eloma\IdeaProjects\ObservatoireUIZ\src\test\java
+15:29:32.799 [INFO]  [Checking] Maven Using ${maven.home} of: C:\Users\eloma\IdeaProjects\ObservatoireUIZ.
+15:29:32.800 [INFO]  [Checking] Maven Executing: cmd.exe /X /C "C:\Users\eloma\IdeaProjects\ObservatoireUIZ\mvnw.cmd -B -D test=DummyJupiterDiffblueTest -D "maven.ext.class.path=C:\Program Files\Diffblue\cover-buildsystem-maven-spy-jar-with-dependencies.jar" test"
+15:29:38.806 [INFO]  [Checking] Standard output of build tool (Maven)
+15:29:38.806 [INFO]  [Checking] > [INFO] Scanning for projects...
+15:29:38.806 [INFO]  [Checking] > [INFO] 
+15:29:38.806 [INFO]  [Checking] > [INFO] -----------------------< ma.uiz:ObservatoireUIZ >-----------------------
+15:29:38.807 [INFO]  [Checking] > [INFO] Building ObservatoireUIZ 0.0.1-SNAPSHOT
+15:29:38.807 [INFO]  [Checking] > [INFO] --------------------------------[ jar ]---------------------------------
+15:29:38.807 [INFO]  [Checking] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='resources', cause=, state=STARTED}
+15:29:38.807 [INFO]  [Checking] > [INFO] 
+15:29:38.807 [INFO]  [Checking] > [INFO] --- maven-resources-plugin:3.3.0:resources (default-resources) @ ObservatoireUIZ ---
+15:29:38.807 [INFO]  [Checking] > [INFO] Copying 1 resource
+15:29:38.807 [INFO]  [Checking] > [INFO] Copying 5 resources
+15:29:38.807 [INFO]  [Checking] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='resources', cause=, state=SUCCESS}
+15:29:38.807 [INFO]  [Checking] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='compile', cause=, state=STARTED}
+15:29:38.807 [INFO]  [Checking] > [INFO] 
+15:29:38.807 [INFO]  [Checking] > [INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ ObservatoireUIZ ---
+15:29:38.807 [INFO]  [Checking] > [INFO] Nothing to compile - all classes are up to date
+15:29:38.807 [INFO]  [Checking] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='compile', cause=, state=SUCCESS}
+15:29:38.807 [INFO]  [Checking] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='testResources', cause=, state=STARTED}
+15:29:38.807 [INFO]  [Checking] > [INFO] 
+15:29:38.807 [INFO]  [Checking] > [INFO] --- maven-resources-plugin:3.3.0:testResources (default-testResources) @ ObservatoireUIZ ---
+15:29:38.807 [INFO]  [Checking] > [INFO] skip non existing resourceDirectory C:\Users\eloma\IdeaProjects\ObservatoireUIZ\src\test\resources
+15:29:38.807 [INFO]  [Checking] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='testResources', cause=, state=SUCCESS}
+15:29:38.807 [INFO]  [Checking] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='testCompile', cause=, state=STARTED}
+15:29:38.807 [INFO]  [Checking] > [INFO] 
+15:29:38.807 [INFO]  [Checking] > [INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ ObservatoireUIZ ---
+15:29:38.807 [INFO]  [Checking] > [INFO] Changes detected - recompiling the module!
+15:29:38.807 [INFO]  [Checking] > [INFO] Compiling 3 source files to C:\Users\eloma\IdeaProjects\ObservatoireUIZ\target\test-classes
+15:29:38.807 [INFO]  [Checking] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='testCompile', cause=, state=SUCCESS}
+15:29:38.807 [INFO]  [Checking] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='test', cause=, state=STARTED}
+15:29:38.807 [INFO]  [Checking] > [INFO] 
+15:29:38.807 [INFO]  [Checking] > [INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ ObservatoireUIZ ---
+15:29:38.807 [INFO]  [Checking] > [INFO] 
+15:29:38.807 [INFO]  [Checking] > [INFO] -------------------------------------------------------
+15:29:38.807 [INFO]  [Checking] > [INFO]  T E S T S
+15:29:38.807 [INFO]  [Checking] > [INFO] -------------------------------------------------------
+15:29:38.807 [INFO]  [Checking] > [INFO] Running org.example.jupiter.DummyJupiterDiffblueTest
+15:29:38.807 [INFO]  [Checking] > [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.038 s - in org.example.jupiter.DummyJupiterDiffblueTest
+15:29:38.807 [INFO]  [Checking] > [INFO] 
+15:29:38.807 [INFO]  [Checking] > [INFO] Results:
+15:29:38.807 [INFO]  [Checking] > [INFO] 
+15:29:38.807 [INFO]  [Checking] > [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+15:29:38.807 [INFO]  [Checking] > [INFO] 
+15:29:38.807 [INFO]  [Checking] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='test', cause=, state=SUCCESS}
+15:29:38.807 [INFO]  [Checking] > [INFO] ------------------------------------------------------------------------
+15:29:38.807 [INFO]  [Checking] > [INFO] BUILD SUCCESS
+15:29:38.807 [INFO]  [Checking] > [INFO] ------------------------------------------------------------------------
+15:29:38.807 [INFO]  [Checking] > [INFO] Total time:  4.621 s
+15:29:38.807 [INFO]  [Checking] > [INFO] Finished at: 2023-11-19T15:29:38+01:00
+15:29:38.807 [INFO]  [Checking] > [INFO] ------------------------------------------------------------------------
+15:29:38.811 [INFO]  [Checking] Selected test framework: JUnit Jupiter
+15:29:38.945 [INFO]  [Checking] Maven Using ${maven.home} of: C:\Users\eloma\IdeaProjects\ObservatoireUIZ.
+15:29:38.946 [INFO]  [Checking] Maven Executing: cmd.exe /X /C "C:\Users\eloma\IdeaProjects\ObservatoireUIZ\mvnw.cmd -B -D test=DummyJUnitJupiterLauncherDiffblueTest -D "maven.ext.class.path=C:\Program Files\Diffblue\cover-buildsystem-maven-spy-jar-with-dependencies.jar" test"
+15:29:45.952 [INFO]  [Checking] Standard output of build tool (Maven)
+15:29:45.952 [INFO]  [Checking] > [INFO] Scanning for projects...
+15:29:45.952 [INFO]  [Checking] > [INFO] 
+15:29:45.952 [INFO]  [Checking] > [INFO] -----------------------< ma.uiz:ObservatoireUIZ >-----------------------
+15:29:45.953 [INFO]  [Checking] > [INFO] Building ObservatoireUIZ 0.0.1-SNAPSHOT
+15:29:45.953 [INFO]  [Checking] > [INFO] --------------------------------[ jar ]---------------------------------
+15:29:45.953 [INFO]  [Checking] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='resources', cause=, state=STARTED}
+15:29:45.953 [INFO]  [Checking] > [INFO] 
+15:29:45.953 [INFO]  [Checking] > [INFO] --- maven-resources-plugin:3.3.0:resources (default-resources) @ ObservatoireUIZ ---
+15:29:45.953 [INFO]  [Checking] > [INFO] Copying 1 resource
+15:29:45.953 [INFO]  [Checking] > [INFO] Copying 5 resources
+15:29:45.953 [INFO]  [Checking] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='resources', cause=, state=SUCCESS}
+15:29:45.953 [INFO]  [Checking] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='compile', cause=, state=STARTED}
+15:29:45.953 [INFO]  [Checking] > [INFO] 
+15:29:45.953 [INFO]  [Checking] > [INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ ObservatoireUIZ ---
+15:29:45.953 [INFO]  [Checking] > [INFO] Nothing to compile - all classes are up to date
+15:29:45.953 [INFO]  [Checking] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='compile', cause=, state=SUCCESS}
+15:29:45.953 [INFO]  [Checking] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='testResources', cause=, state=STARTED}
+15:29:45.953 [INFO]  [Checking] > [INFO] 
+15:29:45.953 [INFO]  [Checking] > [INFO] --- maven-resources-plugin:3.3.0:testResources (default-testResources) @ ObservatoireUIZ ---
+15:29:45.953 [INFO]  [Checking] > [INFO] skip non existing resourceDirectory C:\Users\eloma\IdeaProjects\ObservatoireUIZ\src\test\resources
+15:29:45.953 [INFO]  [Checking] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='testResources', cause=, state=SUCCESS}
+15:29:45.953 [INFO]  [Checking] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='testCompile', cause=, state=STARTED}
+15:29:45.953 [INFO]  [Checking] > [INFO] 
+15:29:45.953 [INFO]  [Checking] > [INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ ObservatoireUIZ ---
+15:29:45.953 [INFO]  [Checking] > [INFO] Changes detected - recompiling the module!
+15:29:45.953 [INFO]  [Checking] > [INFO] Compiling 3 source files to C:\Users\eloma\IdeaProjects\ObservatoireUIZ\target\test-classes
+15:29:45.953 [INFO]  [Checking] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='testCompile', cause=, state=SUCCESS}
+15:29:45.953 [INFO]  [Checking] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='test', cause=, state=STARTED}
+15:29:45.953 [INFO]  [Checking] > [INFO] 
+15:29:45.953 [INFO]  [Checking] > [INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ ObservatoireUIZ ---
+15:29:45.953 [INFO]  [Checking] > [INFO] 
+15:29:45.953 [INFO]  [Checking] > [INFO] -------------------------------------------------------
+15:29:45.953 [INFO]  [Checking] > [INFO]  T E S T S
+15:29:45.953 [INFO]  [Checking] > [INFO] -------------------------------------------------------
+15:29:45.953 [INFO]  [Checking] > [INFO] Running DummyJUnitJupiterLauncherDiffblueTest
+15:29:45.954 [INFO]  [Checking] > (diffblue)C:\Users\eloma\.m2\repository\org\junit\platform\junit-platform-launcher\1.3.1\junit-platform-launcher-1.3.1.jar(/diffblue)
+15:29:45.954 [INFO]  [Checking] > [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 s - in DummyJUnitJupiterLauncherDiffblueTest
+15:29:45.954 [INFO]  [Checking] > [INFO] 
+15:29:45.954 [INFO]  [Checking] > [INFO] Results:
+15:29:45.954 [INFO]  [Checking] > [INFO] 
+15:29:45.954 [INFO]  [Checking] > [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+15:29:45.954 [INFO]  [Checking] > [INFO] 
+15:29:45.954 [INFO]  [Checking] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='test', cause=, state=SUCCESS}
+15:29:45.954 [INFO]  [Checking] > [INFO] ------------------------------------------------------------------------
+15:29:45.954 [INFO]  [Checking] > [INFO] BUILD SUCCESS
+15:29:45.954 [INFO]  [Checking] > [INFO] ------------------------------------------------------------------------
+15:29:45.954 [INFO]  [Checking] > [INFO] Total time:  5.022 s
+15:29:45.954 [INFO]  [Checking] > [INFO] Finished at: 2023-11-19T15:29:45+01:00
+15:29:45.954 [INFO]  [Checking] > [INFO] ------------------------------------------------------------------------
+15:29:46.034 [INFO]  [Checking] Detected Hamcrest 2 version 2.2
+15:29:46.042 [INFO]  [Checking] Detected JVM architecture: 64-Bit
+15:29:49.080 [INFO]  [Checking] Selected Java language compliance level: 17
+15:29:49.081 [INFO]  [Checking] Selected test validation: enabled
+15:29:49.088 [INFO]  [Checking] Prefixes for filtering classes/methods:
+15:29:49.089 [INFO]  [Checking] - ma.uiz.observatoire.controller.AccountController
+15:29:49.090 [INFO]  [Checking] Gathering methods to test...
+15:29:50.052 [INFO]  [Reporting] 
+15:29:50.052 [INFO]  [Reporting] Environment summary:
+15:29:50.052 [INFO]  [Reporting] --------------------
+15:29:50.052 [INFO]  [Reporting] Java version                  17.0.8                        SUCCESS        
+15:29:50.052 [INFO]  [Reporting] Build system                  Maven                         SUCCESS        
+15:29:50.052 [INFO]  [Reporting] Mocking Framework             Mockito 4.8.1                 SUCCESS        
+15:29:50.052 [INFO]  [Reporting] Surefire version              2.22.2                        SUCCESS        
+15:29:50.052 [INFO]  [Reporting] Testing framework             JUnit Jupiter 5               SUCCESS        
+15:29:50.052 [INFO]  [Reporting] Launcher                      JUnit Jupiter                 SUCCESS        
+15:29:50.052 [INFO]  [Reporting] Test validation               Enabled                       SUCCESS        
+15:29:50.052 [INFO]  [Reporting] Hamcrest                      Hamcrest 2 2.2                SUCCESS        
+15:29:50.052 [INFO]  [Reporting] Spring Core                   6.0.5                         SUCCESS        
+15:29:50.052 [INFO]  [Reporting] Spring Boot                   3.0.3                         SUCCESS        
+15:29:50.052 [INFO]  [Reporting] Spring Boot Test              3.0.3                         SUCCESS        
+15:29:50.052 [INFO]  [Reporting] Spring Web                    6.0.5                         SUCCESS        
+15:29:50.052 [INFO]  [Reporting] Spring Security Web           6.0.2                         SUCCESS        
+15:29:50.052 [INFO]  [Reporting] Spring Test                   6.0.5                         SUCCESS        
+15:29:50.052 [INFO]  [Reporting] 
+15:29:50.052 [INFO]  [Reporting] Environment check status: SUCCESS
+15:29:50.102 [INFO]  [Creating] Found 7 callable methods in 1 class
+15:29:50.102 [INFO]  [Creating] 
+15:29:50.102 [INFO]  [Creating] Creating tests:
+15:29:50.102 [INFO]  [Creating] ---------------
+15:29:50.122 [INFO]  [Creating] 
+================================================================================
+= Starting analysis for class 'ma.uiz.observatoire.controller.AccountController'
+================================================================================
+15:29:50.122 [INFO]  [Creating] Filtering out non-testable methods...
+15:29:53.366 [INFO]  [Creating] Filtering of methods complete. Creating analysis request
+15:29:53.367 [INFO]  [Creating] Attempting to get service client, retry 1.
+15:29:53.405 [INFO]  [Creating] Starting monitoring server.
+15:29:53.632 [INFO]  [Creating] Monitoring server listening on localhost/127.0.0.1:51633
+15:29:53.736 [INFO]  [Creating] Starting analyzer server process...
+15:29:53.737 [INFO]  [Creating] Server command-line: C:\Program Files\Java\jdk-17\bin\java.exe -XX:+IgnoreUnrecognizedVMOptions -Djdk.attach.allowAttachSelf=true -ea -javaagent:C:\Program Files\Diffblue\launcher-shared-jar.jar -Dlogback.configurationFile=C:\Users\eloma\AppData\Local\Temp\diffblue\config\logback-remote-service.xml -Dcom.diffblue.springIsolationJar=C:\Program Files\Diffblue\cover-isolation-layer.jar -Dcover.jar.path=C:\Program Files\Diffblue\cover-service-analyzer.jar -Dcom.diffblue.assertionSuggestionJar=C:\Program Files\Diffblue\cover-service-analyzer.jar -Dcover.main.class=com.diffblue.cover.service.analyzer.Main -jar C:\Program Files\Diffblue\launcher-shared-jar.jar --service-lifespan 120 --monitoring-service-port 51633 --index-service-port 51633 --debug-log
+15:29:53.743 [INFO]  [Creating] Server started. Waiting up to 300 seconds for a connection to be established...
+15:29:54.699 [INFO]  [Creating] Starting new remote monitor client
+15:29:55.637 [INFO]  [Creating] Attempting to start remote server.
+15:29:55.874 [INFO]  [Creating] Server started, listening on localhost/127.0.0.1:51635
+15:29:56.764 [INFO]  [Creating] Expect analyzer service to be listening on port 51635.
+15:29:57.445 [INFO]  [Creating] Started analyzer service and client retrieved.
+15:30:06.332 [INFO]  [Creating] 
+================================================================================
+= Creating tests for 'ma.uiz.observatoire.controller.AccountController.countAccount:()Lorg/springframework/http/ResponseEntity;' using 'SCo[SB] (sp, !fnm, df, !ris)'
+================================================================================
+15:30:30.142 [INFO]  [Creating] Created 1+0 tests and partial tests via 'SCo[SB] (sp, !fnm, df, !ris)', 1/2, returning all 1
+15:30:38.233 [INFO]  [Creating]     [1/7] ma.uiz.observatoire.controller.AccountController.countAccount
+15:30:38.233 [INFO]  [Creating]     [1/7]   Tests created: 1
+15:30:38.236 [INFO]  [Creating] 
+================================================================================
+= Creating tests for 'ma.uiz.observatoire.controller.AccountController.deleteAccount:(I)Lorg/springframework/http/ResponseEntity;' using 'SCo[SB] (sp, !fnm, df, !ris)'
+================================================================================
+15:30:45.950 [INFO]  [Creating] Created 2+0 tests and partial tests via 'SCo[SB] (sp, !fnm, df, !ris)', 1/2, returning all 2
+15:30:46.964 [INFO]  [Creating] Test execution failed for method ma.uiz.observatoire.controller.AccountController.deleteAccount
+15:30:46.966 [INFO]  [Creating] Failure reason: Response content expected:<<Response><timestamp>19/11/2023 15:30:45</timestamp><statusCode>204</statusCode><statusMsg>Account successfully deleted</statusMsg></Response>> but was:<<Response><timestamp>19/11/2023 15:30:46</timestamp><statusCode>204</statusCode><statusMsg>Account successfully deleted</statusMsg></Response>>
+15:30:47.393 [INFO]  [Creating] Test execution failed for method ma.uiz.observatoire.controller.AccountController.deleteAccount
+15:30:47.394 [INFO]  [Creating] Failure reason: Response content expected:<<Response><timestamp>19/11/2023 15:30:45</timestamp><statusCode>204</statusCode><statusMsg>Account successfully deleted</statusMsg></Response>> but was:<<Response><timestamp>19/11/2023 15:30:47</timestamp><statusCode>204</statusCode><statusMsg>Account successfully deleted</statusMsg></Response>>
+15:30:47.409 [INFO]  [Creating]     [2/7] ma.uiz.observatoire.controller.AccountController.deleteAccount
+15:30:47.409 [INFO]  [Creating]     [2/7]   Diffblue AI was unable to find a test
+15:30:47.410 [INFO]  [Creating]     [2/7]   Warnings:
+15:30:47.410 [INFO]  [Creating]     [2/7]   Diffblue AI was unable to find a test
+15:30:47.410 [INFO]  [Creating]     [2/7]   Diffblue AI was unable to find a test
+15:30:47.416 [INFO]  [Creating] 
+================================================================================
+= Creating tests for 'ma.uiz.observatoire.controller.AccountController.displayAccount:(I)Lorg/springframework/http/ResponseEntity;' using 'SCo[SB] (sp, !fnm, df, !ris)'
+================================================================================
+15:31:01.746 [INFO]  [Creating] Created 1+0 tests and partial tests via 'SCo[SB] (sp, !fnm, df, !ris)', 1/2, returning all 1
+15:31:02.364 [INFO]  [Creating] Test execution failed for method ma.uiz.observatoire.controller.AccountController.displayAccount
+15:31:02.364 [INFO]  [Creating] Failure reason: Response content expected:<<Account><userName>janedoe</userName><password>iloveyou</password><email>jane.doe@example.org</email><enabled>true</enabled><mobileNumber>42</mobileNumber><conversations/><accountRoles/><authorities/><username>jane.doe@example.org</username><accountNonLocked>true</accountNonLocked><accountNonExpired>true</accountNonExpired><credentialsNonExpired>true</credentialsNonExpired><key>1</key></Account>> but was:<<Account><userName>janedoe</userName><password>iloveyou</password><email>jane.doe@example.org</email><enabled>true</enabled><mobileNumber>42</mobileNumber><conversations/><accountRoles/><username>jane.doe@example.org</username><accountNonLocked>true</accountNonLocked><authorities/><credentialsNonExpired>true</credentialsNonExpired><accountNonExpired>true</accountNonExpired><key>1</key></Account>>
+15:31:02.373 [INFO]  [Creating]     [3/7] ma.uiz.observatoire.controller.AccountController.displayAccount
+15:31:02.373 [INFO]  [Creating]     [3/7]   Diffblue AI was unable to find a test
+15:31:02.374 [INFO]  [Creating]     [3/7]   Warnings:
+15:31:02.374 [INFO]  [Creating]     [3/7]   Diffblue AI was unable to find a test
+15:31:02.377 [INFO]  [Creating] 
+================================================================================
+= Creating tests for 'ma.uiz.observatoire.controller.AccountController.displayAllAccount:(II)Ljava/util/List;' using 'SCo[SB] (sp, !fnm, df, !ris)'
+================================================================================
+15:31:06.261 [INFO]  [Creating] Created 1+0 tests and partial tests via 'SCo[SB] (sp, !fnm, df, !ris)', 1/2, returning all 1
+15:31:06.561 [INFO]  [Creating]     [4/7] ma.uiz.observatoire.controller.AccountController.displayAllAccount
+15:31:06.561 [INFO]  [Creating]     [4/7]   Tests created: 1
+15:31:06.563 [INFO]  [Creating] 
+================================================================================
+= Creating tests for 'ma.uiz.observatoire.controller.AccountController.saveAccount:(Lma/uiz/observatoire/model/Account;)Lorg/springframework/http/ResponseEntity;' using 'SCo[SB] (sp, !fnm, df, !ris)'
+================================================================================
+15:31:11.403 [INFO]  [Creating] Created 1+0 tests and partial tests via 'SCo[SB] (sp, !fnm, df, !ris)', 1/2, returning all 1
+15:31:11.845 [INFO]  [Creating]     [5/7] ma.uiz.observatoire.controller.AccountController.saveAccount
+15:31:11.845 [INFO]  [Creating]     [5/7]   Tests created: 1
+15:31:11.847 [INFO]  [Creating] 
+================================================================================
+= Creating tests for 'ma.uiz.observatoire.controller.AccountController.updateAccount:(Lma/uiz/observatoire/model/Account;)Lorg/springframework/http/ResponseEntity;' using 'SCo[SB] (sp, !fnm, df, !ris)'
+================================================================================
+15:31:16.326 [INFO]  [Creating] Created 1+0 tests and partial tests via 'SCo[SB] (sp, !fnm, df, !ris)', 1/2, returning all 1
+15:31:16.727 [INFO]  [Creating]     [6/7] ma.uiz.observatoire.controller.AccountController.updateAccount
+15:31:16.727 [INFO]  [Creating]     [6/7]   Tests created: 1
+15:31:16.763 [INFO]  [Creating]     [7/7] ma.uiz.observatoire.controller.AccountController.<init>
+15:31:16.763 [INFO]  [Creating]     [7/7]   T005: Trivial constructor
+15:31:16.763 [INFO]  [Creating]     [7/7]     See https://diff.blue/T005
+15:31:16.772 [INFO]  [Creating] [1/1] ma.uiz.observatoire.controller.AccountController
+15:31:16.773 [INFO]  [Creating] [1/1]   Tests created: 4
+15:31:16.781 [INFO]  [Reporting] 
+15:31:16.782 [INFO]  [Reporting] Summary:
+15:31:16.783 [INFO]  [Reporting] --------
+15:31:16.783 [INFO]  [Reporting] Total:                                               7 methods
+15:31:16.784 [INFO]  [Reporting] 4 tests created for:                                 4 methods
+15:31:16.785 [INFO]  [Reporting] 
+15:31:16.785 [INFO]  [Reporting] Tested indirectly via other methods:                 1 method
+15:31:16.785 [INFO]  [Reporting]     1 T005: Trivial constructor
+15:31:16.786 [INFO]  [Reporting] No tests created for:                                2 methods
+15:31:17.670 [INFO]  [Validating] 
+15:31:17.671 [INFO]  [Validating] Running validation command.
+15:31:17.675 [INFO]  [Validating] Maven Using ${maven.home} of: C:\Users\eloma\IdeaProjects\ObservatoireUIZ.
+15:31:17.676 [INFO]  [Validating] Maven Executing: cmd.exe /X /C "C:\Users\eloma\IdeaProjects\ObservatoireUIZ\mvnw.cmd -B -D maven.clean.failOnError=false -D "maven.ext.class.path=C:\Program Files\Diffblue\cover-buildsystem-maven-spy-jar-with-dependencies.jar" clean test"
+15:31:30.732 [INFO]  [Validating] Standard output of build tool (Maven)
+15:31:30.732 [INFO]  [Validating] > [INFO] Scanning for projects...
+15:31:30.732 [INFO]  [Validating] > [INFO] 
+15:31:30.732 [INFO]  [Validating] > [INFO] -----------------------< ma.uiz:ObservatoireUIZ >-----------------------
+15:31:30.732 [INFO]  [Validating] > [INFO] Building ObservatoireUIZ 0.0.1-SNAPSHOT
+15:31:30.732 [INFO]  [Validating] > [INFO] --------------------------------[ jar ]---------------------------------
+15:31:30.732 [INFO]  [Validating] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='clean', cause=, state=STARTED}
+15:31:30.732 [INFO]  [Validating] > [INFO] 
+15:31:30.732 [INFO]  [Validating] > [INFO] --- maven-clean-plugin:3.2.0:clean (default-clean) @ ObservatoireUIZ ---
+15:31:30.732 [INFO]  [Validating] > [INFO] Deleting C:\Users\eloma\IdeaProjects\ObservatoireUIZ\target
+15:31:30.732 [INFO]  [Validating] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='clean', cause=, state=SUCCESS}
+15:31:30.732 [INFO]  [Validating] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='resources', cause=, state=STARTED}
+15:31:30.732 [INFO]  [Validating] > [INFO] 
+15:31:30.732 [INFO]  [Validating] > [INFO] --- maven-resources-plugin:3.3.0:resources (default-resources) @ ObservatoireUIZ ---
+15:31:30.732 [INFO]  [Validating] > [INFO] Copying 1 resource
+15:31:30.732 [INFO]  [Validating] > [INFO] Copying 5 resources
+15:31:30.732 [INFO]  [Validating] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='resources', cause=, state=SUCCESS}
+15:31:30.732 [INFO]  [Validating] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='compile', cause=, state=STARTED}
+15:31:30.732 [INFO]  [Validating] > [INFO] 
+15:31:30.732 [INFO]  [Validating] > [INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ ObservatoireUIZ ---
+15:31:30.732 [INFO]  [Validating] > [INFO] Changes detected - recompiling the module!
+15:31:30.732 [INFO]  [Validating] > [INFO] Compiling 138 source files to C:\Users\eloma\IdeaProjects\ObservatoireUIZ\target\classes
+15:31:30.732 [INFO]  [Validating] > [INFO] /C:/Users/eloma/IdeaProjects/ObservatoireUIZ/src/main/java/ma/uiz/observatoire/mapper/OfferMapper.java: C:\Users\eloma\IdeaProjects\ObservatoireUIZ\src\main\java\ma\uiz\observatoire\mapper\OfferMapper.java uses or overrides a deprecated API.
+15:31:30.732 [INFO]  [Validating] > [INFO] /C:/Users/eloma/IdeaProjects/ObservatoireUIZ/src/main/java/ma/uiz/observatoire/mapper/OfferMapper.java: Recompile with -Xlint:deprecation for details.
+15:31:30.732 [INFO]  [Validating] > [INFO] /C:/Users/eloma/IdeaProjects/ObservatoireUIZ/src/main/java/ma/uiz/observatoire/config/RmeSessionChannelInterceptor.java: C:\Users\eloma\IdeaProjects\ObservatoireUIZ\src\main\java\ma\uiz\observatoire\config\RmeSessionChannelInterceptor.java uses unchecked or unsafe operations.
+15:31:30.732 [INFO]  [Validating] > [INFO] /C:/Users/eloma/IdeaProjects/ObservatoireUIZ/src/main/java/ma/uiz/observatoire/config/RmeSessionChannelInterceptor.java: Recompile with -Xlint:unchecked for details.
+15:31:30.732 [INFO]  [Validating] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='compile', cause=, state=SUCCESS}
+15:31:30.732 [INFO]  [Validating] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='testResources', cause=, state=STARTED}
+15:31:30.732 [INFO]  [Validating] > [INFO] 
+15:31:30.732 [INFO]  [Validating] > [INFO] --- maven-resources-plugin:3.3.0:testResources (default-testResources) @ ObservatoireUIZ ---
+15:31:30.732 [INFO]  [Validating] > [INFO] skip non existing resourceDirectory C:\Users\eloma\IdeaProjects\ObservatoireUIZ\src\test\resources
+15:31:30.732 [INFO]  [Validating] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='testResources', cause=, state=SUCCESS}
+15:31:30.732 [INFO]  [Validating] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='testCompile', cause=, state=STARTED}
+15:31:30.732 [INFO]  [Validating] > [INFO] 
+15:31:30.732 [INFO]  [Validating] > [INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ ObservatoireUIZ ---
+15:31:30.732 [INFO]  [Validating] > [INFO] Changes detected - recompiling the module!
+15:31:30.732 [INFO]  [Validating] > [INFO] Compiling 3 source files to C:\Users\eloma\IdeaProjects\ObservatoireUIZ\target\test-classes
+15:31:30.732 [INFO]  [Validating] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='testCompile', cause=, state=SUCCESS}
+15:31:30.732 [INFO]  [Validating] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='test', cause=, state=STARTED}
+15:31:30.732 [INFO]  [Validating] > [INFO] 
+15:31:30.732 [INFO]  [Validating] > [INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ ObservatoireUIZ ---
+15:31:30.732 [INFO]  [Validating] > [INFO] 
+15:31:30.732 [INFO]  [Validating] > [INFO] -------------------------------------------------------
+15:31:30.732 [INFO]  [Validating] > [INFO]  T E S T S
+15:31:30.732 [INFO]  [Validating] > [INFO] -------------------------------------------------------
+15:31:30.732 [INFO]  [Validating] > [INFO] Running ma.uiz.observatoire.controller.AccountControllerTest
+15:31:30.732 [INFO]  [Validating] > 15:31:27.733 [main] DEBUG org.springframework.test.context.support.DefaultTestContextBootstrapper - Using ContextCustomizers for test class [AccountControllerDiffblueTest]: [ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer]
+15:31:30.732 [INFO]  [Validating] > 15:31:27.756 [main] DEBUG org.springframework.test.context.support.DefaultTestContextBootstrapper - Using TestExecutionListeners for test class [AccountControllerDiffblueTest]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, TransactionalTestExecutionListener, SqlScriptsTestExecutionListener, EventPublishingTestExecutionListener, ResetMocksTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener]
+15:31:30.732 [INFO]  [Validating] > 15:31:27.757 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: class [AccountControllerDiffblueTest], class annotated with @DirtiesContext [false] with mode [null]
+15:31:30.732 [INFO]  [Validating] > 15:31:27.769 [main] DEBUG org.springframework.test.context.support.AbstractGenericContextLoader - Loading ApplicationContext for test class ma.uiz.observatoire.controller.AccountControllerTest
+15:31:30.732 [INFO]  [Validating] > 15:31:27.799 [main] DEBUG org.springframework.core.env.StandardEnvironment - Activating profiles []
+15:31:30.732 [INFO]  [Validating] > 15:31:27.799 [main] DEBUG org.springframework.test.context.support.AnnotationConfigContextLoader - Registering component classes: [ma.uiz.observatoire.controller.AccountController]
+15:31:30.732 [INFO]  [Validating] > 15:31:27.834 [main] WARN org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+15:31:30.732 [INFO]  [Validating] > 
+15:31:30.732 [INFO]  [Validating] > Found multiple occurrences of org.json.JSONObject on the class path:
+15:31:30.732 [INFO]  [Validating] > 
+15:31:30.732 [INFO]  [Validating] > 	jar:file:/C:/Users/eloma/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+15:31:30.733 [INFO]  [Validating] > 	jar:file:/C:/Users/eloma/.m2/repository/org/json/json/20230227/json-20230227.jar!/org/json/JSONObject.class
+15:31:30.733 [INFO]  [Validating] > 
+15:31:30.733 [INFO]  [Validating] > You may wish to exclude one of them to ensure predictable runtime behavior
+15:31:30.733 [INFO]  [Validating] > 
+15:31:30.733 [INFO]  [Validating] > 15:31:27.846 [main] DEBUG org.springframework.context.support.GenericApplicationContext - Refreshing org.springframework.context.support.GenericApplicationContext@1cf56a1c
+15:31:30.733 [INFO]  [Validating] > 15:31:27.855 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+15:31:30.733 [INFO]  [Validating] > 15:31:27.907 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.test.mock.mockito.MockitoPostProcessor'
+15:31:30.733 [INFO]  [Validating] > 15:31:28.372 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+15:31:30.733 [INFO]  [Validating] > 15:31:28.374 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+15:31:30.733 [INFO]  [Validating] > 15:31:28.375 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+15:31:30.733 [INFO]  [Validating] > 15:31:28.376 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+15:31:30.733 [INFO]  [Validating] > 15:31:28.380 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+15:31:30.733 [INFO]  [Validating] > 15:31:28.381 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.test.mock.mockito.MockitoPostProcessor$SpyPostProcessor'
+15:31:30.733 [INFO]  [Validating] > 15:31:28.392 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'accountController'
+15:31:30.733 [INFO]  [Validating] > 15:31:28.397 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'accountController' via constructor to bean named 'ma.uiz.observatoire.service.AccountService#0'
+15:31:30.733 [INFO]  [Validating] > 15:31:28.410 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 1, maxSize = 32, parentContextCount = 0, hitCount = 0, missCount = 1]
+15:31:30.733 [INFO]  [Validating] > 15:31:28.412 [main] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test class ma.uiz.observatoire.controller.AccountControllerTest
+15:31:30.733 [INFO]  [Validating] > 15:31:28.412 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 1, maxSize = 32, parentContextCount = 0, hitCount = 1, missCount = 1]
+15:31:30.733 [INFO]  [Validating] > 15:31:28.416 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 1, maxSize = 32, parentContextCount = 0, hitCount = 2, missCount = 1]
+15:31:30.733 [INFO]  [Validating] > 15:31:28.420 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test method: class [AccountControllerDiffblueTest], method [testSaveAccount], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null]
+15:31:30.733 [INFO]  [Validating] > 15:31:28.425 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 1, maxSize = 32, parentContextCount = 0, hitCount = 3, missCount = 1]
+15:31:30.733 [INFO]  [Validating] > 15:31:28.425 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 1, maxSize = 32, parentContextCount = 0, hitCount = 4, missCount = 1]
+15:31:30.733 [INFO]  [Validating] > 15:31:28.427 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 1, maxSize = 32, parentContextCount = 0, hitCount = 5, missCount = 1]
+15:31:30.733 [INFO]  [Validating] > 15:31:28.771 [main] DEBUG org.jboss.logging - Logging Provider: org.jboss.logging.Log4j2LoggerProvider
+15:31:30.733 [INFO]  [Validating] > 15:31:28.771 [main] INFO org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+15:31:30.733 [INFO]  [Validating] > 15:31:28.789 [main] DEBUG org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+15:31:30.733 [INFO]  [Validating] > 15:31:28.790 [main] DEBUG org.hibernate.validator.internal.engine.AbstractConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+15:31:30.733 [INFO]  [Validating] > 15:31:28.792 [main] DEBUG org.hibernate.validator.internal.xml.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+15:31:30.733 [INFO]  [Validating] > 15:31:28.793 [main] DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+15:31:30.733 [INFO]  [Validating] > 15:31:28.794 [main] DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+15:31:30.733 [INFO]  [Validating] > 15:31:28.794 [main] DEBUG org.hibernate.validator.internal.xml.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+15:31:30.733 [INFO]  [Validating] > 15:31:28.799 [main] DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers - Found jakarta.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+15:31:30.733 [INFO]  [Validating] > 15:31:28.800 [main] DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+15:31:30.733 [INFO]  [Validating] > 15:31:28.887 [main] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+15:31:30.733 [INFO]  [Validating] > 15:31:28.891 [main] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+15:31:30.733 [INFO]  [Validating] > 15:31:28.891 [main] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.resolver.JPATraversableResolver as ValidatorFactory-scoped traversable resolver.
+15:31:30.733 [INFO]  [Validating] > 15:31:28.892 [main] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+15:31:30.733 [INFO]  [Validating] > 15:31:28.892 [main] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+15:31:30.733 [INFO]  [Validating] > 15:31:28.892 [main] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+15:31:30.733 [INFO]  [Validating] > 15:31:28.939 [main] DEBUG _org.springframework.web.servlet.HandlerMapping.Mappings - 
+15:31:30.733 [INFO]  [Validating] > 	m.u.o.c.AccountController:
+15:31:30.733 [INFO]  [Validating] > 	{GET [/api/v1/accounts/page/{pageNum}]}: displayAllAccount(int,int)
+15:31:30.733 [INFO]  [Validating] > 	{POST [/api/v1/accounts]}: saveAccount(Account)
+15:31:30.733 [INFO]  [Validating] > 	{GET [/api/v1/accounts/{id}]}: displayAccount(int)
+15:31:30.733 [INFO]  [Validating] > 	{GET [/api/v1/accounts/count]}: countAccount()
+15:31:30.733 [INFO]  [Validating] > 	{PUT [/api/v1/accounts]}: updateAccount(Account)
+15:31:30.733 [INFO]  [Validating] > 	{DELETE [/api/v1/accounts/{id}]}: deleteAccount(int)
+15:31:30.733 [INFO]  [Validating] > 15:31:28.942 [main] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 6 mappings in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping
+15:31:30.733 [INFO]  [Validating] > 15:31:29.022 [main] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+15:31:30.733 [INFO]  [Validating] > 15:31:29.044 [main] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+15:31:30.733 [INFO]  [Validating] > 15:31:29.059 [main] INFO org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+15:31:30.733 [INFO]  [Validating] > 15:31:29.059 [main] INFO org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+15:31:30.733 [INFO]  [Validating] > 15:31:29.061 [main] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected AcceptHeaderLocaleResolver
+15:31:30.733 [INFO]  [Validating] > 15:31:29.061 [main] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected FixedThemeResolver
+15:31:30.733 [INFO]  [Validating] > 15:31:29.061 [main] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@11d86b9d
+15:31:30.733 [INFO]  [Validating] > 15:31:29.062 [main] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@6dce59e
+15:31:30.733 [INFO]  [Validating] > 15:31:29.062 [main] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+15:31:30.733 [INFO]  [Validating] > 15:31:29.063 [main] INFO org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 3 ms
+15:31:30.733 [INFO]  [Validating] > 15:31:29.082 [main] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - GET "/api/v1/accounts", parameters={}
+15:31:30.733 [INFO]  [Validating] > 15:31:29.090 [main] WARN org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+15:31:30.733 [INFO]  [Validating] > 15:31:29.091 [main] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Completed 405 METHOD_NOT_ALLOWED
+15:31:30.733 [INFO]  [Validating] > 15:31:29.094 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 1, maxSize = 32, parentContextCount = 0, hitCount = 6, missCount = 1]
+15:31:30.733 [INFO]  [Validating] > 15:31:29.095 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 1, maxSize = 32, parentContextCount = 0, hitCount = 7, missCount = 1]
+15:31:30.734 [INFO]  [Validating] > 15:31:29.096 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 1, maxSize = 32, parentContextCount = 0, hitCount = 8, missCount = 1]
+15:31:30.734 [INFO]  [Validating] > 15:31:29.096 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 1, maxSize = 32, parentContextCount = 0, hitCount = 9, missCount = 1]
+15:31:30.734 [INFO]  [Validating] > 15:31:29.097 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 1, maxSize = 32, parentContextCount = 0, hitCount = 10, missCount = 1]
+15:31:30.734 [INFO]  [Validating] > 15:31:29.097 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 1, maxSize = 32, parentContextCount = 0, hitCount = 11, missCount = 1]
+15:31:30.734 [INFO]  [Validating] > 15:31:29.097 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - After test method: class [AccountControllerDiffblueTest], method [testSaveAccount], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null]
+15:31:30.734 [INFO]  [Validating] > 15:31:29.103 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 1, maxSize = 32, parentContextCount = 0, hitCount = 12, missCount = 1]
+15:31:30.734 [INFO]  [Validating] > 15:31:29.103 [main] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test class ma.uiz.observatoire.controller.AccountControllerTest
+15:31:30.734 [INFO]  [Validating] > 15:31:29.103 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 1, maxSize = 32, parentContextCount = 0, hitCount = 13, missCount = 1]
+15:31:30.734 [INFO]  [Validating] > 15:31:29.103 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 1, maxSize = 32, parentContextCount = 0, hitCount = 14, missCount = 1]
+15:31:30.734 [INFO]  [Validating] > 15:31:29.104 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test method: class [AccountControllerDiffblueTest], method [testUpdateAccount], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null]
+15:31:30.734 [INFO]  [Validating] > 15:31:29.104 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 1, maxSize = 32, parentContextCount = 0, hitCount = 15, missCount = 1]
+15:31:30.734 [INFO]  [Validating] > 15:31:29.104 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 1, maxSize = 32, parentContextCount = 0, hitCount = 16, missCount = 1]
+15:31:30.734 [INFO]  [Validating] > 15:31:29.105 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 1, maxSize = 32, parentContextCount = 0, hitCount = 17, missCount = 1]
+15:31:30.734 [INFO]  [Validating] > 15:31:29.109 [main] DEBUG org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+15:31:30.734 [INFO]  [Validating] > 15:31:29.109 [main] DEBUG org.hibernate.validator.internal.engine.AbstractConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+15:31:30.734 [INFO]  [Validating] > 15:31:29.109 [main] DEBUG org.hibernate.validator.internal.xml.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+15:31:30.734 [INFO]  [Validating] > 15:31:29.109 [main] DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+15:31:30.734 [INFO]  [Validating] > 15:31:29.109 [main] DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+15:31:30.734 [INFO]  [Validating] > 15:31:29.109 [main] DEBUG org.hibernate.validator.internal.xml.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+15:31:30.734 [INFO]  [Validating] > 15:31:29.109 [main] DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers - Found jakarta.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+15:31:30.734 [INFO]  [Validating] > 15:31:29.109 [main] DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+15:31:30.734 [INFO]  [Validating] > 15:31:29.110 [main] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+15:31:30.734 [INFO]  [Validating] > 15:31:29.111 [main] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+15:31:30.734 [INFO]  [Validating] > 15:31:29.111 [main] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.resolver.JPATraversableResolver as ValidatorFactory-scoped traversable resolver.
+15:31:30.734 [INFO]  [Validating] > 15:31:29.111 [main] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+15:31:30.734 [INFO]  [Validating] > 15:31:29.111 [main] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+15:31:30.734 [INFO]  [Validating] > 15:31:29.111 [main] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+15:31:30.734 [INFO]  [Validating] > 15:31:29.114 [main] DEBUG _org.springframework.web.servlet.HandlerMapping.Mappings - 
+15:31:30.734 [INFO]  [Validating] > 	m.u.o.c.AccountController:
+15:31:30.734 [INFO]  [Validating] > 	{GET [/api/v1/accounts/page/{pageNum}]}: displayAllAccount(int,int)
+15:31:30.734 [INFO]  [Validating] > 	{POST [/api/v1/accounts]}: saveAccount(Account)
+15:31:30.734 [INFO]  [Validating] > 	{GET [/api/v1/accounts/{id}]}: displayAccount(int)
+15:31:30.734 [INFO]  [Validating] > 	{GET [/api/v1/accounts/count]}: countAccount()
+15:31:30.734 [INFO]  [Validating] > 	{PUT [/api/v1/accounts]}: updateAccount(Account)
+15:31:30.734 [INFO]  [Validating] > 	{DELETE [/api/v1/accounts/{id}]}: deleteAccount(int)
+15:31:30.734 [INFO]  [Validating] > 15:31:29.115 [main] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 6 mappings in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping
+15:31:30.734 [INFO]  [Validating] > 15:31:29.117 [main] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+15:31:30.734 [INFO]  [Validating] > 15:31:29.118 [main] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+15:31:30.734 [INFO]  [Validating] > 15:31:29.118 [main] INFO org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+15:31:30.734 [INFO]  [Validating] > 15:31:29.118 [main] INFO org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+15:31:30.734 [INFO]  [Validating] > 15:31:29.118 [main] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected AcceptHeaderLocaleResolver
+15:31:30.734 [INFO]  [Validating] > 15:31:29.118 [main] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected FixedThemeResolver
+15:31:30.734 [INFO]  [Validating] > 15:31:29.118 [main] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@4bf80c29
+15:31:30.734 [INFO]  [Validating] > 15:31:29.118 [main] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@2d7637e6
+15:31:30.734 [INFO]  [Validating] > 15:31:29.118 [main] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+15:31:30.734 [INFO]  [Validating] > 15:31:29.118 [main] INFO org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+15:31:30.734 [INFO]  [Validating] > 15:31:29.118 [main] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - GET "/api/v1/accounts", parameters={}
+15:31:30.734 [INFO]  [Validating] > 15:31:29.119 [main] WARN org.springframework.web.servlet.mvc.support.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+15:31:30.734 [INFO]  [Validating] > 15:31:29.119 [main] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Completed 405 METHOD_NOT_ALLOWED
+15:31:30.734 [INFO]  [Validating] > 15:31:29.119 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 1, maxSize = 32, parentContextCount = 0, hitCount = 18, missCount = 1]
+15:31:30.734 [INFO]  [Validating] > 15:31:29.120 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 1, maxSize = 32, parentContextCount = 0, hitCount = 19, missCount = 1]
+15:31:30.734 [INFO]  [Validating] > 15:31:29.120 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 1, maxSize = 32, parentContextCount = 0, hitCount = 20, missCount = 1]
+15:31:30.734 [INFO]  [Validating] > 15:31:29.120 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 1, maxSize = 32, parentContextCount = 0, hitCount = 21, missCount = 1]
+15:31:30.734 [INFO]  [Validating] > 15:31:29.120 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 1, maxSize = 32, parentContextCount = 0, hitCount = 22, missCount = 1]
+15:31:30.734 [INFO]  [Validating] > 15:31:29.120 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 1, maxSize = 32, parentContextCount = 0, hitCount = 23, missCount = 1]
+15:31:30.734 [INFO]  [Validating] > 15:31:29.121 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - After test method: class [AccountControllerDiffblueTest], method [testUpdateAccount], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null]
+15:31:30.734 [INFO]  [Validating] > 15:31:29.121 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 1, maxSize = 32, parentContextCount = 0, hitCount = 24, missCount = 1]
+15:31:30.734 [INFO]  [Validating] > 15:31:29.121 [main] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test class ma.uiz.observatoire.controller.AccountControllerTest
+15:31:30.734 [INFO]  [Validating] > 15:31:29.121 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 1, maxSize = 32, parentContextCount = 0, hitCount = 25, missCount = 1]
+15:31:30.734 [INFO]  [Validating] > 15:31:29.122 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 1, maxSize = 32, parentContextCount = 0, hitCount = 26, missCount = 1]
+15:31:30.734 [INFO]  [Validating] > 15:31:29.122 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test method: class [AccountControllerDiffblueTest], method [testDisplayAllAccount], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null]
+15:31:30.734 [INFO]  [Validating] > 15:31:29.122 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 1, maxSize = 32, parentContextCount = 0, hitCount = 27, missCount = 1]
+15:31:30.734 [INFO]  [Validating] > 15:31:29.123 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 1, maxSize = 32, parentContextCount = 0, hitCount = 28, missCount = 1]
+15:31:30.734 [INFO]  [Validating] > 15:31:29.123 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 1, maxSize = 32, parentContextCount = 0, hitCount = 29, missCount = 1]
+15:31:30.734 [INFO]  [Validating] > 15:31:29.141 [main] DEBUG org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+15:31:30.734 [INFO]  [Validating] > 15:31:29.141 [main] DEBUG org.hibernate.validator.internal.engine.AbstractConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+15:31:30.734 [INFO]  [Validating] > 15:31:29.141 [main] DEBUG org.hibernate.validator.internal.xml.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+15:31:30.734 [INFO]  [Validating] > 15:31:29.141 [main] DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+15:31:30.734 [INFO]  [Validating] > 15:31:29.141 [main] DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+15:31:30.734 [INFO]  [Validating] > 15:31:29.142 [main] DEBUG org.hibernate.validator.internal.xml.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+15:31:30.734 [INFO]  [Validating] > 15:31:29.142 [main] DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers - Found jakarta.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+15:31:30.734 [INFO]  [Validating] > 15:31:29.142 [main] DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+15:31:30.734 [INFO]  [Validating] > 15:31:29.143 [main] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+15:31:30.734 [INFO]  [Validating] > 15:31:29.143 [main] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+15:31:30.734 [INFO]  [Validating] > 15:31:29.143 [main] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.resolver.JPATraversableResolver as ValidatorFactory-scoped traversable resolver.
+15:31:30.734 [INFO]  [Validating] > 15:31:29.143 [main] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+15:31:30.734 [INFO]  [Validating] > 15:31:29.143 [main] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+15:31:30.734 [INFO]  [Validating] > 15:31:29.143 [main] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+15:31:30.735 [INFO]  [Validating] > 15:31:29.146 [main] DEBUG _org.springframework.web.servlet.HandlerMapping.Mappings - 
+15:31:30.735 [INFO]  [Validating] > 	m.u.o.c.AccountController:
+15:31:30.735 [INFO]  [Validating] > 	{GET [/api/v1/accounts/page/{pageNum}]}: displayAllAccount(int,int)
+15:31:30.735 [INFO]  [Validating] > 	{POST [/api/v1/accounts]}: saveAccount(Account)
+15:31:30.735 [INFO]  [Validating] > 	{GET [/api/v1/accounts/{id}]}: displayAccount(int)
+15:31:30.735 [INFO]  [Validating] > 	{GET [/api/v1/accounts/count]}: countAccount()
+15:31:30.735 [INFO]  [Validating] > 	{PUT [/api/v1/accounts]}: updateAccount(Account)
+15:31:30.735 [INFO]  [Validating] > 	{DELETE [/api/v1/accounts/{id}]}: deleteAccount(int)
+15:31:30.735 [INFO]  [Validating] > 15:31:29.146 [main] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 6 mappings in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping
+15:31:30.735 [INFO]  [Validating] > 15:31:29.149 [main] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+15:31:30.735 [INFO]  [Validating] > 15:31:29.149 [main] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+15:31:30.735 [INFO]  [Validating] > 15:31:29.149 [main] INFO org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+15:31:30.735 [INFO]  [Validating] > 15:31:29.149 [main] INFO org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+15:31:30.735 [INFO]  [Validating] > 15:31:29.149 [main] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected AcceptHeaderLocaleResolver
+15:31:30.735 [INFO]  [Validating] > 15:31:29.149 [main] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected FixedThemeResolver
+15:31:30.735 [INFO]  [Validating] > 15:31:29.149 [main] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@4f7be6c8
+15:31:30.735 [INFO]  [Validating] > 15:31:29.149 [main] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@647b9364
+15:31:30.735 [INFO]  [Validating] > 15:31:29.149 [main] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+15:31:30.735 [INFO]  [Validating] > 15:31:29.150 [main] INFO org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 1 ms
+15:31:30.735 [INFO]  [Validating] > 15:31:29.150 [main] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - GET "/api/v1/accounts/page/10", parameters={masked}
+15:31:30.735 [INFO]  [Validating] > 15:31:29.152 [main] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to ma.uiz.observatoire.controller.AccountController#displayAllAccount(int, int)
+15:31:30.735 [INFO]  [Validating] > 15:31:29.179 [main] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Using 'application/xml;charset=UTF-8', given [*/*] and supported [application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8, application/json, application/*+json]
+15:31:30.735 [INFO]  [Validating] > 15:31:29.180 [main] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestResponseBodyMethodProcessor - Writing [[]]
+15:31:30.735 [INFO]  [Validating] > 15:31:29.194 [main] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Completed 200 OK
+15:31:30.735 [INFO]  [Validating] > 15:31:29.196 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 1, maxSize = 32, parentContextCount = 0, hitCount = 30, missCount = 1]
+15:31:30.735 [INFO]  [Validating] > 15:31:29.196 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 1, maxSize = 32, parentContextCount = 0, hitCount = 31, missCount = 1]
+15:31:30.735 [INFO]  [Validating] > 15:31:29.196 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 1, maxSize = 32, parentContextCount = 0, hitCount = 32, missCount = 1]
+15:31:30.735 [INFO]  [Validating] > 15:31:29.196 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 1, maxSize = 32, parentContextCount = 0, hitCount = 33, missCount = 1]
+15:31:30.735 [INFO]  [Validating] > 15:31:29.196 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 1, maxSize = 32, parentContextCount = 0, hitCount = 34, missCount = 1]
+15:31:30.735 [INFO]  [Validating] > 15:31:29.197 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 1, maxSize = 32, parentContextCount = 0, hitCount = 35, missCount = 1]
+15:31:30.735 [INFO]  [Validating] > 15:31:29.197 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - After test method: class [AccountControllerDiffblueTest], method [testDisplayAllAccount], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null]
+15:31:30.735 [INFO]  [Validating] > 15:31:29.197 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 1, maxSize = 32, parentContextCount = 0, hitCount = 36, missCount = 1]
+15:31:30.735 [INFO]  [Validating] > 15:31:29.197 [main] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test class ma.uiz.observatoire.controller.AccountControllerTest
+15:31:30.735 [INFO]  [Validating] > 15:31:29.197 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 1, maxSize = 32, parentContextCount = 0, hitCount = 37, missCount = 1]
+15:31:30.735 [INFO]  [Validating] > 15:31:29.197 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 1, maxSize = 32, parentContextCount = 0, hitCount = 38, missCount = 1]
+15:31:30.735 [INFO]  [Validating] > 15:31:29.198 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test method: class [AccountControllerDiffblueTest], method [testCountAccount], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null]
+15:31:30.735 [INFO]  [Validating] > 15:31:29.198 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 1, maxSize = 32, parentContextCount = 0, hitCount = 39, missCount = 1]
+15:31:30.735 [INFO]  [Validating] > 15:31:29.198 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 1, maxSize = 32, parentContextCount = 0, hitCount = 40, missCount = 1]
+15:31:30.735 [INFO]  [Validating] > 15:31:29.199 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 1, maxSize = 32, parentContextCount = 0, hitCount = 41, missCount = 1]
+15:31:30.735 [INFO]  [Validating] > 15:31:29.200 [main] DEBUG org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator - Loaded expression factory via original TCCL
+15:31:30.735 [INFO]  [Validating] > 15:31:29.200 [main] DEBUG org.hibernate.validator.internal.engine.AbstractConfigurationImpl - Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+15:31:30.735 [INFO]  [Validating] > 15:31:29.200 [main] DEBUG org.hibernate.validator.internal.xml.config.ValidationXmlParser - Trying to load META-INF/validation.xml for XML based Validator configuration.
+15:31:30.735 [INFO]  [Validating] > 15:31:29.200 [main] DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via TCCL
+15:31:30.735 [INFO]  [Validating] > 15:31:29.200 [main] DEBUG org.hibernate.validator.internal.xml.config.ResourceLoaderHelper - Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+15:31:30.735 [INFO]  [Validating] > 15:31:29.201 [main] DEBUG org.hibernate.validator.internal.xml.config.ValidationXmlParser - No META-INF/validation.xml found. Using annotation based configuration only.
+15:31:30.735 [INFO]  [Validating] > 15:31:29.201 [main] DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers - Found jakarta.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+15:31:30.735 [INFO]  [Validating] > 15:31:29.201 [main] DEBUG org.hibernate.validator.internal.engine.resolver.TraversableResolvers - Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+15:31:30.735 [INFO]  [Validating] > 15:31:29.201 [main] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper - HV000252: Using org.hibernate.validator.internal.engine.DefaultPropertyNodeNameProvider as property node name provider.
+15:31:30.735 [INFO]  [Validating] > 15:31:29.202 [main] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper - HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+15:31:30.735 [INFO]  [Validating] > 15:31:29.202 [main] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.resolver.JPATraversableResolver as ValidatorFactory-scoped traversable resolver.
+15:31:30.735 [INFO]  [Validating] > 15:31:29.202 [main] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+15:31:30.735 [INFO]  [Validating] > 15:31:29.202 [main] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+15:31:30.735 [INFO]  [Validating] > 15:31:29.202 [main] DEBUG org.hibernate.validator.internal.engine.ValidatorFactoryConfigurationHelper - HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+15:31:30.735 [INFO]  [Validating] > 15:31:29.204 [main] DEBUG _org.springframework.web.servlet.HandlerMapping.Mappings - 
+15:31:30.735 [INFO]  [Validating] > 	m.u.o.c.AccountController:
+15:31:30.735 [INFO]  [Validating] > 	{GET [/api/v1/accounts/page/{pageNum}]}: displayAllAccount(int,int)
+15:31:30.735 [INFO]  [Validating] > 	{POST [/api/v1/accounts]}: saveAccount(Account)
+15:31:30.735 [INFO]  [Validating] > 	{GET [/api/v1/accounts/{id}]}: displayAccount(int)
+15:31:30.735 [INFO]  [Validating] > 	{GET [/api/v1/accounts/count]}: countAccount()
+15:31:30.735 [INFO]  [Validating] > 	{PUT [/api/v1/accounts]}: updateAccount(Account)
+15:31:30.735 [INFO]  [Validating] > 	{DELETE [/api/v1/accounts/{id}]}: deleteAccount(int)
+15:31:30.735 [INFO]  [Validating] > 15:31:29.205 [main] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - 6 mappings in org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping
+15:31:30.735 [INFO]  [Validating] > 15:31:29.208 [main] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+15:31:30.735 [INFO]  [Validating] > 15:31:29.208 [main] DEBUG org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+15:31:30.735 [INFO]  [Validating] > 15:31:29.208 [main] INFO org.springframework.mock.web.MockServletContext - Initializing Spring TestDispatcherServlet ''
+15:31:30.735 [INFO]  [Validating] > 15:31:29.208 [main] INFO org.springframework.test.web.servlet.TestDispatcherServlet - Initializing Servlet ''
+15:31:30.735 [INFO]  [Validating] > 15:31:29.208 [main] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected AcceptHeaderLocaleResolver
+15:31:30.735 [INFO]  [Validating] > 15:31:29.208 [main] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected FixedThemeResolver
+15:31:30.735 [INFO]  [Validating] > 15:31:29.208 [main] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@402f8592
+15:31:30.735 [INFO]  [Validating] > 15:31:29.208 [main] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@61b65d54
+15:31:30.735 [INFO]  [Validating] > 15:31:29.208 [main] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+15:31:30.735 [INFO]  [Validating] > 15:31:29.208 [main] INFO org.springframework.test.web.servlet.TestDispatcherServlet - Completed initialization in 0 ms
+15:31:30.735 [INFO]  [Validating] > 15:31:29.210 [main] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - GET "/api/v1/accounts/count", parameters={}
+15:31:30.735 [INFO]  [Validating] > 15:31:29.210 [main] DEBUG org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped to ma.uiz.observatoire.controller.AccountController#countAccount()
+15:31:30.735 [INFO]  [Validating] > 15:31:29.213 [main] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Using 'application/xml;charset=UTF-8', given [*/*] and supported [application/xml;charset=UTF-8, text/xml;charset=UTF-8, application/*+xml;charset=UTF-8, application/json, application/*+json]
+15:31:30.735 [INFO]  [Validating] > 15:31:29.213 [main] DEBUG org.springframework.web.servlet.mvc.method.annotation.HttpEntityMethodProcessor - Writing [3]
+15:31:30.735 [INFO]  [Validating] > 15:31:29.216 [main] DEBUG org.springframework.test.web.servlet.TestDispatcherServlet - Completed 200 OK
+15:31:30.736 [INFO]  [Validating] > 15:31:29.216 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 1, maxSize = 32, parentContextCount = 0, hitCount = 42, missCount = 1]
+15:31:30.736 [INFO]  [Validating] > 15:31:29.217 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 1, maxSize = 32, parentContextCount = 0, hitCount = 43, missCount = 1]
+15:31:30.736 [INFO]  [Validating] > 15:31:29.217 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 1, maxSize = 32, parentContextCount = 0, hitCount = 44, missCount = 1]
+15:31:30.736 [INFO]  [Validating] > 15:31:29.217 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 1, maxSize = 32, parentContextCount = 0, hitCount = 45, missCount = 1]
+15:31:30.736 [INFO]  [Validating] > 15:31:29.217 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 1, maxSize = 32, parentContextCount = 0, hitCount = 46, missCount = 1]
+15:31:30.736 [INFO]  [Validating] > 15:31:29.217 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 1, maxSize = 32, parentContextCount = 0, hitCount = 47, missCount = 1]
+15:31:30.736 [INFO]  [Validating] > 15:31:29.218 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - After test method: class [AccountControllerDiffblueTest], method [testCountAccount], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null]
+15:31:30.736 [INFO]  [Validating] > 15:31:29.219 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 1, maxSize = 32, parentContextCount = 0, hitCount = 48, missCount = 1]
+15:31:30.736 [INFO]  [Validating] > 15:31:29.219 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - After test class: class [AccountControllerDiffblueTest], class annotated with @DirtiesContext [false] with mode [null]
+15:31:30.736 [INFO]  [Validating] > [INFO] Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 1.632 s - in ma.uiz.observatoire.controller.AccountControllerTest
+15:31:30.736 [INFO]  [Validating] > [INFO] Running ma.uiz.observatoire.service.AccountServiceTest
+15:31:30.736 [INFO]  [Validating] > 15:31:29.221 [main] DEBUG org.springframework.test.context.support.DefaultTestContextBootstrapper - Using ContextCustomizers for test class [AccountServiceDiffblueTest]: [ExcludeFilterContextCustomizer, DuplicateJsonObjectContextCustomizer, MockitoContextCustomizer, DisableObservabilityContextCustomizer, PropertyMappingContextCustomizer, Customizer]
+15:31:30.736 [INFO]  [Validating] > 15:31:29.221 [main] DEBUG org.springframework.test.context.support.DefaultTestContextBootstrapper - Using TestExecutionListeners for test class [AccountServiceDiffblueTest]: [ServletTestExecutionListener, DirtiesContextBeforeModesTestExecutionListener, ApplicationEventsTestExecutionListener, MockitoTestExecutionListener, DependencyInjectionTestExecutionListener, DirtiesContextTestExecutionListener, TransactionalTestExecutionListener, SqlScriptsTestExecutionListener, EventPublishingTestExecutionListener, ResetMocksTestExecutionListener, RestDocsTestExecutionListener, MockRestServiceServerResetTestExecutionListener, MockMvcPrintOnlyOnFailureTestExecutionListener, WebDriverTestExecutionListener, MockWebServiceServerTestExecutionListener]
+15:31:30.736 [INFO]  [Validating] > 15:31:29.221 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: class [AccountServiceDiffblueTest], class annotated with @DirtiesContext [false] with mode [null]
+15:31:30.736 [INFO]  [Validating] > 15:31:29.222 [main] DEBUG org.springframework.test.context.support.AbstractGenericContextLoader - Loading ApplicationContext for test class ma.uiz.observatoire.service.AccountServiceTest
+15:31:30.736 [INFO]  [Validating] > 15:31:29.222 [main] DEBUG org.springframework.core.env.StandardEnvironment - Activating profiles []
+15:31:30.736 [INFO]  [Validating] > 15:31:29.222 [main] DEBUG org.springframework.test.context.support.AnnotationConfigContextLoader - Registering component classes: [ma.uiz.observatoire.service.AccountService]
+15:31:30.736 [INFO]  [Validating] > 15:31:29.223 [main] WARN org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer - 
+15:31:30.736 [INFO]  [Validating] > 
+15:31:30.736 [INFO]  [Validating] > Found multiple occurrences of org.json.JSONObject on the class path:
+15:31:30.736 [INFO]  [Validating] > 
+15:31:30.736 [INFO]  [Validating] > 	jar:file:/C:/Users/eloma/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar!/org/json/JSONObject.class
+15:31:30.736 [INFO]  [Validating] > 	jar:file:/C:/Users/eloma/.m2/repository/org/json/json/20230227/json-20230227.jar!/org/json/JSONObject.class
+15:31:30.736 [INFO]  [Validating] > 
+15:31:30.736 [INFO]  [Validating] > You may wish to exclude one of them to ensure predictable runtime behavior
+15:31:30.736 [INFO]  [Validating] > 
+15:31:30.736 [INFO]  [Validating] > 15:31:29.223 [main] DEBUG org.springframework.context.support.GenericApplicationContext - Refreshing org.springframework.context.support.GenericApplicationContext@224c7de4
+15:31:30.736 [INFO]  [Validating] > 15:31:29.225 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+15:31:30.736 [INFO]  [Validating] > 15:31:29.225 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.test.mock.mockito.MockitoPostProcessor'
+15:31:30.736 [INFO]  [Validating] > 15:31:29.278 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+15:31:30.736 [INFO]  [Validating] > 15:31:29.279 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+15:31:30.736 [INFO]  [Validating] > 15:31:29.280 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+15:31:30.736 [INFO]  [Validating] > 15:31:29.281 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+15:31:30.736 [INFO]  [Validating] > 15:31:29.281 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+15:31:30.736 [INFO]  [Validating] > 15:31:29.281 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.boot.test.mock.mockito.MockitoPostProcessor$SpyPostProcessor'
+15:31:30.736 [INFO]  [Validating] > 15:31:29.281 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Creating shared instance of singleton bean 'accountService'
+15:31:30.736 [INFO]  [Validating] > 15:31:29.281 [main] DEBUG org.springframework.beans.factory.support.DefaultListableBeanFactory - Autowiring by type from bean name 'accountService' via constructor to bean named 'ma.uiz.observatoire.repository.AccountRepository#0'
+15:31:30.736 [INFO]  [Validating] > 15:31:29.285 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 2, maxSize = 32, parentContextCount = 0, hitCount = 48, missCount = 2]
+15:31:30.736 [INFO]  [Validating] > 15:31:29.285 [main] DEBUG org.springframework.test.context.support.DependencyInjectionTestExecutionListener - Performing dependency injection for test class ma.uiz.observatoire.service.AccountServiceTest
+15:31:30.736 [INFO]  [Validating] > 15:31:29.285 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 2, maxSize = 32, parentContextCount = 0, hitCount = 49, missCount = 2]
+15:31:30.736 [INFO]  [Validating] > 15:31:29.286 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 2, maxSize = 32, parentContextCount = 0, hitCount = 50, missCount = 2]
+15:31:30.736 [INFO]  [Validating] > 15:31:29.287 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test method: class [AccountServiceDiffblueTest], method [testCount], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null]
+15:31:30.736 [INFO]  [Validating] > 15:31:29.287 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 2, maxSize = 32, parentContextCount = 0, hitCount = 51, missCount = 2]
+15:31:30.736 [INFO]  [Validating] > 15:31:29.289 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 2, maxSize = 32, parentContextCount = 0, hitCount = 52, missCount = 2]
+15:31:30.736 [INFO]  [Validating] > 15:31:29.289 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 2, maxSize = 32, parentContextCount = 0, hitCount = 53, missCount = 2]
+15:31:30.736 [INFO]  [Validating] > 15:31:29.299 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 2, maxSize = 32, parentContextCount = 0, hitCount = 54, missCount = 2]
+15:31:30.736 [INFO]  [Validating] > 15:31:29.300 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 2, maxSize = 32, parentContextCount = 0, hitCount = 55, missCount = 2]
+15:31:30.736 [INFO]  [Validating] > 15:31:29.300 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 2, maxSize = 32, parentContextCount = 0, hitCount = 56, missCount = 2]
+15:31:30.736 [INFO]  [Validating] > 15:31:29.300 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 2, maxSize = 32, parentContextCount = 0, hitCount = 57, missCount = 2]
+15:31:30.736 [INFO]  [Validating] > 15:31:29.301 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 2, maxSize = 32, parentContextCount = 0, hitCount = 58, missCount = 2]
+15:31:30.736 [INFO]  [Validating] > 15:31:29.301 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 2, maxSize = 32, parentContextCount = 0, hitCount = 59, missCount = 2]
+15:31:30.736 [INFO]  [Validating] > 15:31:29.301 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - After test method: class [AccountServiceDiffblueTest], method [testCount], class annotated with @DirtiesContext [false] with mode [null], method annotated with @DirtiesContext [false] with mode [null]
+15:31:30.736 [INFO]  [Validating] > 15:31:29.301 [main] DEBUG org.springframework.test.context.cache - Spring test ApplicationContext cache statistics: [DefaultContextCache@629ae7e size = 2, maxSize = 32, parentContextCount = 0, hitCount = 60, missCount = 2]
+15:31:30.736 [INFO]  [Validating] > 15:31:29.301 [main] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - After test class: class [AccountServiceDiffblueTest], class annotated with @DirtiesContext [false] with mode [null]
+15:31:30.736 [INFO]  [Validating] > [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.008 s - in ma.uiz.observatoire.service.AccountServiceTest
+15:31:30.736 [INFO]  [Validating] > 15:31:29.319 [SpringContextShutdownHook] DEBUG org.springframework.context.support.GenericApplicationContext - Closing org.springframework.context.support.GenericApplicationContext@224c7de4, started on Sun Nov 19 15:31:29 WEST 2023
+15:31:30.736 [INFO]  [Validating] > 15:31:29.319 [SpringContextShutdownHook] DEBUG org.springframework.context.support.GenericApplicationContext - Closing org.springframework.context.support.GenericApplicationContext@1cf56a1c, started on Sun Nov 19 15:31:27 WEST 2023
+15:31:30.736 [INFO]  [Validating] > [INFO] 
+15:31:30.736 [INFO]  [Validating] > [INFO] Results:
+15:31:30.736 [INFO]  [Validating] > [INFO] 
+15:31:30.736 [INFO]  [Validating] > [INFO] Tests run: 5, Failures: 0, Errors: 0, Skipped: 0
+15:31:30.736 [INFO]  [Validating] > [INFO] 
+15:31:30.736 [INFO]  [Validating] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='test', cause=, state=SUCCESS}
+15:31:30.736 [INFO]  [Validating] > [INFO] ------------------------------------------------------------------------
+15:31:30.736 [INFO]  [Validating] > [INFO] BUILD SUCCESS
+15:31:30.736 [INFO]  [Validating] > [INFO] ------------------------------------------------------------------------
+15:31:30.736 [INFO]  [Validating] > [INFO] Total time:  11.170 s
+15:31:30.736 [INFO]  [Validating] > [INFO] Finished at: 2023-11-19T15:31:29+01:00
+15:31:30.736 [INFO]  [Validating] > [INFO] ------------------------------------------------------------------------
+15:31:30.777 [INFO]  [Validating] All 4 created tests were successfully validated.
+15:31:35.929 [INFO]  [Reporting] 
+15:31:35.929 [INFO]  [Reporting] Log file: C:\Users\eloma\IdeaProjects\ObservatoireUIZ\.diffblue\log\user-20231119T152918.log
+15:31:35.974 [INFO]  [Reporting] Finished in 2m 14s

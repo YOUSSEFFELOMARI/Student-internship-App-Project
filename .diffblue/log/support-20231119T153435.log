@@ -1,0 +1,772 @@
+15:34:35.961 [DEBUG] [Preparing][main][c.d.cover.ui.a.w] Client heap size: 4064 MB
+15:34:35.979 [INFO]  [Preparing][main][c.d.cover.ui.a.w] Diffblue Cover 2023.11.01-fe2f45b-licensed
+15:34:35.979 [INFO]  [Preparing][main][c.d.cover.ui.a.w] Running: dcover create
+15:34:35.980 [INFO]  [Preparing][main][c.d.cover.ui.a.y] 
+15:34:35.980 [INFO]  [Preparing][main][c.d.cover.ui.a.y] Command: create
+15:34:35.982 [INFO]  [Preparing][main][c.d.cover.ui.a.y] Create tests for the specified package/class/method prefix.
+15:34:35.982 [INFO]  [Preparing][main][c.d.cover.ui.a.y] 
+15:34:38.969 [DEBUG] [Checking][main][c.l.i.s.LicenseService] [LicenseClientAPI#checkLicense] ---> GET https://api.licensespring.com/api/v4/check_license?is_vm=false&product=cover&sdk_ver=Java%20SDK%20null&hardware_id=8796-10B8-570C-0676-94D0-14B5-C30B-2470-9A13-70AA-3684-9F77-F70F-54F3-B8B9-FB6C&license_key=XXXX-XXXX-XXXX-XXXX HTTP/1.1
+15:34:39.385 [DEBUG] [Checking][main][c.l.i.s.LicenseService] [LicenseClientAPI#checkLicense] <--- UNKNOWN 200  (414ms)
+15:34:39.982 [DEBUG] [Checking][main][c.l.i.s.LicenseService] [LicenseClientAPI#checkLicense] ---> GET https://api.licensespring.com/api/v4/check_license?is_vm=false&product=cover&sdk_ver=Java%20SDK%20null&hardware_id=8796-10B8-570C-0676-94D0-14B5-C30B-2470-9A13-70AA-3684-9F77-F70F-54F3-B8B9-FB6C&license_key=XXXX-XXXX-XXXX-XXXX HTTP/1.1
+15:34:40.110 [DEBUG] [Checking][main][c.l.i.s.LicenseService] [LicenseClientAPI#checkLicense] <--- UNKNOWN 200  (127ms)
+15:34:40.608 [DEBUG] [Checking][main][c.l.i.s.LicenseService] [LicenseClientAPI#checkLicense] ---> GET https://api.licensespring.com/api/v4/check_license?is_vm=false&product=cover&sdk_ver=Java%20SDK%20null&hardware_id=8796-10B8-570C-0676-94D0-14B5-C30B-2470-9A13-70AA-3684-9F77-F70F-54F3-B8B9-FB6C&license_key=XXXX-XXXX-XXXX-XXXX HTTP/1.1
+15:34:40.730 [DEBUG] [Checking][main][c.l.i.s.LicenseService] [LicenseClientAPI#checkLicense] <--- UNKNOWN 200  (122ms)
+15:34:40.819 [INFO]  [Checking][main][c.d.cover.ui.a.j] Detecting environment:
+15:34:40.819 [INFO]  [Checking][main][c.d.cover.ui.a.j] ----------------------
+15:34:40.874 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule ah
+15:34:40.875 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:34:40.876 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule ah took 0ms
+15:34:40.876 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule r
+15:34:40.876 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule a
+15:34:40.876 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule CommonOptionsDetector
+15:34:40.876 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:34:40.876 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule CommonOptionsDetector took 0ms
+15:34:40.876 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule a
+15:34:40.876 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule c
+15:34:40.876 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule f
+15:34:40.876 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule s
+15:34:40.876 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:34:40.882 [INFO]  [Checking][main][c.d.cover.ui.a.j] Detected Java version 17.0.8
+15:34:40.883 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule s took 7ms
+15:34:40.883 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule f
+15:34:40.883 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:34:40.884 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule f took 0ms
+15:34:40.884 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule BuildSystemOptionsDetector
+15:34:40.884 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:34:40.885 [DEBUG] [Checking][main][c.d.c.c.m.c]   Error provided for SPECIFIED_BUILD_SYSTEM_CONFIG_FILE: Not Supplied
+15:34:40.885 [DEBUG] [Checking][main][c.d.c.c.m.c]   Error provided for SPECIFIED_CLASSPATH: Not Supplied
+15:34:40.885 [DEBUG] [Checking][main][c.d.c.c.m.c]   Error provided for SPECIFIED_BUILD_PATH: Not Supplied
+15:34:40.885 [DEBUG] [Checking][main][c.d.c.c.m.c]   Error provided for SPECIFIED_COMPLIANCE_LEVEL: Not Supplied
+15:34:40.885 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule BuildSystemOptionsDetector took 0ms
+15:34:40.885 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule c
+15:34:40.885 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:34:40.909 [INFO]  [Checking][main][c.d.d.d.b] Maven Using ${maven.home} of: C:\Users\eloma\IdeaProjects\ObservatoireUIZ.
+15:34:40.934 [INFO]  [Checking][main][c.d.d.d.b] Maven Executing: cmd.exe /X /C "C:\Users\eloma\IdeaProjects\ObservatoireUIZ\mvnw.cmd -B -version"
+15:34:40.985 [INFO]  [Checking][main][c.d.d.c.a] Standard output of build tool (Maven)
+15:34:40.985 [INFO]  [Checking][main][c.d.d.c.a] > 
+15:34:40.986 [INFO]  [Checking][main][c.d.d.c.a] > 
+15:34:40.986 [INFO]  [Checking][main][c.d.d.c.a] Standard error of build tool (Maven)
+15:34:40.986 [INFO]  [Checking][main][c.d.d.c.a] > Error: JAVA_HOME not found in your environment. 
+15:34:40.986 [INFO]  [Checking][main][c.d.d.c.a] > Please set the JAVA_HOME variable in your environment to match the 
+15:34:40.986 [INFO]  [Checking][main][c.d.d.c.a] > location of your Java installation. 
+15:34:40.986 [INFO]  [Checking][main][c.d.d.d.b] Maven command Using ${maven.home} of: 'C:\Users\eloma\IdeaProjects\ObservatoireUIZ'.
+15:34:40.986 [INFO]  [Checking][main][c.d.d.d.b] Maven command Executing: cmd.exe /X /C "C:\Users\eloma\IdeaProjects\ObservatoireUIZ\mvnw.cmd -B -version"
+15:34:41.020 [INFO]  [Checking][main][c.d.d.d.b] Maven Using ${maven.home} of: C:\Users\eloma\IdeaProjects\ObservatoireUIZ.
+15:34:41.021 [INFO]  [Checking][main][c.d.d.d.b] Maven Executing: cmd.exe /X /C "C:\Users\eloma\IdeaProjects\ObservatoireUIZ\mvnw.cmd -B -N -D output=diffblue.effective-pom.output.xml -D "maven.ext.class.path=C:\Program Files\Diffblue\cover-buildsystem-maven-spy-jar-with-dependencies.jar" org.apache.maven.plugins:maven-help-plugin:3.2.0:effective-pom"
+15:34:42.928 [INFO]  [Checking][main][c.d.d.c.a] Standard output of build tool (Maven)
+15:34:42.929 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] Scanning for projects...
+15:34:42.929 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] 
+15:34:42.929 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] -----------------------< ma.uiz:ObservatoireUIZ >-----------------------
+15:34:42.929 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] Building ObservatoireUIZ 0.0.1-SNAPSHOT
+15:34:42.929 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] --------------------------------[ jar ]---------------------------------
+15:34:42.929 [INFO]  [Checking][main][c.d.d.c.a] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='effective-pom', cause=, state=STARTED}
+15:34:42.929 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] 
+15:34:42.929 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] --- maven-help-plugin:3.2.0:effective-pom (default-cli) @ ObservatoireUIZ ---
+15:34:42.929 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] Effective-POM written to: C:\Users\eloma\IdeaProjects\ObservatoireUIZ\diffblue.effective-pom.output.xml
+15:34:42.929 [INFO]  [Checking][main][c.d.d.c.a] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='effective-pom', cause=, state=SUCCESS}
+15:34:42.929 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] ------------------------------------------------------------------------
+15:34:42.929 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] BUILD SUCCESS
+15:34:42.929 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] ------------------------------------------------------------------------
+15:34:42.929 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] Total time:  0.949 s
+15:34:42.929 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] Finished at: 2023-11-19T15:34:42+01:00
+15:34:42.929 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] ------------------------------------------------------------------------
+15:34:43.104 [INFO]  [Checking][main][c.d.cover.ui.a.j] Detected build system: Maven
+15:34:43.104 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule c took 2219ms
+15:34:43.104 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule b
+15:34:43.105 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:34:43.109 [DEBUG] [Checking][main][c.d.c.c.m.c]   Error provided for DETECTED_BUILD_SYSTEM_GRADLE: Not Detected
+15:34:43.109 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule b took 4ms
+15:34:43.109 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule aj
+15:34:43.109 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:34:43.112 [INFO]  [Checking][main][c.d.cover.m.a.aj] Operating System: Windows 11 amd64 10.0
+15:34:43.113 [INFO]  [Checking][main][c.d.cover.m.a.aj] Default charset: windows-1252
+15:34:43.113 [INFO]  [Checking][main][c.d.cover.m.a.aj] Default locale: en_US
+15:34:43.113 [INFO]  [Checking][main][c.d.cover.m.a.aj] Default time zone: Africa/Casablanca
+15:34:43.113 [DEBUG] [Checking][main][c.d.c.c.m.c]   Error provided for DETECTED_ENVIRONMENT_CLASSPATH: Not Supplied
+15:34:43.113 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule aj took 4ms
+15:34:43.113 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule a
+15:34:43.113 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:34:43.115 [INFO]  [Checking][main][c.d.cover.ui.a.j] Selected build system: Maven
+15:34:43.116 [DEBUG] [Checking][main][c.d.c.c.m.c]   Error provided for SELECTED_BUILD_SYSTEM_VERSION: Not Detected
+15:34:43.117 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule a took 3ms
+15:34:43.117 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule a
+15:34:43.117 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:34:43.117 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule a took 0ms
+15:34:43.117 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule b
+15:34:43.117 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:34:43.118 [INFO]  [Checking][main][c.d.d.d.b] Maven Using ${maven.home} of: C:\Users\eloma\IdeaProjects\ObservatoireUIZ.
+15:34:43.118 [INFO]  [Checking][main][c.d.d.d.b] Maven Executing: cmd.exe /X /C "C:\Users\eloma\IdeaProjects\ObservatoireUIZ\mvnw.cmd -B -D output=C:\Users\eloma\AppData\Local\Temp\build.classpath1306736849273750520.tmp -D expression=build.classpath -D mdep.pathSeparator=#SEP# -D includeScope=test -D mdep.outputProperty=build.classpath -D "maven.ext.class.path=C:\Program Files\Diffblue\cover-buildsystem-maven-spy-jar-with-dependencies.jar" org.apache.maven.plugins:maven-dependency-plugin:3.3.0:build-classpath org.apache.maven.plugins:maven-help-plugin:3.2.0:evaluate"
+15:34:46.033 [INFO]  [Checking][main][c.d.d.c.a] Standard output of build tool (Maven)
+15:34:46.033 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] Scanning for projects...
+15:34:46.033 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] 
+15:34:46.033 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] -----------------------< ma.uiz:ObservatoireUIZ >-----------------------
+15:34:46.033 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] Building ObservatoireUIZ 0.0.1-SNAPSHOT
+15:34:46.033 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] --------------------------------[ jar ]---------------------------------
+15:34:46.033 [INFO]  [Checking][main][c.d.d.c.a] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='build-classpath', cause=, state=STARTED}
+15:34:46.033 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] 
+15:34:46.033 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] --- maven-dependency-plugin:3.3.0:build-classpath (default-cli) @ ObservatoireUIZ ---
+15:34:46.033 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] Dependencies classpath:
+15:34:46.033 [INFO]  [Checking][main][c.d.d.c.a] > C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter\3.0.3\spring-boot-starter-3.0.3.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot\3.0.3\spring-boot-3.0.3.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.0.3\spring-boot-autoconfigure-3.0.3.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.0.3\spring-boot-starter-logging-3.0.3.jar#SEP#C:\Users\eloma\.m2\repository\ch\qos\logback\logback-classic\1.4.5\logback-classic-1.4.5.jar#SEP#C:\Users\eloma\.m2\repository\ch\qos\logback\logback-core\1.4.5\logback-core-1.4.5.jar#SEP#C:\Users\eloma\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.19.0\log4j-to-slf4j-2.19.0.jar#SEP#C:\Users\eloma\.m2\repository\org\apache\logging\log4j\log4j-api\2.19.0\log4j-api-2.19.0.jar#SEP#C:\Users\eloma\.m2\repository\org\slf4j\jul-to-slf4j\2.0.6\jul-to-slf4j-2.0.6.jar#SEP#C:\Users\eloma\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\spring-core\6.0.5\spring-core-6.0.5.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\spring-jcl\6.0.5\spring-jcl-6.0.5.jar#SEP#C:\Users\eloma\.m2\repository\org\yaml\snakeyaml\1.33\snakeyaml-1.33.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.0.3\spring-boot-starter-web-3.0.3.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.0.3\spring-boot-starter-json-3.0.3.jar#SEP#C:\Users\eloma\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.14.2\jackson-datatype-jdk8-2.14.2.jar#SEP#C:\Users\eloma\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.14.2\jackson-datatype-jsr310-2.14.2.jar#SEP#C:\Users\eloma\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.14.2\jackson-module-parameter-names-2.14.2.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.0.3\spring-boot-starter-tomcat-3.0.3.jar#SEP#C:\Users\eloma\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.5\tomcat-embed-core-10.1.5.jar#SEP#C:\Users\eloma\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.5\tomcat-embed-websocket-10.1.5.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\spring-web\6.0.5\spring-web-6.0.5.jar#SEP#C:\Users\eloma\.m2\repository\io\micrometer\micrometer-observation\1.10.4\micrometer-observation-1.10.4.jar#SEP#C:\Users\eloma\.m2\repository\io\micrometer\micrometer-commons\1.10.4\micrometer-commons-1.10.4.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\spring-webmvc\6.0.5\spring-webmvc-6.0.5.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\spring-expression\6.0.5\spring-expression-6.0.5.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter-thymeleaf\3.0.3\spring-boot-starter-thymeleaf-3.0.3.jar#SEP#C:\Users\eloma\.m2\repository\org\thymeleaf\thymeleaf-spring6\3.1.1.RELEASE\thymeleaf-spring6-3.1.1.RELEASE.jar#SEP#C:\Users\eloma\.m2\repository\org\thymeleaf\thymeleaf\3.1.1.RELEASE\thymeleaf-3.1.1.RELEASE.jar#SEP#C:\Users\eloma\.m2\repository\org\attoparser\attoparser\2.0.6.RELEASE\attoparser-2.0.6.RELEASE.jar#SEP#C:\Users\eloma\.m2\repository\org\unbescape\unbescape\1.1.6.RELEASE\unbescape-1.1.6.RELEASE.jar#SEP#C:\Users\eloma\.m2\repository\org\thymeleaf\extras\thymeleaf-extras-springsecurity6\3.1.1.RELEASE\thymeleaf-extras-springsecurity6-3.1.1.RELEASE.jar#SEP#C:\Users\eloma\.m2\repository\org\slf4j\slf4j-api\2.0.6\slf4j-api-2.0.6.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-devtools\3.0.3\spring-boot-devtools-3.0.3.jar#SEP#C:\Users\eloma\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter-validation\3.0.3\spring-boot-starter-validation-3.0.3.jar#SEP#C:\Users\eloma\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.5\tomcat-embed-el-10.1.5.jar#SEP#C:\Users\eloma\.m2\repository\org\hibernate\validator\hibernate-validator\8.0.0.Final\hibernate-validator-8.0.0.Final.jar#SEP#C:\Users\eloma\.m2\repository\jakarta\validation\jakarta.validation-api\3.0.2\jakarta.validation-api-3.0.2.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter-security\3.0.3\spring-boot-starter-security-3.0.3.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\spring-aop\6.0.5\spring-aop-6.0.5.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\security\spring-security-config\6.0.2\spring-security-config-6.0.2.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\security\spring-security-core\6.0.2\spring-security-core-6.0.2.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\security\spring-security-crypto\6.0.2\spring-security-crypto-6.0.2.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\security\spring-security-web\6.0.2\spring-security-web-6.0.2.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter-aop\3.0.3\spring-boot-starter-aop-3.0.3.jar#SEP#C:\Users\eloma\.m2\repository\org\aspectj\aspectjweaver\1.9.19\aspectjweaver-1.9.19.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\3.0.3\spring-boot-starter-jdbc-3.0.3.jar#SEP#C:\Users\eloma\.m2\repository\com\zaxxer\HikariCP\5.0.1\HikariCP-5.0.1.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\spring-jdbc\6.0.5\spring-jdbc-6.0.5.jar#SEP#C:\Users\eloma\.m2\repository\org\hibernate\orm\hibernate-core\6.2.1.Final\hibernate-core-6.2.1.Final.jar#SEP#C:\Users\eloma\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar#SEP#C:\Users\eloma\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar#SEP#C:\Users\eloma\.m2\repository\org\jboss\logging\jboss-logging\3.5.0.Final\jboss-logging-3.5.0.Final.jar#SEP#C:\Users\eloma\.m2\repository\org\hibernate\common\hibernate-commons-annotations\6.0.6.Final\hibernate-commons-annotations-6.0.6.Final.jar#SEP#C:\Users\eloma\.m2\repository\io\smallrye\jandex\3.0.5\jandex-3.0.5.jar#SEP#C:\Users\eloma\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar#SEP#C:\Users\eloma\.m2\repository\net\bytebuddy\byte-buddy\1.12.23\byte-buddy-1.12.23.jar#SEP#C:\Users\eloma\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.0\jakarta.xml.bind-api-4.0.0.jar#SEP#C:\Users\eloma\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.1\jakarta.activation-api-2.1.1.jar#SEP#C:\Users\eloma\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.2\jaxb-runtime-4.0.2.jar#SEP#C:\Users\eloma\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.2\jaxb-core-4.0.2.jar#SEP#C:\Users\eloma\.m2\repository\org\eclipse\angus\angus-activation\2.0.0\angus-activation-2.0.0.jar#SEP#C:\Users\eloma\.m2\repository\org\glassfish\jaxb\txw2\4.0.2\txw2-4.0.2.jar#SEP#C:\Users\eloma\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.1\istack-commons-runtime-4.1.1.jar#SEP#C:\Users\eloma\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar#SEP#C:\Users\eloma\.m2\repository\org\antlr\antlr4-runtime\4.10.1\antlr4-runtime-4.10.1.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\data\spring-data-jpa\3.0.2\spring-data-jpa-3.0.2.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\data\spring-data-commons\3.0.2\spring-data-commons-3.0.2.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\spring-orm\6.0.5\spring-orm-6.0.5.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\spring-context\6.0.5\spring-context-6.0.5.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\spring-tx\6.0.5\spring-tx-6.0.5.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\spring-beans\6.0.5\spring-beans-6.0.5.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\spring-aspects\6.0.5\spring-aspects-6.0.5.jar#SEP#C:\Users\eloma\.m2\repository\com\mysql\mysql-connector-j\8.0.32\mysql-connector-j-8.0.32.jar#SEP#C:\Users\eloma\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-xml\2.14.2\jackson-dataformat-xml-2.14.2.jar#SEP#C:\Users\eloma\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.2\jackson-core-2.14.2.jar#SEP#C:\Users\eloma\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.2\jackson-annotations-2.14.2.jar#SEP#C:\Users\eloma\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.2\jackson-databind-2.14.2.jar#SEP#C:\Users\eloma\.m2\repository\org\codehaus\woodstox\stax2-api\4.2.1\stax2-api-4.2.1.jar#SEP#C:\Users\eloma\.m2\repository\com\fasterxml\woodstox\woodstox-core\6.5.0\woodstox-core-6.5.0.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter-test\3.0.3\spring-boot-starter-test-3.0.3.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-test\3.0.3\spring-boot-test-3.0.3.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\3.0.3\spring-boot-test-autoconfigure-3.0.3.jar#SEP#C:\Users\eloma\.m2\repository\com\jayway\jsonpath\json-path\2.7.0\json-path-2.7.0.jar#SEP#C:\Users\eloma\.m2\repository\net\minidev\json-smart\2.4.8\json-smart-2.4.8.jar#SEP#C:\Users\eloma\.m2\repository\net\minidev\accessors-smart\2.4.8\accessors-smart-2.4.8.jar#SEP#C:\Users\eloma\.m2\repository\org\ow2\asm\asm\9.1\asm-9.1.jar#SEP#C:\Users\eloma\.m2\repository\org\assertj\assertj-core\3.23.1\assertj-core-3.23.1.jar#SEP#C:\Users\eloma\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar#SEP#C:\Users\eloma\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar#SEP#C:\Users\eloma\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar#SEP#C:\Users\eloma\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar#SEP#C:\Users\eloma\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar#SEP#C:\Users\eloma\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar#SEP#C:\Users\eloma\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar#SEP#C:\Users\eloma\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar#SEP#C:\Users\eloma\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar#SEP#C:\Users\eloma\.m2\repository\org\mockito\mockito-core\4.8.1\mockito-core-4.8.1.jar#SEP#C:\Users\eloma\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.23\byte-buddy-agent-1.12.23.jar#SEP#C:\Users\eloma\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar#SEP#C:\Users\eloma\.m2\repository\org\mockito\mockito-junit-jupiter\4.8.1\mockito-junit-jupiter-4.8.1.jar#SEP#C:\Users\eloma\.m2\repository\org\skyscreamer\jsonassert\1.5.1\jsonassert-1.5.1.jar#SEP#C:\Users\eloma\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\spring-test\6.0.5\spring-test-6.0.5.jar#SEP#C:\Users\eloma\.m2\repository\org\xmlunit\xmlunit-core\2.9.1\xmlunit-core-2.9.1.jar#SEP#C:\Users\eloma\.m2\repository\io\jsonwebtoken\jjwt-api\0.11.5\jjwt-api-0.11.5.jar#SEP#C:\Users\eloma\.m2\repository\io\jsonwebtoken\jjwt-impl\0.11.5\jjwt-impl-0.11.5.jar#SEP#C:\Users\eloma\.m2\repository\io\jsonwebtoken\jjwt-jackson\0.11.5\jjwt-jackson-0.11.5.jar#SEP#C:\Users\eloma\.m2\repository\org\mapstruct\mapstruct\1.5.3.Final\mapstruct-1.5.3.Final.jar#SEP#C:\Users\eloma\.m2\repository\org\projectlombok\lombok-mapstruct-binding\0.2.0\lombok-mapstruct-binding-0.2.0.jar#SEP#C:\Users\eloma\.m2\repository\org\json\json\20230227\json-20230227.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\spring-websocket\6.0.8\spring-websocket-6.0.8.jar#SEP#C:\Users\eloma\.m2\repository\org\springframework\spring-messaging\6.0.8\spring-messaging-6.0.8.jar#SEP#C:\Users\eloma\.m2\repository\org\springdoc\springdoc-openapi-starter-webmvc-ui\2.1.0\springdoc-openapi-starter-webmvc-ui-2.1.0.jar#SEP#C:\Users\eloma\.m2\repository\org\springdoc\springdoc-openapi-starter-webmvc-api\2.1.0\springdoc-openapi-starter-webmvc-api-2.1.0.jar#SEP#C:\Users\eloma\.m2\repository\org\springdoc\springdoc-openapi-starter-common\2.1.0\springdoc-openapi-starter-common-2.1.0.jar#SEP#C:\Users\eloma\.m2\repository\io\swagger\core\v3\swagger-core-jakarta\2.2.9\swagger-core-jakarta-2.2.9.jar#SEP#C:\Users\eloma\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar#SEP#C:\Users\eloma\.m2\repository\io\swagger\core\v3\swagger-annotations-jakarta\2.2.9\swagger-annotations-jakarta-2.2.9.jar#SEP#C:\Users\eloma\.m2\repository\io\swagger\core\v3\swagger-models-jakarta\2.2.9\swagger-models-jakarta-2.2.9.jar#SEP#C:\Users\eloma\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.14.2\jackson-dataformat-yaml-2.14.2.jar#SEP#C:\Users\eloma\.m2\repository\org\webjars\swagger-ui\4.18.2\swagger-ui-4.18.2.jar
+15:34:46.034 [INFO]  [Checking][main][c.d.d.c.a] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='build-classpath', cause=, state=SUCCESS}
+15:34:46.034 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] 
+15:34:46.034 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] -----------------------< ma.uiz:ObservatoireUIZ >-----------------------
+15:34:46.034 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] Building ObservatoireUIZ 0.0.1-SNAPSHOT
+15:34:46.034 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] --------------------------------[ jar ]---------------------------------
+15:34:46.034 [INFO]  [Checking][main][c.d.d.c.a] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='evaluate', cause=, state=STARTED}
+15:34:46.034 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] 
+15:34:46.034 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] --- maven-help-plugin:3.2.0:evaluate (default-cli) @ ObservatoireUIZ ---
+15:34:46.034 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] No artifact parameter specified, using 'ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT' as project.
+15:34:46.034 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] Result of evaluation written to: C:\Users\eloma\AppData\Local\Temp\build.classpath1306736849273750520.tmp
+15:34:46.034 [INFO]  [Checking][main][c.d.d.c.a] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='evaluate', cause=, state=SUCCESS}
+15:34:46.034 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] ------------------------------------------------------------------------
+15:34:46.035 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] BUILD SUCCESS
+15:34:46.035 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] ------------------------------------------------------------------------
+15:34:46.035 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] Total time:  1.863 s
+15:34:46.035 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] Finished at: 2023-11-19T15:34:45+01:00
+15:34:46.035 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] ------------------------------------------------------------------------
+15:34:46.042 [INFO]  [Checking][main][c.d.cover.ui.a.j] Selected classpath from build system Maven
+15:34:46.044 [INFO]  [Checking][main][c.d.cover.m.c.b] Expanded classpath: 
+C:\Users\eloma\IdeaProjects\ObservatoireUIZ\target\test-classes
+C:\Users\eloma\IdeaProjects\ObservatoireUIZ\target\classes (code under test)
+C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter\3.0.3\spring-boot-starter-3.0.3.jar
+C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot\3.0.3\spring-boot-3.0.3.jar
+C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.0.3\spring-boot-autoconfigure-3.0.3.jar
+C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.0.3\spring-boot-starter-logging-3.0.3.jar
+C:\Users\eloma\.m2\repository\ch\qos\logback\logback-classic\1.4.5\logback-classic-1.4.5.jar
+C:\Users\eloma\.m2\repository\ch\qos\logback\logback-core\1.4.5\logback-core-1.4.5.jar
+C:\Users\eloma\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.19.0\log4j-to-slf4j-2.19.0.jar
+C:\Users\eloma\.m2\repository\org\apache\logging\log4j\log4j-api\2.19.0\log4j-api-2.19.0.jar
+C:\Users\eloma\.m2\repository\org\slf4j\jul-to-slf4j\2.0.6\jul-to-slf4j-2.0.6.jar
+C:\Users\eloma\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar
+C:\Users\eloma\.m2\repository\org\springframework\spring-core\6.0.5\spring-core-6.0.5.jar
+C:\Users\eloma\.m2\repository\org\springframework\spring-jcl\6.0.5\spring-jcl-6.0.5.jar
+C:\Users\eloma\.m2\repository\org\yaml\snakeyaml\1.33\snakeyaml-1.33.jar
+C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.0.3\spring-boot-starter-web-3.0.3.jar
+C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.0.3\spring-boot-starter-json-3.0.3.jar
+C:\Users\eloma\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.14.2\jackson-datatype-jdk8-2.14.2.jar
+C:\Users\eloma\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.14.2\jackson-datatype-jsr310-2.14.2.jar
+C:\Users\eloma\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.14.2\jackson-module-parameter-names-2.14.2.jar
+C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.0.3\spring-boot-starter-tomcat-3.0.3.jar
+C:\Users\eloma\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.5\tomcat-embed-core-10.1.5.jar
+C:\Users\eloma\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.5\tomcat-embed-websocket-10.1.5.jar
+C:\Users\eloma\.m2\repository\org\springframework\spring-web\6.0.5\spring-web-6.0.5.jar
+C:\Users\eloma\.m2\repository\io\micrometer\micrometer-observation\1.10.4\micrometer-observation-1.10.4.jar
+C:\Users\eloma\.m2\repository\io\micrometer\micrometer-commons\1.10.4\micrometer-commons-1.10.4.jar
+C:\Users\eloma\.m2\repository\org\springframework\spring-webmvc\6.0.5\spring-webmvc-6.0.5.jar
+C:\Users\eloma\.m2\repository\org\springframework\spring-expression\6.0.5\spring-expression-6.0.5.jar
+C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter-thymeleaf\3.0.3\spring-boot-starter-thymeleaf-3.0.3.jar
+C:\Users\eloma\.m2\repository\org\thymeleaf\thymeleaf-spring6\3.1.1.RELEASE\thymeleaf-spring6-3.1.1.RELEASE.jar
+C:\Users\eloma\.m2\repository\org\thymeleaf\thymeleaf\3.1.1.RELEASE\thymeleaf-3.1.1.RELEASE.jar
+C:\Users\eloma\.m2\repository\org\attoparser\attoparser\2.0.6.RELEASE\attoparser-2.0.6.RELEASE.jar
+C:\Users\eloma\.m2\repository\org\unbescape\unbescape\1.1.6.RELEASE\unbescape-1.1.6.RELEASE.jar
+C:\Users\eloma\.m2\repository\org\thymeleaf\extras\thymeleaf-extras-springsecurity6\3.1.1.RELEASE\thymeleaf-extras-springsecurity6-3.1.1.RELEASE.jar
+C:\Users\eloma\.m2\repository\org\slf4j\slf4j-api\2.0.6\slf4j-api-2.0.6.jar
+C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-devtools\3.0.3\spring-boot-devtools-3.0.3.jar
+C:\Users\eloma\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar
+C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter-validation\3.0.3\spring-boot-starter-validation-3.0.3.jar
+C:\Users\eloma\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.5\tomcat-embed-el-10.1.5.jar
+C:\Users\eloma\.m2\repository\org\hibernate\validator\hibernate-validator\8.0.0.Final\hibernate-validator-8.0.0.Final.jar
+C:\Users\eloma\.m2\repository\jakarta\validation\jakarta.validation-api\3.0.2\jakarta.validation-api-3.0.2.jar
+C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter-security\3.0.3\spring-boot-starter-security-3.0.3.jar
+C:\Users\eloma\.m2\repository\org\springframework\spring-aop\6.0.5\spring-aop-6.0.5.jar
+C:\Users\eloma\.m2\repository\org\springframework\security\spring-security-config\6.0.2\spring-security-config-6.0.2.jar
+C:\Users\eloma\.m2\repository\org\springframework\security\spring-security-core\6.0.2\spring-security-core-6.0.2.jar
+C:\Users\eloma\.m2\repository\org\springframework\security\spring-security-crypto\6.0.2\spring-security-crypto-6.0.2.jar
+C:\Users\eloma\.m2\repository\org\springframework\security\spring-security-web\6.0.2\spring-security-web-6.0.2.jar
+C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter-aop\3.0.3\spring-boot-starter-aop-3.0.3.jar
+C:\Users\eloma\.m2\repository\org\aspectj\aspectjweaver\1.9.19\aspectjweaver-1.9.19.jar
+C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\3.0.3\spring-boot-starter-jdbc-3.0.3.jar
+C:\Users\eloma\.m2\repository\com\zaxxer\HikariCP\5.0.1\HikariCP-5.0.1.jar
+C:\Users\eloma\.m2\repository\org\springframework\spring-jdbc\6.0.5\spring-jdbc-6.0.5.jar
+C:\Users\eloma\.m2\repository\org\hibernate\orm\hibernate-core\6.2.1.Final\hibernate-core-6.2.1.Final.jar
+C:\Users\eloma\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar
+C:\Users\eloma\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar
+C:\Users\eloma\.m2\repository\org\jboss\logging\jboss-logging\3.5.0.Final\jboss-logging-3.5.0.Final.jar
+C:\Users\eloma\.m2\repository\org\hibernate\common\hibernate-commons-annotations\6.0.6.Final\hibernate-commons-annotations-6.0.6.Final.jar
+C:\Users\eloma\.m2\repository\io\smallrye\jandex\3.0.5\jandex-3.0.5.jar
+C:\Users\eloma\.m2\repository\com\fasterxml\classmate\1.5.1\classmate-1.5.1.jar
+C:\Users\eloma\.m2\repository\net\bytebuddy\byte-buddy\1.12.23\byte-buddy-1.12.23.jar
+C:\Users\eloma\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.0\jakarta.xml.bind-api-4.0.0.jar
+C:\Users\eloma\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.1\jakarta.activation-api-2.1.1.jar
+C:\Users\eloma\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.2\jaxb-runtime-4.0.2.jar
+C:\Users\eloma\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.2\jaxb-core-4.0.2.jar
+C:\Users\eloma\.m2\repository\org\eclipse\angus\angus-activation\2.0.0\angus-activation-2.0.0.jar
+C:\Users\eloma\.m2\repository\org\glassfish\jaxb\txw2\4.0.2\txw2-4.0.2.jar
+C:\Users\eloma\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.1\istack-commons-runtime-4.1.1.jar
+C:\Users\eloma\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar
+C:\Users\eloma\.m2\repository\org\antlr\antlr4-runtime\4.10.1\antlr4-runtime-4.10.1.jar
+C:\Users\eloma\.m2\repository\org\springframework\data\spring-data-jpa\3.0.2\spring-data-jpa-3.0.2.jar
+C:\Users\eloma\.m2\repository\org\springframework\data\spring-data-commons\3.0.2\spring-data-commons-3.0.2.jar
+C:\Users\eloma\.m2\repository\org\springframework\spring-orm\6.0.5\spring-orm-6.0.5.jar
+C:\Users\eloma\.m2\repository\org\springframework\spring-context\6.0.5\spring-context-6.0.5.jar
+C:\Users\eloma\.m2\repository\org\springframework\spring-tx\6.0.5\spring-tx-6.0.5.jar
+C:\Users\eloma\.m2\repository\org\springframework\spring-beans\6.0.5\spring-beans-6.0.5.jar
+C:\Users\eloma\.m2\repository\org\springframework\spring-aspects\6.0.5\spring-aspects-6.0.5.jar
+C:\Users\eloma\.m2\repository\com\mysql\mysql-connector-j\8.0.32\mysql-connector-j-8.0.32.jar
+C:\Users\eloma\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-xml\2.14.2\jackson-dataformat-xml-2.14.2.jar
+C:\Users\eloma\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.14.2\jackson-core-2.14.2.jar
+C:\Users\eloma\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.14.2\jackson-annotations-2.14.2.jar
+C:\Users\eloma\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.14.2\jackson-databind-2.14.2.jar
+C:\Users\eloma\.m2\repository\org\codehaus\woodstox\stax2-api\4.2.1\stax2-api-4.2.1.jar
+C:\Users\eloma\.m2\repository\com\fasterxml\woodstox\woodstox-core\6.5.0\woodstox-core-6.5.0.jar
+C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-starter-test\3.0.3\spring-boot-starter-test-3.0.3.jar
+C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-test\3.0.3\spring-boot-test-3.0.3.jar
+C:\Users\eloma\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\3.0.3\spring-boot-test-autoconfigure-3.0.3.jar
+C:\Users\eloma\.m2\repository\com\jayway\jsonpath\json-path\2.7.0\json-path-2.7.0.jar
+C:\Users\eloma\.m2\repository\net\minidev\json-smart\2.4.8\json-smart-2.4.8.jar
+C:\Users\eloma\.m2\repository\net\minidev\accessors-smart\2.4.8\accessors-smart-2.4.8.jar
+C:\Users\eloma\.m2\repository\org\ow2\asm\asm\9.1\asm-9.1.jar
+C:\Users\eloma\.m2\repository\org\assertj\assertj-core\3.23.1\assertj-core-3.23.1.jar
+C:\Users\eloma\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar
+C:\Users\eloma\.m2\repository\org\junit\jupiter\junit-jupiter\5.9.2\junit-jupiter-5.9.2.jar
+C:\Users\eloma\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar
+C:\Users\eloma\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar
+C:\Users\eloma\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar
+C:\Users\eloma\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar
+C:\Users\eloma\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar
+C:\Users\eloma\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar
+C:\Users\eloma\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar
+C:\Users\eloma\.m2\repository\org\mockito\mockito-core\4.8.1\mockito-core-4.8.1.jar
+C:\Users\eloma\.m2\repository\net\bytebuddy\byte-buddy-agent\1.12.23\byte-buddy-agent-1.12.23.jar
+C:\Users\eloma\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar
+C:\Users\eloma\.m2\repository\org\mockito\mockito-junit-jupiter\4.8.1\mockito-junit-jupiter-4.8.1.jar
+C:\Users\eloma\.m2\repository\org\skyscreamer\jsonassert\1.5.1\jsonassert-1.5.1.jar
+C:\Users\eloma\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar
+C:\Users\eloma\.m2\repository\org\springframework\spring-test\6.0.5\spring-test-6.0.5.jar
+C:\Users\eloma\.m2\repository\org\xmlunit\xmlunit-core\2.9.1\xmlunit-core-2.9.1.jar
+C:\Users\eloma\.m2\repository\io\jsonwebtoken\jjwt-api\0.11.5\jjwt-api-0.11.5.jar
+C:\Users\eloma\.m2\repository\io\jsonwebtoken\jjwt-impl\0.11.5\jjwt-impl-0.11.5.jar
+C:\Users\eloma\.m2\repository\io\jsonwebtoken\jjwt-jackson\0.11.5\jjwt-jackson-0.11.5.jar
+C:\Users\eloma\.m2\repository\org\mapstruct\mapstruct\1.5.3.Final\mapstruct-1.5.3.Final.jar
+C:\Users\eloma\.m2\repository\org\projectlombok\lombok-mapstruct-binding\0.2.0\lombok-mapstruct-binding-0.2.0.jar
+C:\Users\eloma\.m2\repository\org\json\json\20230227\json-20230227.jar
+C:\Users\eloma\.m2\repository\org\springframework\spring-websocket\6.0.8\spring-websocket-6.0.8.jar
+C:\Users\eloma\.m2\repository\org\springframework\spring-messaging\6.0.8\spring-messaging-6.0.8.jar
+C:\Users\eloma\.m2\repository\org\springdoc\springdoc-openapi-starter-webmvc-ui\2.1.0\springdoc-openapi-starter-webmvc-ui-2.1.0.jar
+C:\Users\eloma\.m2\repository\org\springdoc\springdoc-openapi-starter-webmvc-api\2.1.0\springdoc-openapi-starter-webmvc-api-2.1.0.jar
+C:\Users\eloma\.m2\repository\org\springdoc\springdoc-openapi-starter-common\2.1.0\springdoc-openapi-starter-common-2.1.0.jar
+C:\Users\eloma\.m2\repository\io\swagger\core\v3\swagger-core-jakarta\2.2.9\swagger-core-jakarta-2.2.9.jar
+C:\Users\eloma\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar
+C:\Users\eloma\.m2\repository\io\swagger\core\v3\swagger-annotations-jakarta\2.2.9\swagger-annotations-jakarta-2.2.9.jar
+C:\Users\eloma\.m2\repository\io\swagger\core\v3\swagger-models-jakarta\2.2.9\swagger-models-jakarta-2.2.9.jar
+C:\Users\eloma\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.14.2\jackson-dataformat-yaml-2.14.2.jar
+C:\Users\eloma\.m2\repository\org\webjars\swagger-ui\4.18.2\swagger-ui-4.18.2.jar
+15:34:46.044 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule b took 2927ms
+15:34:46.044 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule r
+15:34:46.044 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:34:46.103 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule r took 58ms
+15:34:46.103 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule ae
+15:34:46.103 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:34:46.103 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule ae took 0ms
+15:34:46.103 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule y
+15:34:46.103 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:34:46.226 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule y took 122ms
+15:34:46.226 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule af
+15:34:46.226 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:34:46.229 [INFO]  [Checking][main][c.d.cover.ui.a.j] Detected Spring Core version 6.0.5
+15:34:46.230 [INFO]  [Checking][main][c.d.cover.ui.a.j] Detected Spring Web version 6.0.5
+15:34:46.230 [INFO]  [Checking][main][c.d.cover.ui.a.j] Detected Spring Test version 6.0.5
+15:34:46.231 [INFO]  [Checking][main][c.d.cover.ui.a.j] Detected Spring Security Web version 6.0.2
+15:34:46.231 [INFO]  [Checking][main][c.d.cover.ui.a.j] Detected Spring Boot version 3.0.3
+15:34:46.231 [INFO]  [Checking][main][c.d.cover.ui.a.j] Detected Spring Boot Test version 3.0.3
+15:34:46.232 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule af took 5ms
+15:34:46.232 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule ar
+15:34:46.232 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:34:46.283 [DEBUG] [Checking][main][c.d.c.c.m.c]   Error provided for DETECTED_TESTING_FRAMEWORK_JUNIT: b: Failed to determine JUnit version by invoking class 'junit.runner.Version', method 'id', descriptor '()Ljava/lang/String'
+15:34:46.283 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule ar took 51ms
+15:34:46.283 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule as
+15:34:46.283 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:34:46.320 [INFO]  [Checking][main][c.d.cover.ui.a.j] Detected test framework: JUnit Jupiter 5.9.2
+15:34:46.356 [INFO]  [Checking][main][c.d.cover.ui.a.j] Detected JUnit Jupiter version 5.9.2
+15:34:46.356 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule as took 73ms
+15:34:46.356 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule u
+15:34:46.356 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:34:46.389 [INFO]  [Checking][main][c.d.cover.ui.a.j] Detected JUnit Jupiter Params version 5.9.2
+15:34:46.389 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule u took 33ms
+15:34:46.389 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule at
+15:34:46.389 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:34:46.426 [DEBUG] [Checking][main][c.d.c.c.m.c]   Error provided for DETECTED_TESTING_FRAMEWORK_TESTNG: b: Failed to determine TestNG version by invoking class 'org.testng.internal.Version', method 'getVersionString', descriptor '()Ljava/lang/String'
+15:34:46.426 [DEBUG] [Checking][main][c.d.c.c.m.c]   Error provided for DETECTED_TESTNG_BELOW_6_9_5: Skipped
+15:34:46.426 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule at took 37ms
+15:34:46.426 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule l
+15:34:46.426 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:34:46.460 [DEBUG] [Checking][main][c.d.c.c.m.c]   Error provided for DETECTED_JUNIT_VINTAGE_ENGINE: b: Failed to determine JUnit Vintage Engine version from manifest; resource not found: org/junit/vintage/engine/VintageTestEngine.class
+15:34:46.460 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule l took 33ms
+15:34:46.460 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule z
+15:34:46.460 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule ak
+15:34:46.460 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:34:46.460 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule ak took 0ms
+15:34:46.460 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule z
+15:34:46.460 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:34:46.489 [INFO]  [Checking][main][c.d.cover.ui.a.j] Detected Mockito version 4.8.1
+15:34:46.489 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule z took 29ms
+15:34:46.489 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule ac
+15:34:46.489 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:34:46.882 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule ac took 391ms
+15:34:46.882 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule ag
+15:34:46.882 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:34:46.882 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule ag took 0ms
+15:34:46.882 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule i
+15:34:46.882 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:34:46.917 [DEBUG] [Checking][main][c.d.c.c.m.c]   Error provided for DETECTED_INLINE_MOCK_MAKER: Dependency not present
+15:34:46.917 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule i took 34ms
+15:34:46.917 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule aa
+15:34:46.917 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:34:46.951 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule aa took 34ms
+15:34:46.951 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule ab
+15:34:46.951 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule m
+15:34:46.951 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule av
+15:34:46.951 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule ObserverMethodSpecificationDetector
+15:34:46.952 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:34:46.952 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule ObserverMethodSpecificationDetector took 0ms
+15:34:46.953 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule av
+15:34:46.953 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:34:46.955 [INFO]  [Checking][main][c.d.cover.ui.a.j] Indexing...
+15:34:47.327 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule av took 373ms
+15:34:47.327 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule ao
+15:34:47.327 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule ah
+15:34:47.327 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule CoverageReportOptionsDetector
+15:34:47.327 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule aq
+15:34:47.327 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:34:47.335 [INFO]  [Checking][main][c.d.cover.ui.a.j] Selected test output directory: C:\Users\eloma\IdeaProjects\ObservatoireUIZ\src\test\java
+15:34:47.335 [DEBUG] [Checking][main][c.d.c.c.m.c]   Error provided for SPECIFIED_TESTING_FRAMEWORK: Not Supplied
+15:34:47.335 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule aq took 8ms
+15:34:47.335 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule CoverageReportOptionsDetector
+15:34:47.335 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:34:47.335 [DEBUG] [Checking][main][c.d.c.c.m.c]   Error provided for SPECIFIED_JACOCO_COMMAND_DIFFBLUE: Not Supplied
+15:34:47.335 [DEBUG] [Checking][main][c.d.c.c.m.c]   Error provided for SPECIFIED_JACOCO_COMMAND_MANUAL: Not Supplied
+15:34:47.335 [DEBUG] [Checking][main][c.d.c.c.m.c]   Error provided for SPECIFIED_JACOCO_XML_TEST_REPORT: Not Supplied
+15:34:47.335 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule CoverageReportOptionsDetector took 0ms
+15:34:47.335 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule ai
+15:34:47.335 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:34:47.335 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule ai took 0ms
+15:34:47.335 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule ah
+15:34:47.336 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:34:47.336 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule ah took 0ms
+15:34:47.336 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule ValidationOptionsDetector
+15:34:47.336 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:34:47.336 [DEBUG] [Checking][main][c.d.c.c.m.c]   Error provided for SPECIFIED_VALIDATION_COMMAND: Not Supplied
+15:34:47.336 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule ValidationOptionsDetector took 0ms
+15:34:47.336 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule ao
+15:34:47.336 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:34:47.336 [DEBUG] [Checking][main][c.d.c.c.m.c]   Error provided for DETECTED_TESTS_EXECUTE_WITH_TESTNG: Skipped
+15:34:47.336 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule ao took 0ms
+15:34:47.336 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule an
+15:34:47.336 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:34:47.338 [INFO]  [Checking][main][c.d.d.d.b] Maven Using ${maven.home} of: C:\Users\eloma\IdeaProjects\ObservatoireUIZ.
+15:34:47.339 [INFO]  [Checking][main][c.d.d.d.b] Maven Executing: cmd.exe /X /C "C:\Users\eloma\IdeaProjects\ObservatoireUIZ\mvnw.cmd -B -D test=DummyJupiterDiffblueTest -D "maven.ext.class.path=C:\Program Files\Diffblue\cover-buildsystem-maven-spy-jar-with-dependencies.jar" test"
+15:34:53.344 [INFO]  [Checking][main][c.d.d.c.a] Standard output of build tool (Maven)
+15:34:53.344 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] Scanning for projects...
+15:34:53.344 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] 
+15:34:53.344 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] -----------------------< ma.uiz:ObservatoireUIZ >-----------------------
+15:34:53.344 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] Building ObservatoireUIZ 0.0.1-SNAPSHOT
+15:34:53.344 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] --------------------------------[ jar ]---------------------------------
+15:34:53.344 [INFO]  [Checking][main][c.d.d.c.a] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='resources', cause=, state=STARTED}
+15:34:53.344 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] 
+15:34:53.344 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] --- maven-resources-plugin:3.3.0:resources (default-resources) @ ObservatoireUIZ ---
+15:34:53.344 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] Copying 1 resource
+15:34:53.344 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] Copying 5 resources
+15:34:53.344 [INFO]  [Checking][main][c.d.d.c.a] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='resources', cause=, state=SUCCESS}
+15:34:53.344 [INFO]  [Checking][main][c.d.d.c.a] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='compile', cause=, state=STARTED}
+15:34:53.344 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] 
+15:34:53.344 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ ObservatoireUIZ ---
+15:34:53.344 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] Nothing to compile - all classes are up to date
+15:34:53.344 [INFO]  [Checking][main][c.d.d.c.a] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='compile', cause=, state=SUCCESS}
+15:34:53.344 [INFO]  [Checking][main][c.d.d.c.a] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='testResources', cause=, state=STARTED}
+15:34:53.344 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] 
+15:34:53.344 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] --- maven-resources-plugin:3.3.0:testResources (default-testResources) @ ObservatoireUIZ ---
+15:34:53.344 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] skip non existing resourceDirectory C:\Users\eloma\IdeaProjects\ObservatoireUIZ\src\test\resources
+15:34:53.344 [INFO]  [Checking][main][c.d.d.c.a] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='testResources', cause=, state=SUCCESS}
+15:34:53.344 [INFO]  [Checking][main][c.d.d.c.a] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='testCompile', cause=, state=STARTED}
+15:34:53.344 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] 
+15:34:53.344 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ ObservatoireUIZ ---
+15:34:53.344 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] Changes detected - recompiling the module!
+15:34:53.344 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] Compiling 4 source files to C:\Users\eloma\IdeaProjects\ObservatoireUIZ\target\test-classes
+15:34:53.344 [INFO]  [Checking][main][c.d.d.c.a] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='testCompile', cause=, state=SUCCESS}
+15:34:53.344 [INFO]  [Checking][main][c.d.d.c.a] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='test', cause=, state=STARTED}
+15:34:53.344 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] 
+15:34:53.344 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ ObservatoireUIZ ---
+15:34:53.344 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] 
+15:34:53.344 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] -------------------------------------------------------
+15:34:53.344 [INFO]  [Checking][main][c.d.d.c.a] > [INFO]  T E S T S
+15:34:53.344 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] -------------------------------------------------------
+15:34:53.344 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] Running org.example.jupiter.DummyJupiterDiffblueTest
+15:34:53.344 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.021 s - in org.example.jupiter.DummyJupiterDiffblueTest
+15:34:53.344 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] 
+15:34:53.344 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] Results:
+15:34:53.344 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] 
+15:34:53.344 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+15:34:53.344 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] 
+15:34:53.344 [INFO]  [Checking][main][c.d.d.c.a] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='test', cause=, state=SUCCESS}
+15:34:53.344 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] ------------------------------------------------------------------------
+15:34:53.344 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] BUILD SUCCESS
+15:34:53.344 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] ------------------------------------------------------------------------
+15:34:53.344 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] Total time:  4.094 s
+15:34:53.344 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] Finished at: 2023-11-19T15:34:52+01:00
+15:34:53.344 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] ------------------------------------------------------------------------
+15:34:53.345 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule an took 6009ms
+15:34:53.345 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule am
+15:34:53.345 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:34:53.345 [DEBUG] [Checking][main][c.d.c.c.m.c]   Error provided for DETECTED_TESTS_EXECUTE_WITH_JUNIT: Skipped
+15:34:53.345 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule am took 0ms
+15:34:53.345 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule m
+15:34:53.345 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:34:53.346 [DEBUG] [Checking][main][c.d.cover.m.c.m] JUnitJupiter5 is present
+15:34:53.346 [DEBUG] [Checking][main][c.d.cover.m.c.m] JUnitJupiter5 is supported
+15:34:53.346 [DEBUG] [Checking][main][c.d.cover.m.c.m] JUnit 5 is present and either it's not been specified by the user or it is the same as the version the user specified
+15:34:53.347 [INFO]  [Checking][main][c.d.cover.ui.a.j] Selected test framework: JUnit Jupiter
+15:34:53.348 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule m took 2ms
+15:34:53.348 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule ab
+15:34:53.348 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:34:53.380 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule ab took 31ms
+15:34:53.380 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule q
+15:34:53.380 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:34:53.449 [DEBUG] [Checking][main][c.d.c.c.m.c]   Error provided for DETECTED_JAKARTA_API: Skipped
+15:34:53.449 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule q took 68ms
+15:34:53.449 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule j
+15:34:53.449 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:34:53.450 [INFO]  [Checking][main][c.d.d.d.b] Maven Using ${maven.home} of: C:\Users\eloma\IdeaProjects\ObservatoireUIZ.
+15:34:53.451 [INFO]  [Checking][main][c.d.d.d.b] Maven Executing: cmd.exe /X /C "C:\Users\eloma\IdeaProjects\ObservatoireUIZ\mvnw.cmd -B -D test=DummyJUnitJupiterLauncherDiffblueTest -D "maven.ext.class.path=C:\Program Files\Diffblue\cover-buildsystem-maven-spy-jar-with-dependencies.jar" test"
+15:34:59.457 [INFO]  [Checking][main][c.d.d.c.a] Standard output of build tool (Maven)
+15:34:59.457 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] Scanning for projects...
+15:34:59.457 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] 
+15:34:59.457 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] -----------------------< ma.uiz:ObservatoireUIZ >-----------------------
+15:34:59.457 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] Building ObservatoireUIZ 0.0.1-SNAPSHOT
+15:34:59.457 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] --------------------------------[ jar ]---------------------------------
+15:34:59.457 [INFO]  [Checking][main][c.d.d.c.a] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='resources', cause=, state=STARTED}
+15:34:59.457 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] 
+15:34:59.457 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] --- maven-resources-plugin:3.3.0:resources (default-resources) @ ObservatoireUIZ ---
+15:34:59.457 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] Copying 1 resource
+15:34:59.457 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] Copying 5 resources
+15:34:59.457 [INFO]  [Checking][main][c.d.d.c.a] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='resources', cause=, state=SUCCESS}
+15:34:59.457 [INFO]  [Checking][main][c.d.d.c.a] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='compile', cause=, state=STARTED}
+15:34:59.457 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] 
+15:34:59.457 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] --- maven-compiler-plugin:3.8.1:compile (default-compile) @ ObservatoireUIZ ---
+15:34:59.457 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] Nothing to compile - all classes are up to date
+15:34:59.457 [INFO]  [Checking][main][c.d.d.c.a] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='compile', cause=, state=SUCCESS}
+15:34:59.457 [INFO]  [Checking][main][c.d.d.c.a] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='testResources', cause=, state=STARTED}
+15:34:59.457 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] 
+15:34:59.457 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] --- maven-resources-plugin:3.3.0:testResources (default-testResources) @ ObservatoireUIZ ---
+15:34:59.457 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] skip non existing resourceDirectory C:\Users\eloma\IdeaProjects\ObservatoireUIZ\src\test\resources
+15:34:59.457 [INFO]  [Checking][main][c.d.d.c.a] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='testResources', cause=, state=SUCCESS}
+15:34:59.457 [INFO]  [Checking][main][c.d.d.c.a] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='testCompile', cause=, state=STARTED}
+15:34:59.457 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] 
+15:34:59.457 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ ObservatoireUIZ ---
+15:34:59.457 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] Changes detected - recompiling the module!
+15:34:59.457 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] Compiling 4 source files to C:\Users\eloma\IdeaProjects\ObservatoireUIZ\target\test-classes
+15:34:59.457 [INFO]  [Checking][main][c.d.d.c.a] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='testCompile', cause=, state=SUCCESS}
+15:34:59.457 [INFO]  [Checking][main][c.d.d.c.a] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='test', cause=, state=STARTED}
+15:34:59.457 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] 
+15:34:59.457 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] --- maven-surefire-plugin:2.22.2:test (default-test) @ ObservatoireUIZ ---
+15:34:59.457 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] 
+15:34:59.457 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] -------------------------------------------------------
+15:34:59.457 [INFO]  [Checking][main][c.d.d.c.a] > [INFO]  T E S T S
+15:34:59.457 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] -------------------------------------------------------
+15:34:59.457 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] Running DummyJUnitJupiterLauncherDiffblueTest
+15:34:59.457 [INFO]  [Checking][main][c.d.d.c.a] > (diffblue)C:\Users\eloma\.m2\repository\org\junit\platform\junit-platform-launcher\1.3.1\junit-platform-launcher-1.3.1.jar(/diffblue)
+15:34:59.457 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 s - in DummyJUnitJupiterLauncherDiffblueTest
+15:34:59.457 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] 
+15:34:59.457 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] Results:
+15:34:59.457 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] 
+15:34:59.457 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+15:34:59.457 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] 
+15:34:59.457 [INFO]  [Checking][main][c.d.d.c.a] > [DIFFBLUE]DefaultEvent{projectId='ma.uiz:ObservatoireUIZ:jar:0.0.1-SNAPSHOT', goal='test', cause=, state=SUCCESS}
+15:34:59.457 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] ------------------------------------------------------------------------
+15:34:59.457 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] BUILD SUCCESS
+15:34:59.457 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] ------------------------------------------------------------------------
+15:34:59.457 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] Total time:  4.085 s
+15:34:59.457 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] Finished at: 2023-11-19T15:34:58+01:00
+15:34:59.457 [INFO]  [Checking][main][c.d.d.c.a] > [INFO] ------------------------------------------------------------------------
+15:34:59.459 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule j took 6010ms
+15:34:59.459 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule k
+15:34:59.459 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:34:59.459 [DEBUG] [Checking][main][c.d.c.c.m.c]   Error provided for DETECTED_JUNIT_LAUNCHER: Skipped
+15:34:59.459 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule k took 0ms
+15:34:59.459 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule ap
+15:34:59.459 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:34:59.459 [DEBUG] [Checking][main][c.d.c.c.m.c]   Error provided for DETECTED_TESTNG_LAUNCHER: Skipped
+15:34:59.459 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule ap took 0ms
+15:34:59.459 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule h
+15:34:59.459 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:34:59.518 [INFO]  [Checking][main][c.d.cover.ui.a.j] Detected Hamcrest 2 version 2.2
+15:34:59.518 [DEBUG] [Checking][main][c.d.c.c.m.c]   Error provided for DETECTED_ASSERTION_FRAMEWORK_HAMCREST1: b: Failed to determine Hamcrest 1 version; found resource: org/hamcrest/io/FileMatchers.class
+15:34:59.518 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule h took 58ms
+15:34:59.518 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule t
+15:34:59.518 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:34:59.521 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule t took 2ms
+15:34:59.521 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule v
+15:34:59.521 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:34:59.521 [INFO]  [Checking][main][c.d.cover.ui.a.j] Detected JVM architecture: 64-Bit
+15:34:59.521 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule v took 0ms
+15:34:59.521 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule p
+15:34:59.521 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:34:59.521 [DEBUG] [Checking][main][c.d.c.c.m.c]   Error provided for DETECTED_JACOCO_PLUGIN_IS_USED: Skipped
+15:34:59.521 [DEBUG] [Checking][main][c.d.c.c.m.c]   Error provided for DETECTED_JACOCO_PLUGIN_VERSION: Skipped
+15:34:59.521 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule p took 0ms
+15:34:59.521 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule n
+15:34:59.521 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule g
+15:34:59.521 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:34:59.521 [DEBUG] [Checking][main][c.d.c.c.m.c]   Error provided for SELECTED_JUNIT_VINTAGE_ENGINE: Skipped
+15:34:59.522 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule g took 0ms
+15:34:59.522 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule n
+15:34:59.522 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:34:59.522 [DEBUG] [Checking][main][c.d.c.c.m.c]   Error provided for DETECTED_TESTS_EXECUTE_WITH_JACOCO_JUNIT: Skipped
+15:34:59.522 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule n took 0ms
+15:34:59.522 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule o
+15:34:59.522 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:34:59.522 [DEBUG] [Checking][main][c.d.c.c.m.c]   Error provided for DETECTED_TESTS_EXECUTE_WITH_JACOCO_JUPITER: Skipped
+15:34:59.522 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule o took 0ms
+15:34:59.523 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule w
+15:34:59.523 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:34:59.558 [DEBUG] [Checking][main][c.d.c.c.m.c]   Error provided for DETECTED_KOTLIN_VERSION: Not Detected
+15:34:59.558 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule w took 35ms
+15:34:59.558 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule x
+15:34:59.558 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:34:59.588 [DEBUG] [Checking][main][c.d.c.c.m.c]   Error provided for DETECTED_KOTLIN_TEST_VERSION: Not Detected
+15:34:59.588 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule x took 30ms
+15:34:59.588 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule SpringProfilesDetector
+15:34:59.588 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:35:01.717 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule SpringProfilesDetector took 2129ms
+15:35:01.717 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule f
+15:35:01.717 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:35:01.862 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule f took 144ms
+15:35:01.862 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule PreflightTestExecutionOptionsDetector
+15:35:01.862 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:35:01.862 [DEBUG] [Checking][main][c.d.c.c.m.c]   Error provided for SPECIFIED_PREFLIGHT_TEST_EXECUTION_COMMAND: Not Supplied
+15:35:01.862 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule PreflightTestExecutionOptionsDetector took 0ms
+15:35:01.862 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule RefactorOptionsDetector
+15:35:01.862 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:35:01.862 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule RefactorOptionsDetector took 0ms
+15:35:01.862 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule AnalyzerServiceOptionsDetector
+15:35:01.862 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:35:01.862 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule AnalyzerServiceOptionsDetector took 0ms
+15:35:01.862 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule au
+15:35:01.862 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:35:01.862 [DEBUG] [Checking][main][c.d.c.c.m.c]   Error provided for SPECIFIED_TRACE_DIRECTORY: Not Supplied
+15:35:01.862 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule au took 0ms
+15:35:01.862 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule UploadOptionsDetector
+15:35:01.862 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:35:01.869 [DEBUG] [Checking][main][c.d.c.c.m.c]   Error provided for SPECIFIED_REPORTS_PROJECT: Not Supplied
+15:35:01.869 [DEBUG] [Checking][main][c.d.c.c.m.c]   Error provided for SPECIFIED_REPORTS_URL: Not Supplied
+15:35:01.869 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule UploadOptionsDetector took 6ms
+15:35:01.869 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule MaxHeapSizeDetector
+15:35:01.869 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:35:01.869 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule MaxHeapSizeDetector took 0ms
+15:35:01.869 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule g
+15:35:01.869 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:35:01.869 [DEBUG] [Checking][main][c.d.c.c.m.c]   Error provided for SPECIFIED_EXISTING_COVERAGE_JACOCO_FILE: Not Supplied
+15:35:01.869 [DEBUG] [Checking][main][c.d.c.c.m.c]   Error provided for SPECIFIED_PATCH_FILE: Not Supplied
+15:35:01.869 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule g took 0ms
+15:35:01.869 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule d
+15:35:01.869 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:35:01.869 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule d took 0ms
+15:35:01.869 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule c
+15:35:01.869 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:35:01.872 [INFO]  [Checking][main][c.d.cover.ui.a.j] Selected Java language compliance level: 17
+15:35:01.873 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule c took 3ms
+15:35:01.873 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule d
+15:35:01.873 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:35:01.873 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule d took 0ms
+15:35:01.873 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule l
+15:35:01.873 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:35:01.873 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule l took 0ms
+15:35:01.873 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule k
+15:35:01.873 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:35:01.874 [INFO]  [Checking][main][c.d.cover.ui.a.j] Selected test validation: enabled
+15:35:01.874 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule k took 1ms
+15:35:01.874 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule g
+15:35:01.875 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:35:01.875 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule g took 0ms
+15:35:01.875 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule e
+15:35:01.875 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:35:01.875 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule e took 0ms
+15:35:01.875 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule j
+15:35:01.875 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:35:01.875 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule j took 0ms
+15:35:01.875 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule SpringProfilesSelector
+15:35:01.875 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:35:01.875 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule SpringProfilesSelector took 0ms
+15:35:01.875 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule h
+15:35:01.875 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:35:01.875 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule h took 0ms
+15:35:01.875 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule CliEntryPointsSelector
+15:35:01.876 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:35:01.996 [INFO]  [Checking][main][c.d.cover.ui.a.j] Prefixes for filtering classes/methods:
+15:35:01.997 [INFO]  [Checking][main][c.d.cover.ui.a.j] - ma.uiz.observatoire
+15:35:01.998 [INFO]  [Checking][main][c.d.cover.ui.a.j] - ma.uiz.observatoire.aspects
+15:35:01.999 [INFO]  [Checking][main][c.d.cover.ui.a.j] - ma.uiz.observatoire.audit
+15:35:01.999 [INFO]  [Checking][main][c.d.cover.ui.a.j] - ma.uiz.observatoire.auth
+15:35:02.000 [INFO]  [Checking][main][c.d.cover.ui.a.j] - ma.uiz.observatoire.config
+15:35:02.000 [INFO]  [Checking][main][c.d.cover.ui.a.j] - ma.uiz.observatoire.controller
+15:35:02.001 [INFO]  [Checking][main][c.d.cover.ui.a.j] - ma.uiz.observatoire.dto
+15:35:02.001 [INFO]  [Checking][main][c.d.cover.ui.a.j] - ma.uiz.observatoire.mapper
+15:35:02.002 [INFO]  [Checking][main][c.d.cover.ui.a.j] - ma.uiz.observatoire.model
+15:35:02.003 [INFO]  [Checking][main][c.d.cover.ui.a.j] - ma.uiz.observatoire.repository
+15:35:02.004 [INFO]  [Checking][main][c.d.cover.ui.a.j] - ma.uiz.observatoire.service
+15:35:02.004 [INFO]  [Checking][main][c.d.cover.ui.a.j] - ma.uiz.observatoire.utils
+15:35:02.005 [INFO]  [Checking][main][c.d.cover.ui.a.j] Gathering methods to test...
+15:35:05.872 [DEBUG] [Checking][main][c.d.c.c.m.c]   Error provided for SELECTED_PATCH_CLASSES: Not Detected
+15:35:05.872 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule CliEntryPointsSelector took 3997ms
+15:35:05.872 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule l
+15:35:05.873 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule did not fire
+15:35:05.873 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule l took 0ms
+15:35:05.873 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule c
+15:35:05.873 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule did not fire
+15:35:05.873 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule c took 0ms
+15:35:05.873 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule b
+15:35:05.873 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:35:05.875 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule b took 2ms
+15:35:05.875 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule m
+15:35:05.875 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:35:05.875 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule m took 0ms
+15:35:05.875 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule a
+15:35:05.876 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule did not fire
+15:35:05.876 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule a took 0ms
+15:35:05.876 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule o
+15:35:05.876 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule did not fire
+15:35:05.876 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule o took 0ms
+15:35:05.876 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule ak
+15:35:05.876 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:35:05.876 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule ak took 0ms
+15:35:05.876 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule r
+15:35:05.876 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule did not fire
+15:35:05.876 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule r took 0ms
+15:35:05.876 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule t
+15:35:05.876 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule did not fire
+15:35:05.876 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule t took 0ms
+15:35:05.876 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule ag
+15:35:05.876 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule did not fire
+15:35:05.876 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule ag took 0ms
+15:35:05.876 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule d
+15:35:05.876 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:35:05.876 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule d took 0ms
+15:35:05.876 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule s
+15:35:05.876 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:35:05.876 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule s took 0ms
+15:35:05.876 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule k
+15:35:05.876 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:35:05.876 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule k took 0ms
+15:35:05.876 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule ai
+15:35:05.876 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule did not fire
+15:35:05.876 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule ai took 0ms
+15:35:05.876 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule q
+15:35:05.876 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule did not fire
+15:35:05.876 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule q took 0ms
+15:35:05.876 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule ac
+15:35:05.876 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule y
+15:35:05.876 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule z
+15:35:05.876 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:35:05.877 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule z took 0ms
+15:35:05.877 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule x
+15:35:05.877 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:35:05.877 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule x took 0ms
+15:35:05.877 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule y
+15:35:05.877 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:35:05.877 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule y took 0ms
+15:35:05.877 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule ad
+15:35:05.877 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule af
+15:35:05.877 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:35:05.877 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule af took 0ms
+15:35:05.877 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule ad
+15:35:05.877 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:35:05.877 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule ad took 0ms
+15:35:05.877 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule ae
+15:35:05.877 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:35:05.877 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule ae took 0ms
+15:35:05.877 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule ac
+15:35:05.877 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:35:05.877 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule ac took 0ms
+15:35:05.877 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule f
+15:35:05.877 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule did not fire
+15:35:05.877 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule f took 0ms
+15:35:05.877 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule n
+15:35:05.877 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule did not fire
+15:35:05.877 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule n took 0ms
+15:35:05.877 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule p
+15:35:05.878 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule did not fire
+15:35:05.878 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule p took 0ms
+15:35:05.878 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule j
+15:35:05.878 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule did not fire
+15:35:05.878 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule j took 0ms
+15:35:05.878 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule h
+15:35:05.878 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:35:05.878 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule h took 0ms
+15:35:05.878 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule i
+15:35:05.878 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:35:05.878 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule i took 0ms
+15:35:05.878 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule CliBuildSystemRecommender
+15:35:05.878 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:35:05.878 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule CliBuildSystemRecommender took 0ms
+15:35:05.878 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule aj
+15:35:05.878 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:35:05.878 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule aj took 0ms
+15:35:05.878 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule am
+15:35:05.878 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule did not fire
+15:35:05.878 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule am took 0ms
+15:35:05.878 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule SpringProfilesRecommender
+15:35:05.878 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:35:05.878 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule SpringProfilesRecommender took 0ms
+15:35:05.878 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule e
+15:35:05.878 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:35:05.878 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule e took 0ms
+15:35:05.878 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule v
+15:35:05.878 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule did not fire
+15:35:05.878 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule v took 0ms
+15:35:05.878 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule al
+15:35:05.878 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:35:05.878 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule al took 0ms
+15:35:05.878 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule CoverageReportOptionsRecommender
+15:35:05.878 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule did not fire
+15:35:05.878 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule CoverageReportOptionsRecommender took 0ms
+15:35:05.878 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule MaxHeapSizeRecommender
+15:35:05.878 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:35:05.878 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule MaxHeapSizeRecommender took 0ms
+15:35:05.878 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule ObserverMethodSpecificationRecommender
+15:35:05.878 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule did not fire
+15:35:05.878 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule ObserverMethodSpecificationRecommender took 0ms
+15:35:05.878 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule CliEntryPointsRecommender
+15:35:05.878 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule did not fire
+15:35:05.879 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule CliEntryPointsRecommender took 0ms
+15:35:05.879 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule w
+15:35:05.879 [DEBUG] [Checking][main][c.d.c.c.m.c]   Rule fired
+15:35:05.879 [DEBUG] [Checking][main][c.d.c.c.m.c] Processing rule w took 0ms
+15:35:05.893 [INFO]  [Reporting][main][c.d.cover.ui.a.j] 
+15:35:05.893 [INFO]  [Reporting][main][c.d.cover.ui.a.j] Environment summary:
+15:35:05.893 [INFO]  [Reporting][main][c.d.cover.ui.a.j] --------------------
+15:35:05.895 [INFO]  [Reporting][main][c.d.cover.ui.a.j] Java version                  17.0.8                        SUCCESS        
+15:35:05.895 [INFO]  [Reporting][main][c.d.cover.ui.a.j] Build system                  Maven                         SUCCESS        
+15:35:05.895 [INFO]  [Reporting][main][c.d.cover.ui.a.j] Mocking Framework             Mockito 4.8.1                 SUCCESS        
+15:35:05.895 [INFO]  [Reporting][main][c.d.cover.ui.a.j] Surefire version              2.22.2                        SUCCESS        
+15:35:05.895 [INFO]  [Reporting][main][c.d.cover.ui.a.j] Testing framework             JUnit Jupiter 5               SUCCESS        
+15:35:05.895 [DEBUG] [Reporting][main][c.d.cover.ui.a.j] JavaEE version                Skipped                       -----          
+15:35:05.895 [DEBUG] [Reporting][main][c.d.cover.ui.a.j] JaCoCo plugin version         Skipped                       -----          
+15:35:05.895 [INFO]  [Reporting][main][c.d.cover.ui.a.j] Launcher                      JUnit Jupiter                 SUCCESS        
+15:35:05.895 [INFO]  [Reporting][main][c.d.cover.ui.a.j] Test validation               Enabled                       SUCCESS        
+15:35:05.895 [INFO]  [Reporting][main][c.d.cover.ui.a.j] Hamcrest                      Hamcrest 2 2.2                SUCCESS        
+15:35:05.895 [INFO]  [Reporting][main][c.d.cover.ui.a.j] Spring Core                   6.0.5                         SUCCESS        
+15:35:05.895 [INFO]  [Reporting][main][c.d.cover.ui.a.j] Spring Boot                   3.0.3                         SUCCESS        
+15:35:05.895 [INFO]  [Reporting][main][c.d.cover.ui.a.j] Spring Boot Test              3.0.3                         SUCCESS        
+15:35:05.895 [INFO]  [Reporting][main][c.d.cover.ui.a.j] Spring Web                    6.0.5                         SUCCESS        
+15:35:05.895 [INFO]  [Reporting][main][c.d.cover.ui.a.j] Spring Security Web           6.0.2                         SUCCESS        
+15:35:05.895 [INFO]  [Reporting][main][c.d.cover.ui.a.j] Spring Test                   6.0.5                         SUCCESS        
+15:35:05.895 [INFO]  [Reporting][main][c.d.cover.ui.a.j] 
+15:35:05.896 [INFO]  [Reporting][main][c.d.cover.ui.a.j] Environment check status: SUCCESS
+15:35:05.908 [WARN]  [Reporting][main][c.d.cover.ui.a.j] L003: Too many methods marked for analysis
+Writing tests for these methods could use up your remaining budget
+of 996 tests.
+Please specify entry points (e.g. dcover create com.example.MyClass.myMethod)
+to the create command so that the number of methods to write tests for is
+no higher than 500.
+15:35:05.909 [INFO]  [Reporting][main][c.d.cover.ui.a.w] 
+15:35:05.910 [WARN]  [Reporting][main][c.d.cover.ui.a.w] Cover completed with warnings
+  The following warnings should be addressed to ensure that
+  the highest quantity and quality of tests can be created:
+-----------------------------------------------------------
+15:35:05.908 [WARN]  [Reporting][main][c.d.cover.ui.a.j] L003: Too many methods marked for analysis
+Writing tests for these methods could use up your remaining budget
+of 996 tests.
+Please specify entry points (e.g. dcover create com.example.MyClass.myMethod)
+to the create command so that the number of methods to write tests for is
+no higher than 500.
+15:35:05.912 [INFO]  [Reporting][main][c.d.cover.ui.a.w] Log file: C:\Users\eloma\IdeaProjects\ObservatoireUIZ\.diffblue\log\user-20231119T153435.log
+15:35:05.912 [INFO]  [Reporting][main][c.d.cover.ui.a.w] Finished in 31s

@@ -1,0 +1,12 @@
+[WARN] L003: Too many methods marked for analysis
+Writing tests for these methods could use up your remaining budget
+of 996 tests.
+Please specify entry points (e.g. dcover create com.example.MyClass.myMethod)
+to the create command so that the number of methods to write tests for is
+no higher than 500.
+[WARN] L003: Too many methods marked for analysis
+Writing tests for these methods could use up your remaining budget
+of 738 tests.
+Please specify entry points (e.g. dcover create com.example.MyClass.myMethod)
+to the create command so that the number of methods to write tests for is
+no higher than 500.
