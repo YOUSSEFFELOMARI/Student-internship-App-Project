@@ -1,4 +1,4 @@
 FROM openjdk:17
-COPY target/bservatoireUizJava.jar bservatoireUizJava.jar
+COPY target/ObservatoireUizJava.jar ObservatoireUizJava.jar
 EXPOSE 8080
-ENTRYPOINT ["java","-jar","bservatoireUizJava.jar"]
+ENTRYPOINT ["java","-jar","ObservatoireUizJava.jar"]
